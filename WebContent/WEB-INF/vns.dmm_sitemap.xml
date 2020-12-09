@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/portfolio</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/services</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/aboutus</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/index</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/brandingandidentity</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/digitalmarketing</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/webanddevelopment</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dmm.virtuosonetsoft.com/orm</loc>
+  <lastmod>2020-10-12T18:49:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
