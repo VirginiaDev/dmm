@@ -566,7 +566,7 @@ $('.click').click(function(){
   		  {
     		  $(document).ready(function() {
     			  $.ajax({
-    				  url: "save_website_design_details.jsp",
+    				  url: "save_discover_more_details.jsp",
                       type: "post",
                       data: {
                       name:firstName+" "+lastName,

@@ -567,7 +567,7 @@ function discoverMoreSubmission(i){
   		  {
     		  $(document).ready(function() {
     			  $.ajax({
-    				  url: "save_content_strategy_details.jsp",
+    				  url: "save_discover_more_details.jsp",
                       type: "post",
                       data: {
                       name:firstName+" "+lastName,

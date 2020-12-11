@@ -330,7 +330,7 @@
 							<label for="exampleInputEmail1">Message</label>
 							<textarea id="message3" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
 							<input type="hidden" id="pageName3" value="graphic_design">
-							<inut type="hidden" id="title3" value="Our_most_demanded_services">
+							<input type="hidden" id="title3" value="Our_most_demanded_services">
 						  </div>
 						  </div>
 						 
@@ -536,7 +536,7 @@ $('.click').click(function(){
   		  {
     		  $(document).ready(function() {
     			  $.ajax({
-    				  url: "save_website_design_details.jsp",
+    				  url: "save_discover_more_details.jsp",
                       type: "post",
                       data: {
                       name:firstName+" "+lastName,

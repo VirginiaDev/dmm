@@ -10,10 +10,14 @@
   <title>Best PPC Service company in Australia</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
+   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/sweetalert.js"></script>
+  
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
@@ -23,6 +27,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
+   <link href="css/sweetalert.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -78,10 +83,10 @@
               Search Engine Marketing the name is self-explanatory. Search Engine Marketing refers to marketing using various tricks and strategies on search engines like Google, bing, yahoo, etc. Search Engine Marketing (SEM) is a vast marketing service that has several parts of it. Search Engine Marketing includes marketing in both ways, that is organic marketing and paid advertisement (Pay Per Click). Search Engine Marketing (SEM)/ Pay-per-Click (PPC) such as Google AdWords, Bing Ads, Facebook ads, re-targeted, or banner ads, helps your business to be visible to a large number of audiences to bring traffic and eventually convert into potential customers.
             </p>
          
-			  <button style="margin-left: 0px;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">DISCOVER MORE</button>
+			  <button style="margin-left: 0px;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">DISCOVER MORE</button>
 
 			  <!-- Modal -->
-			  <div class="modal fade" id="myModal" role="dialog">
+			  <div class="modal fade" id="myModal1" role="dialog">
 				<div class="modal-dialog">
 				  <!-- Modal content-->
 				  <div class="modal-content">
@@ -94,38 +99,49 @@
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">First Name</label>
-							<input type="First Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+							<input type="First Name" class="form-control" id="firstName1" aria-describedby="emailHelp" placeholder="First Name">
 							<!--<small id="emailHelp" class="form-text text-muted">We'll never share your First Name with anyone else.</small>-->
 						  </div>
 						</div>
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">Last Name</label>
-							<input type="Last Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+							<input type="Last Name" class="form-control" id="lastName1" aria-describedby="emailHelp" placeholder="Last Name">
 						  </div>
 						</div>  
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="email" class="form-control" id="emailAddress1" aria-describedby="emailHelp" placeholder="Enter email">
 						  </div>
 						  </div>
 						  <div class="col-sm-6 col-md-6 col-xs-12">
 						   <div class="form-group">
 							<label for="exampleInputEmail1">Enter you Phone No</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your phone">
+							<input type="text" maxLength=10 class="form-control" id="phoneNo1" aria-describedby="emailHelp" placeholder="Enter your phone">
 						  </div>
 						  </div>
 						  <div class="col-sm-6 col-md-6 col-xs-12">
 						   <div class="form-group htb">
 							<label for="exampleInputEmail1">Message</label>
-							<textarea rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
+							<textarea id="message1" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
+							<input type="hidden" id="pageName1" value="Pay_per_click">
+							<input type="hidden" id="title1" value="Drive_Sales_With_PPC_Services_and_Boost_your_BUSINESS_NOW_with_Search_Engine_Marketing">
 						  </div>
 						  </div>
 						 
 						   <div class="col-sm-12 col-md-12 col-xs-12">
-						  <button type="submit" class="btn btn-primary">Submit</button>
+						  <button id="sendbtn1" onclick="discoverMoreSubmission(1)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
 						  </div>
+						   <div id="thankyoudiv1" style="display:none">
+ 							 <label style="color:red">Thank you please check your email..we have sent a confirmation email</label>
+						 </div>
+						 <div class="popup-content" id="loaderDisplay" style="display:none">
+  							<span class="loader">
+ 								 <span class="loader-inner"></span>
+							</span>
+							<h1>Processing...</h1>
+ 					 	</div>
 						</div>
 					</div>
 					<!--<div class="modal-footer">
@@ -160,10 +176,10 @@
 			  
             </ul>
      
-			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">DISCOVER MORE</button>
+			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">DISCOVER MORE</button>
 
 			  <!-- Modal -->
-			  <div class="modal fade" id="myModal" role="dialog">
+			  <div class="modal fade" id="myModal2" role="dialog">
 				<div class="modal-dialog">
 				
 				  <!-- Modal content-->
@@ -178,38 +194,49 @@
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">First Name</label>
-							<input type="First Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+							<input type="First Name" class="form-control" id="firstName2" aria-describedby="emailHelp" placeholder="First Name">
 							<!--<small id="emailHelp" class="form-text text-muted">We'll never share your First Name with anyone else.</small>-->
 						  </div>
 						</div>
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">Last Name</label>
-							<input type="Last Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+							<input type="Last Name" class="form-control" id="lastName2" aria-describedby="emailHelp" placeholder="Last Name">
 						  </div>
 						</div>  
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="email" class="form-control" id="emailAddress2" aria-describedby="emailHelp" placeholder="Enter email">
 						  </div>
 						  </div>
 						  <div class="col-sm-6 col-md-6 col-xs-12">
 						   <div class="form-group">
 							<label for="exampleInputEmail1">Enter you Phone No</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your phone">
+							<input type="text" maxLength=10 class="form-control" id="phoneNo2" aria-describedby="emailHelp" placeholder="Enter your phone">
 						  </div>
 						  </div>
 						  <div class="col-sm-6 col-md-6 col-xs-12">
 						   <div class="form-group htb">
 							<label for="exampleInputEmail1">Message</label>
-							<textarea rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
+							<textarea id="message2" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
+							<input type="hidden" id="pageName2" value="Pay_per_click">
+							<input type="hidden" id="title2" value="Different_types_of_Pay-per-click_(PPC)_Advertising_VNS_is_an_expert_in">
 						  </div>
 						  </div>
 						 
 						   <div class="col-sm-12 col-md-12 col-xs-12">
-						  <button type="submit" class="btn btn-primary">Submit</button>
+						  <button id="sendbtn2" onclick="discoverMoreSubmission(2)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
 						  </div>
+						   <div id="thankyoudiv2" style="display:none">
+ 							 <label style="color:red">Thank you please check your email..we have sent a confirmation email</label>
+						 </div>
+						 <div class="popup-content" id="loaderDisplay" style="display:none">
+  							<span class="loader">
+ 								 <span class="loader-inner"></span>
+							</span>
+							<h1>Processing...</h1>
+ 					 	</div>
 						</div>
 					</div>
 					<!--<div class="modal-footer">
@@ -250,10 +277,10 @@
 			  
             </ul>
      
-			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">DISCOVER MORE</button>
+			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">DISCOVER MORE</button>
 
 			  <!-- Modal -->
-			  <div class="modal fade" id="myModal" role="dialog">
+			  <div class="modal fade" id="myModal3" role="dialog">
 				<div class="modal-dialog">
 				
 				  <!-- Modal content-->
@@ -268,38 +295,49 @@
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">First Name</label>
-							<input type="First Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+							<input type="First Name" class="form-control" id="firstName3" aria-describedby="emailHelp" placeholder="First Name">
 							<!--<small id="emailHelp" class="form-text text-muted">We'll never share your First Name with anyone else.</small>-->
 						  </div>
 						</div>
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">Last Name</label>
-							<input type="Last Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+							<input type="Last Name" class="form-control" id="lastName3" aria-describedby="emailHelp" placeholder="Last Name">
 						  </div>
 						</div>  
 						<div class="col-sm-6 col-md-6 col-xs-12">
 						  <div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="email" class="form-control" id="emailAddress3" aria-describedby="emailHelp" placeholder="Enter email">
 						  </div>
 						  </div>
 						  <div class="col-sm-6 col-md-6 col-xs-12">
 						   <div class="form-group">
 							<label for="exampleInputEmail1">Enter you Phone No</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your phone">
+							<input type="text" maxLength=10 class="form-control" id="phoneNo3" aria-describedby="emailHelp" placeholder="Enter your phone">
 						  </div>
 						  </div>
 						  <div class="col-sm-6 col-md-6 col-xs-12">
 						   <div class="form-group htb">
 							<label for="exampleInputEmail1">Message</label>
-							<textarea rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
+							<textarea id="message3" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
+							<input type="hidden" id="pageName3" value="Pay_per_click">
+							<input type="hidden" id="title3" value="Step_by_step_process_for_Pay-per-click_(PPC_Management_Services)_VNS_follows">
 						  </div>
 						  </div>
 						 
 						   <div class="col-sm-12 col-md-12 col-xs-12">
-						  <button type="submit" class="btn btn-primary">Submit</button>
+						  <button id="sendbtn3" onclick="discoverMoreSubmission(3)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
 						  </div>
+						   <div id="thankyoudiv3" style="display:none">
+ 							 <label style="color:red">Thank you please check your email..we have sent a confirmation email</label>
+						 </div>
+						 <div class="popup-content" id="loaderDisplay" style="display:none">
+  							<span class="loader">
+ 								 <span class="loader-inner"></span>
+							</span>
+							<h1>Processing...</h1>
+ 					 	</div>
 						</div>
 					</div>
 					<!--<div class="modal-footer">
@@ -447,6 +485,88 @@
       
     </div>
   </footer><!-- End Footer -->
+  
+  <script>
+$('.click').click(function(){
+	  $('.slide-out').css('right', '0');
+	});
+
+	$('.close').click(function(){
+	  $('.slide-out').css('right', '-1200px');
+	});
+</script>	
+ <script type="text/javascript">
+  function discoverMoreSubmission(i) {
+	  //get the user data here
+	  var $this = $(this);
+      $this.button('loading');
+      
+      var firstName=document.getElementById('firstName'+i).value;
+      var lastName=document.getElementById('lastName'+i).value;
+      var email=document.getElementById('emailAddress'+i).value;
+      var phone=document.getElementById('phoneNo'+i).value;
+      var message=document.getElementById('message'+i).value;
+      var pageName=document.getElementById('pageName'+i).value;
+      var title=document.getElementById('title'+i).value;
+      var email_filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+      var phoneno = /^\d{10}$/;
+      
+      if(firstName.length==0 || lastName.length==0 || email.length==0 || phone.length==0 || message.length==0){
+        	showBasicMessage("please fill all the feilds");
+        	return;
+    		$this.button('reset');
+      }
+      if(phone.length!=10){
+    	  showBasicMessage("please Enter a valid Phone");
+    	  return;
+      } else{
+    	  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) && phone.match(phoneno))
+  		  {
+    		  $(document).ready(function() {
+    			  $.ajax({
+    				  url: "save_discover_more_details.jsp",
+                      type: "post",
+                      data: {
+                      name:firstName+" "+lastName,
+                      email:email,
+                      phone:phone,
+                      message:message,
+                      pageName:pageName,
+                      title:title},
+                      success : function(data){
+                    	  document.getElementById('firstName'+i).value="";
+                          document.getElementById('lastName'+i).value="";
+                          document.getElementById('emailAddress'+i).value="";
+                          document.getElementById('phoneNo'+i).value="";
+                          document.getElementById('message'+i).value="";
+                          //document.getElementById("send").style.display='block';
+                          document.getElementById("sendbtn"+i).style.display='block';	
+                          document.getElementById("thankyoudiv"+i).style.display='block';
+                          setTimeout(thankyou(i), 3000);
+                          $this.button('reset');  
+                      }
+    			  });
+    		  });
+  		  } else{
+  			 $this.button('reset');
+ 			 alert("please enter a valid email or phone number");
+  		  }
+      }
+
+  }
+  </script>
+   <script>
+    function thankyou(i){
+    	$("#thankyoudiv"+i).fadeOut();
+  //  	$("#send").reset();
+    	//$("#send").fadeIn();
+    	//$("#send")[0].reset();
+    	$("#sendbtn"+i).fadeIn();
+    //    document.getElementById("send").style.display='none'; 	
+
+    }
+    </script>
+  
 
 
   <!-- Vendor JS Files -->

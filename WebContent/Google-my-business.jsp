@@ -566,7 +566,7 @@ $('.click').click(function(){
   		  {
     		  $(document).ready(function() {
     			  $.ajax({
-    				  url: "save_google_my_business_details.jsp",
+    				  url: "save_discover_more_details.jsp",
                       type: "post",
                       data: {
                       name:firstName+" "+lastName,
