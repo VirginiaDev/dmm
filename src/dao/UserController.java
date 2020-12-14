@@ -35,6 +35,7 @@ public class UserController extends HttpServlet {
 
 	public void userSubscription(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		NewsLetter n = new NewsLetter();
+		String pageName = request.getParameter("pageName");
 		n.setEmail(request.getParameter("email"));
 		n.setActivated(request.getParameter("activated"));
 		n.setConfirmation_url(request.getParameter("confirmation_url"));
@@ -42,6 +43,8 @@ public class UserController extends HttpServlet {
 		n.setConfirmed_by_user(request.getParameter("confirmed_by_user"));
 		
 		new ApiController().insertIntoNewsLetter(n);
+		
+		response.sendRedirect(pageName+".jsp");
 		
 		
 	}

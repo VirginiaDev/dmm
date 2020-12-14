@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	<section class="footer  wow fadeInDown">
+<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="dist/cursor.css">
+		<link rel="stylesheet" href="css/nav-style.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script src="js/player/lottie.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<section class="footer  wow fadeInDown">
 						<section class="partnership  wow fadeInDown" id="btn">
 							<section class="row">
 								<section class="col-md-6">
@@ -93,6 +94,3 @@
 						 </div>
 						 
 						</section>
-
-</body>
-</html>

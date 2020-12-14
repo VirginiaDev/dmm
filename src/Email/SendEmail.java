@@ -61,8 +61,7 @@ public class SendEmail {
             	link=base_urls.url+"ConfirmEmail.jsp?id="+linkid+"&type=free_audit";
             	table_name="free_audit";
             }
-            if(send_to_type.equals("contact_confirm") || send_to_type.equals("quick_enquiry_confirm") || send_to_type.equals("free_audit_confirm") || send_to_type.equals("discover_more_confirm")) {
-            	log.info("In Email Creattor............."); 
+            if(send_to_type.equals("contact_confirm") || send_to_type.equals("quick_enquiry_confirm") || send_to_type.equals("free_audit_confirm") || send_to_type.equals("discover_more_confirm") || send_to_type.equals("news_letter_confirm")) {
             	String homepage=base_urls.url+"services";
             message.setSubject("Confirmation Email For VNS.DMM");
             message.setText(txt_msg);

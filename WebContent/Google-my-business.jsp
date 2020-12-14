@@ -42,7 +42,7 @@
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
+          <li class="active"><a href="index.jsp">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#why-us">Why Us</a></li>
           <li><a href="#contact">Contact Us</a></li>
@@ -468,6 +468,7 @@
             <p>Get in touch with our experts and know our result-driven strategies to reach rank #1.</p>
             <form action="User-Controller" method="post" name="userForm">
               <input type="hidden" name = "userAction">
+              <input type="hidden" name="pageName" value="Google-my-business">
               <input type="email" name="email">
               <input type="hidden" name = "activated" value = "1">
               <input type="hidden" name = "confirmation_url" value = "empty">

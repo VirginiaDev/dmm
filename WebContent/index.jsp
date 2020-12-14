@@ -1068,7 +1068,7 @@ window.fbAsyncInit = function() {
 			//});
 			</script>
 			
-			<!-- <script>
+			 <script>
 			var wow = new WOW({
 				boxClass: 'wow', // animated element css class (default is wow)
 				animateClass: 'animated', // animation css class (default is animated)
@@ -1086,74 +1086,7 @@ window.fbAsyncInit = function() {
 			</script>
 			<script src="js/bxslider.js"></script>
 			<script src="js/TweenMax.min.js"></script>
-			<script>
-			// Vars
-			var wrapper = $("#site-wrapper"),
-				menu = $(".menu"),
-				menuLinks = $(".menu ul li a"),
-				toggle = $(".nav-toggle"),
-				toggleIcon = $(".nav-toggle span");
-
-			function toggleThatNav() {
-				if(menu.hasClass("show-nav")) {
-					if(!Modernizr.csstransforms) {
-						menu.removeClass("show-nav");
-						toggle.removeClass("show-nav");
-						menu.animate({
-							right: "-=300"
-						}, 500);
-						toggle.animate({
-							right: "-=300"
-						}, 500);
-					} else {
-						menu.removeClass("show-nav");
-						toggle.removeClass("show-nav");
-					}
-				} else {
-					if(!Modernizr.csstransforms) {
-						menu.addClass("show-nav");
-						toggle.addClass("show-nav");
-						menu.css("right", "0px");
-						toggle.css("right", "330px");
-					} else {
-						menu.addClass("show-nav");
-						toggle.addClass("show-nav");
-					}
-				}
-			}
-
-			function changeToggleClass() {
-				toggleIcon.toggleClass("fa-times");
-				toggleIcon.toggleClass("fa-bars");
-			}
-			$(function() {
-				toggle.on("click", function(e) {
-					e.stopPropagation();
-					e.preventDefault();
-					toggleThatNav();
-					changeToggleClass();
-				});
-				// Keyboard Esc event support
-				$(document).keyup(function(e) {
-					if(e.keyCode == 27) {
-						if(menu.hasClass("show-nav")) {
-							if(!Modernizr.csstransforms) {
-								menu.removeClass("show-nav");
-								toggle.removeClass("show-nav");
-								menu.css("right", "-300px");
-								toggle.css("right", "30px");
-								changeToggleClass();
-							} else {
-								menu.removeClass("show-nav");
-								toggle.removeClass("show-nav");
-								changeToggleClass();
-							}
-						}
-					}
-				});
-			});
-			</script>
-			<script src="dist/cursor.js"></script>
+						<script src="dist/cursor.js"></script>
 			<script>
 			var cursorx = new cursor({
 				type: 1,
@@ -1184,30 +1117,6 @@ window.fbAsyncInit = function() {
 				//   type: 2,
 				//   removeDefaultCursor: false,
 				// })
-			</script>
-			<script>
-			$(document).scroll(function() {
-				if($(window).scrollTop() > 200) {
-					$("#bordered").css("border-left", "transparent");
-				} else if($(window).scrollTop() < 200) {
-					$("#bordered").css("border-left", "1px solid #323234");
-				}
-			});
-			document.querySelector("#bordered").addEventListener("click", function() {
-				this.classList.toggle("active");
-			});
-			</script>
-			<script>
-			$(document).ready(function() {
-				$('.nav-tabs > li > a').hover(function() {
-					$(this).tab('show');
-				});
-			})
-			$(document).ready(function() {
-				$('.capabilities__list a').hover(function() {
-					$(this).tab('show');
-				});
-			})
 			</script>
 			
 			<script>
@@ -1286,6 +1195,6 @@ window.fbAsyncInit = function() {
 
     }
     </script>
- -->	</body>
+ 	</body>
 
 	</html>

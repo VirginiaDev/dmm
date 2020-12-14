@@ -377,9 +377,42 @@ public void insertIntoNewsLetter(NewsLetter n) {
     	pst.setString(6, submission_time);
     	
     	int i = pst.executeUpdate();
+      	if(i>0) {
+    		ResultSet gen = pst.getGeneratedKeys();
+    		if(gen.next()) {
+    			id = gen.getInt(1);
+    		}
+    		System.out.println("successfull===="+pst.toString());
+			//send email to user!!!!
+			EmailSendThread emailSendThread=new EmailSendThread();
+			log.info("email>>>>>>>>>>>>>>>>>"+n.getEmail());
+			log.info("Id..........."+id);
+			emailSendThread.SendSingleEmail("Dear User", n.getEmail(), "news_letter_confirm", id); 
+			
+			ArrayList<String> adminEmails=new ArrayList<>();
+			for(int ae=0;ae<adminEmails.size();ae++) {
+				emailSendThread.SendEmail(adminEmails.get(ae), "Contact", "Hi Team! There is a new discover more request from Dear User. Contact Details are :- email ('"+n.getEmail()+"')");
+			} 
+			
+    	} else {
+			System.out.println("failed=="+pst.toString());
+		}
     } catch(Exception e) {
     	e.printStackTrace();
-    }
+    }   finally {
+		try {
+			if(conn!=null) {
+				conn.close();
+			}if(pst!=null) {
+				pst.close();
+			}if(rs!=null) {
+				rs.close();
+			}
+		} catch (Exception e2) {
+			// TODO: handle exception
+		e2.printStackTrace();
+		}
+	}
 }
 
 public void insertDiscoverMoreDetails(DiscoverMore dm)

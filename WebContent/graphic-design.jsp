@@ -437,8 +437,16 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Get in touch with our experts and know our result-driven strategies to reach rank #1.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="User-Controller" method="post" name="userForm">
+              <input type="hidden" name = "userAction">
+              <input type="hidden" name="pageName" value="graphic-design">
+              <input type="email" name="email">
+              <input type="hidden" name = "activated" value = "1">
+              <input type="hidden" name = "confirmation_url" value = "empty">
+              <input type="hidden" name = "confirmation_sent" value = "false">
+              <input type="hidden" name = "confirmed_by_user" value = "false">
+       
+              <input type="button" onclick="subscribeUs()" class="form-button" value="Subscribe">
             </form>
           </div>
         </div>
@@ -499,6 +507,23 @@
       
     </div>
   </footer><!-- End Footer -->
+    <style>
+  .form-button{
+  	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #ff7e66;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4px;
+    box-shadow: 
+  }
+  </style>
     <script>
 $('.click').click(function(){
 	  $('.slide-out').css('right', '0');
@@ -565,6 +590,17 @@ $('.click').click(function(){
   		  }
       }
 
+  }
+  function subscribeUs(){
+	  //get user email here and let the user subscribe
+	  var email = document.userForm.email.value;
+	  if(email==""){
+		  //check email here
+		  showBasicMessage("Please Enter Email");
+		  return;
+	  }
+	  document.userForm.userAction.value=1;
+	  document.userForm.submit();
   }
   </script>
    <script>
