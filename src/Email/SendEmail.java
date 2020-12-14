@@ -62,7 +62,7 @@ public class SendEmail {
             	table_name="free_audit";
             }
             if(send_to_type.equals("contact_confirm") || send_to_type.equals("quick_enquiry_confirm") || send_to_type.equals("free_audit_confirm") || send_to_type.equals("discover_more_confirm")) {
-            	log.info("In Email Creattor.............");
+            	log.info("In Email Creattor............."); 
             	String homepage=base_urls.url+"services";
             message.setSubject("Confirmation Email For VNS.DMM");
             message.setText(txt_msg);
