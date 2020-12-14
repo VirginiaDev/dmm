@@ -94,80 +94,7 @@ window.fbAsyncInit = function() {
 		<div id="site-wrapper">
 		
 			<header>
-						<section class="container-fluid">
-				<section class="row">
-					<nav class="menu" role="navigation">
-						<section class="col-md-5 no_pad">
-							<section class="left-menu">
-								<div class="tab-content">
-									<div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.png" /> </div>
-									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
-									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png" /> </div>
-								    <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-								
-								</div>
-							</section>
-						</section>
-						<section class="col-md-1"> </section>
-						<section class="col-md-5">
-							<section class="right-menu wow fadeInRight">
-								<ul class="nav nav-tabs">
-									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
-									<li> <a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a> </li>
-									<li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
- <li> <a data-target="#Contact" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
-               <!-- <li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li>  -->
-                            								</ul>
-								<section class="ad_info">
-									<div class="menu-social-icons">
-										<ul class="social-icons">
-											<li>
-												<a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a>
-											</li>
-											<li>
-												<a href="" class="social-icon"> <i class="fa fa-twitter"></i></a>
-											</li>
-											<li>
-												<a href="" class="social-icon"> <i class="fa fa-facebook"></i></a>
-											</li>
-											<li>
-												<a href="" class="social-icon"> <i class="fa fa-youtube"></i></a>
-											</li>
-										</ul>
-									</div>
-									<section class="row">
-										<section class="col-md-6 col-xs-12">
-											<section class="sett"> <span class="orange">ADDRESS:</span>
-												<p>Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post Code:-160101</p>
-											</section>
-										</section>
-										<section class="col-md-6 col-xs-12">
-											<section class="sett"> <span class="orange">CALL US: </span>
-												<p>+91-8288815694</p>
-											</section>
-										</section>
-										<section class="col-md-12  col-xs-12">
-											<section class="sett"> <span class="orange">MAIL US: </span>
-												<p>Info@virtuosonetsoft.com</p>
-											</section>
-										</section>
-									</section>
-								</section>
-								<canvas id="canvas" width="1536" height="674" style="opacity:0;"></canvas>
-								<div class="bg" style="background-image: url(/static/img/texture.18018906d866.jpg);"></div>
-							</section>
-						</section>
-						<section class="col-md-1"> </section>
-					</nav>
-				</section>
-			</section>
-				<a href="#" id="bordered" class="nav-toggle"> <span></span>
-					<div class="vertical-text">Menu</div>
-				</a>
-				
-					<div class="logo">
-						<h1 style="margin-bottom:0px;"> <a href="index"> <img src="images/logo.svg"> </a> </h1> </div>
-				
+				<%@include file="sidebar.jsp" %>	
 			</header>
 			<main role="main">
 			<%@include file="quick-in.jsp" %>
@@ -554,99 +481,7 @@ window.fbAsyncInit = function() {
 								</section>
 							
 						</section>
-						
-						
-						<section class="footer  wow fadeInDown">
-						
-								<section class="partnership  wow fadeInDown" id="btn">
-									<section class="row">
-										<section class="col-md-6">
-											<section class="part-text">
-												<div id="animate2"></div>
-											</section>
-										</section>
-										<section class="col-md-6">
-											<section class="part-right">
-												<h1 class="red">Let's get started </h1>
-												<p>Your Idea to Reality</p>
-												<section class="p-right"> <a href="#" class="carrow cta" data-toggle="modal" data-target="#myModal"> START A PARTNERSHIP <span></span> </a> </section>
-											</section>
-										</section>
-									</section>
-								</section>
-							
-							<section class="container-fluid">
-								<section class="footer-area">
-									<section class="row">
-										<section class="col-md-7 col-xs-12 ">
-											<section class="foot-text"> <img src="images/logo.svg" class="f-img"> <span style="margin-bottom: 2em;">We boost your business from nowhere to everywhere .</span>
-												<p class="orange">We are the architects of influential digital media marketing strategies
-													<br> which give us a legitimate way to connect with potential customers online.</p>
-											</section>
-										</section>
-										<section class="col-md-3 col-xs-12 pl">
-											<section class="foot-text">
-												<p> <span>ADDRESS:</span> Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post Code:-160101 </p>
-												<p> <span> MAIL US:</span>rishabh@virtuosonetsoft.in
-												 </p>
-												<p><span>CALL US:</span> +91-8288815694</p>
-											</section>
-										</section>
-										<section class="col-md-2 col-xs-12 pl">
-											<section class="foot-text">
-												<ul>
-													<li class="set">QUICK LINKS:</li>
-													<li><a href="au-digital-services-australia">Australia</a></li>
-													<li><a href="nz-digital-services-australia">New Zealand</a></li>
-													<li><a href="portfolio">Our Works</a></li>
-													<li><a href="services">Our Services</a></li>
-													<li><a href="contact"> Contact Us</a></li>
-													<li><a href="aboutus">About Us</a></li>
-													<li><a href="http://blog.virtuosonetsoft.com/">Blog</a></li>
-												</ul>
-											</section>
-										</section>
-									</section>
-								</section>
-							</section>
-						</section>
-						
-						<section class="footer-links">
-							<div id="chat">
-								<%@include file="chatBox.jsp" %>
-							</div>
-							<div class="row wd">
-								<div class="col-md-6 col-xs-12">
-									<div class="foot-info">
-										<p><a href="https://www.virtuosonetsoft.com/terms_conditions.php">Privacy 
-										Policy | Terms & Conditions</a></p>
-									</div>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<div class="foot-social">
-										<ul>
-											<li>FOLLOW US:</li>
-											<li><a href="https://www.facebook.com/VirtuosoNetsoft.VNS">FACEBOOK</a></li>
-											<li><a href="https://twitter.com/VNS_Virtuoso">TWITTER</a></li>
-											<li><a href="https://www.instagram.com/virtuosonetsoft/">INSTAGRAM</a></li>
-											<li><a href="https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/">LINKEDIN</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</section>
-						
-						<section class="bgcon">
-						 <div class="container">
-						    <div class="row">
-						        <div class="col-md-12 col-xs-12">
-						        <h4 class="netsoft">Â©2011-2020 All Rights Reserved. Virtuoso Netsoft</h4>
-						  </div>
-						    </div>
-						 </div>
-						 
-						</section>
-						
+						<%@include file="footer.jsp" %>						
 						</div>
 						<div id="myModal" class="modal fade" role="dialog">
 							<div class="modal-dialog" id="main-model">
@@ -1233,7 +1068,7 @@ window.fbAsyncInit = function() {
 			//});
 			</script>
 			
-			<script>
+			<!-- <script>
 			var wow = new WOW({
 				boxClass: 'wow', // animated element css class (default is wow)
 				animateClass: 'animated', // animation css class (default is animated)
@@ -1451,6 +1286,6 @@ window.fbAsyncInit = function() {
 
     }
     </script>
-	</body>
+ -->	</body>
 
 	</html>

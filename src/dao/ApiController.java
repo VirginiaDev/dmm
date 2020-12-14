@@ -23,6 +23,7 @@ import beans.ContentStrategy;
 import beans.DiscoverMore;
 import beans.GoogleMyBusiness;
 import beans.GraphicDesign;
+import beans.NewsLetter;
 import beans.PPC;
 import beans.SEO;
 import beans.WebsiteDesign;
@@ -354,7 +355,32 @@ public void insertIntoPPCDetails(PPC p)
 	}
 }
 
-
+public void insertIntoNewsLetter(NewsLetter n) {
+	int id = 0;
+	Connection conn = null;
+	PreparedStatement pst = null;
+	ResultSet rs = null;
+	
+	Calendar cal = Calendar.getInstance();
+    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss");
+    String submission_time = String.valueOf(sdf.format(cal.getTime()));
+    System.out.println("submission_time=>>"+submission_time);
+    try {
+    	conn = DbConnection.getInstance().getConnection();
+    
+    	pst = conn.prepareStatement("insert into news_letter(email, activated, confirmation_url, confirmation_sent, confirmed_by_user, submission_date) values (?,?,?,?,?,?)",Statement.RETURN_GENERATED_KEYS);
+    	pst.setString(1, n.getEmail());
+    	pst.setString(2, n.getActivated());
+    	pst.setString(3, n.getConfirmation_url());
+    	pst.setString(4, n.getConfirmation_sent());
+    	pst.setString(5, n.getConfirmed_by_user());
+    	pst.setString(6, submission_time);
+    	
+    	int i = pst.executeUpdate();
+    } catch(Exception e) {
+    	e.printStackTrace();
+    }
+}
 
 public void insertDiscoverMoreDetails(DiscoverMore dm)
 {
