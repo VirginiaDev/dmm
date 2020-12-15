@@ -16,7 +16,6 @@
 								<div class="tab-content">
 									<div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.png" /> </div>
 									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
-									<div id="Google-My-Business" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
 									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png" /> </div>
 								    <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
 								
@@ -29,7 +28,6 @@
 								<ul class="nav nav-tabs">
 									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
 									<li> <a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a> </li>
-									<li> <a data-target="#Google-My-Business"  data-hover="tab" href="Google-my-business.jsp"><span class="dotted"></span>Google My Business</a> </li>
 									<li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
 									<li> <a data-target="#Contact" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
                						<li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li> 

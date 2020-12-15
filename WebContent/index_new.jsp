@@ -376,17 +376,20 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Get in touch with our experts and know our result-driven strategies to reach rank #1.</p>
-           <form action="User-Controller" method="post" name="userForm">
+           <form action="" method="post" id = "userForm">
               <input type="hidden" name = "userAction">
-              <input type="hidden" name="pageName" value="index_new">
-              <input type="email" name="email">
-              <input type="hidden" name = "activated" value = "1">
-              <input type="hidden" name = "confirmation_url" value = "empty">
-              <input type="hidden" name = "confirmation_sent" value = "false">
-              <input type="hidden" name = "confirmed_by_user" value = "false">
+              <input type="email" id = "userEmail">
+              <input type="hidden" id = "activated" value = "1">
+              <input type="hidden" id = "confirmation_url" value = "empty">
+              <input type="hidden" id = "confirmation_sent" value = "false">
+              <input type="hidden" id = "confirmed_by_user" value = "false">
        
               <input type="button" onclick="subscribeUs()" class="form-button" value="Subscribe">
             </form>
+            <div id="loader" class="loader"  style="display: none;margin-left: 45%;margin-top: 4%"></div>
+              <div id="thankyou" style="display:none">
+ 			  		<label style="color:#1000ff">Thank you please check your email..we have sent a confirmation email</label>
+			 </div>
           </div>
         </div>
       </div>
@@ -462,6 +465,19 @@
     border-radius: 4px;
     box-shadow: 
   }
+ .loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
   </style>
   <script>
 $('.click').click(function(){
@@ -534,14 +550,49 @@ $('.click').click(function(){
   
   function subscribeUs(){
 	  //get user email here and let the user subscribe
-	  var email = document.userForm.email.value;
+	  var email = document.getElementById("userEmail").value;
 	  if(email==""){
 		  //check email here
 		  showBasicMessage("Please Enter Email");
 		  return;
 	  }
-	  document.userForm.userAction.value=1;
-	  document.userForm.submit();
+	  document.getElementById("userForm").style.display='none';
+	  //get Loader here
+	  document.getElementById("loader").style.display='block';
+	  //get Values
+	  var activated = document.getElementById("activated").value;
+	  var confirmation_url = document.getElementById("confirmation_url").value;
+	  var confirmation_sent = document.getElementById("confirmation_sent").value;
+	  var confirmed_by_user = document.getElementById("confirmed_by_user").value;
+	  
+	  $(document).ready(function() {
+		  //send values to db
+		  $.ajax({
+			  url: "user-subscribe-details.jsp",
+              type: "post",
+              data: {
+              email:email,
+              activated:activated,
+              confirmation_url:confirmation_url,
+              confirmation_sent:confirmation_sent,
+              confirmed_by_user:confirmed_by_user},
+              success : function(data){
+            	  document.getElementById('userEmail').value="";
+            	  setTimeout(getLoader, 3000);
+            	  setTimeout(userThankYou, 6000);
+              }
+		  });
+	  });
+	
+  }
+  function getLoader(){
+	  document.getElementById("loader").style.display='none';
+      document.getElementById("userForm").style.display='block';
+      document.getElementById("thankyou").style.display='block';
+  }
+  function userThankYou(){
+	  //show ThankYou Msg here
+	  $("#thankyou").fadeOut();
   }
   </script>
    <script>

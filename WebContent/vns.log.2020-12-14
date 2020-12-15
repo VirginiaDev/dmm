@@ -1,0 +1,9 @@
+15:13:54  INFO                      UserController.java   37: email>>>>>>>>>>>>>>>>>>>>admin1@gmail.com
+16:47:27  INFO                       ApiController.java  388: email>>>>>>>>>>>>>>>>>smantosh06@gmail.com
+16:47:27  INFO                       ApiController.java  389: Id...........2
+16:47:27  INFO                           SendEmail.java   22: in send email>>>>>>>>>>>>>>>>>>>>>>>>>
+16:47:27  INFO                           SendEmail.java  732: Message>>>>>>>>>>>>>>>javax.mail.internet.MimeMessage@5231b57c
+17:19:58  INFO                       ApiController.java  388: email>>>>>>>>>>>>>>>>>smantosh06@gmail.com
+17:19:58  INFO                       ApiController.java  389: Id...........3
+17:19:58  INFO                           SendEmail.java   22: in send email>>>>>>>>>>>>>>>>>>>>>>>>>
+17:19:58  INFO                           SendEmail.java  732: Message>>>>>>>>>>>>>>>javax.mail.internet.MimeMessage@34e21371

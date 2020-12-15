@@ -7,7 +7,7 @@
 		<script src="js/player/lottie.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 			<section class="footer  wow fadeInDown">
-						<section class="partnership  wow fadeInDown" id="btn">
+						<!-- <section class="partnership  wow fadeInDown" id="btn">
 							<section class="row">
 								<section class="col-md-6">
 									<section class="part-text">
@@ -22,7 +22,7 @@
 									</section>
 								</section>
 							</section>
-						</section>
+						</section> -->
 					
 					<section class="container-fluid">
 						<section class="footer-area">
