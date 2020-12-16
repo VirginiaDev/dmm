@@ -22,9 +22,9 @@
 									</section>
 								</section>
 							</section>
-						</section> -->
+						</section>  -->
 					
-					<section class="container-fluid">
+					<section class="container-fluid" style="background-color: #222226;">
 						<section class="footer-area">
 							<section class="row">
 								<section class="col-md-7 col-xs-12 ">
@@ -59,7 +59,7 @@
 						</section>
 					</section>
 				</section>
-						<section class="footer-links">
+						<section class="footer-links"  style="background-color: #222226;">
 							<div id="chat">
 								<%@include file="chatBox.jsp" %>
 							</div>

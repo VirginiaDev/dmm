@@ -56,75 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="bt-wrapper" class="bt-wrapper bt-haslayout">
 <div id="site-wrapper" style="height: auto;">
   <header>
-    <section class="container-fluid">
-      <section class="row">
-        <nav class="menu" role="navigation">
-          <div class="col-md-5 col-sm-5 no_pad">
-            <div class="left-menu">
-              <div class="tab-content">
-                <div id="Work" class="tab-pane fade in active"> <img src="images/sms24hours.jpg"/> </div>
-                <div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png"/> </div>
-                <div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-                                <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-                
-              </div>
-            </div>
-          </div>
-		   <section class="col-md-1">
-		   </section>
-          <div class="col-md-5 col-sm-5 col-xs-12">
-            <div class="right-menu wow fadeInRight">
-              <ul class="nav nav-tabs">
-                <li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
-                <li> <a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a> </li>
-                <li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
- <li> <a data-target="#Contact" target="_blank" data-hover="tab" href="contactTest.jsp"><span class="dotted"></span>Contact</a> </li>
-               <!-- <li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li>  -->
-                                          </ul>
-              <div class="ad_info">
-                <div class="menu-social-icons">
-                  <ul class="social-icons">
-                    <li><a href="https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://twitter.com/VNS_Virtuoso" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/VirtuosoNetsoft.VNS" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/virtuosonetsoft/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <div class="col-md-6 col-xs-12 pl">
-                    <div class="sett"> <span class="orange">ADDRESS:</span>
-                      <p>Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post Code:-160101</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-xs-12 pl">
-                    <div class="sett"> <span class="orange">CALL US: </span>
-                      <p>+91-8288815694</p>
-                    </div>
-                  </div>
-                  <div class="col-md-12  col-xs-12 pl">
-                    <div class="sett"> <span class="orange">MAIL US: </span>
-                      <p>Info@virtuosonetsoft.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <canvas id="canvas" width="1536" height="674" style="opacity:0;"></canvas>
-              <div class="bg" style="background-image: url(/static/img/texture.18018906d866.jpg);"></div>
-            </div>
-          </div>
-		   <section class="col-md-1">
-		   </section>
-        </nav>
-      </section>
-    </section>
-    <a href="#"  id="bordered" class="nav-toggle"> <span></span>
-    <section class="vertical-text">Menu</section>
-    </a>
-    <section class="container">
-      <div class="logo">
-   <h1> <a href="index"> <img src="images/logo.svg"> </a> </h1>
-      </div>
-    </section>
+	<%@include file="sidebar.jsp" %>
   </header>
 
 
@@ -378,76 +310,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/bxslider.js"></script> 
 <script src="js/TweenMax.min.js"></script> 
 
-<script>
-// Vars
-
-var wrapper    = $("#site-wrapper"),
-    menu       = $(".menu"),
-    menuLinks  = $(".menu ul li a"),
-    toggle     = $(".nav-toggle"),
-    toggleIcon = $(".nav-toggle span");
-
-function toggleThatNav() {
-  if (menu.hasClass("show-nav")) {
-    if (!Modernizr.csstransforms) {
-      menu.removeClass("show-nav");
-      toggle.removeClass("show-nav");
-      menu.animate({
-        right: "-=300"
-      }, 500);
-      toggle.animate({
-        right: "-=300"
-      }, 500);
-    } else {
-      menu.removeClass("show-nav");
-      toggle.removeClass("show-nav");
-    }
-    
-  } else {
-    if (!Modernizr.csstransforms) {
-      menu.addClass("show-nav");
-      toggle.addClass("show-nav");
-      menu.css("right", "0px");
-      toggle.css("right", "330px");
-    } else {
-      menu.addClass("show-nav");
-      toggle.addClass("show-nav");
-    } 
-  }
-}
-
-function changeToggleClass() {
-  toggleIcon.toggleClass("fa-times");
-  toggleIcon.toggleClass("fa-bars");
-}
-
-$(function() {
-  toggle.on("click", function(e) {
-    e.stopPropagation();
-    e.preventDefault();
-    toggleThatNav();
-    changeToggleClass();
-  });
-    // Keyboard Esc event support
-  $(document).keyup(function(e) {
-    if (e.keyCode == 27) {
-      if (menu.hasClass("show-nav")) {
-        if (!Modernizr.csstransforms) {
-          menu.removeClass("show-nav");
-          toggle.removeClass("show-nav");
-          menu.css("right", "-300px");
-          toggle.css("right", "30px");
-          changeToggleClass();
-        } else {
-          menu.removeClass("show-nav");
-          toggle.removeClass("show-nav");
-          changeToggleClass();
-        }
-      }
-    } 
-  });
-});
-</script> 
 <script src="dist/cursor.js"></script> 
 <script>
   var cursorx = new cursor({
@@ -483,37 +345,6 @@ $(function() {
   //   removeDefaultCursor: false,
   // })
   
-</script> 
-<script>
- $(document).scroll(function() {
-       if($(window).scrollTop() > 200){
- $("#bordered").css("border-left","transparent");
-       
-
-       }else if($(window).scrollTop() < 200){
- $("#bordered").css("border-left","1px solid #323234");
-         
-     
-
-       }
-});
-document.querySelector( "#bordered" )
-  .addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });
-
-</script> 
-<script>
-$(document).ready(function(){
-	$('.nav-tabs > li > a').hover(function() {
-  		$(this).tab('show');
-	});
-})
-$(document).ready(function(){
-	$('.capabilities__list a').hover(function() {
-  		$(this).tab('show');
-	});
-})
 </script> 
 <script src="js/form-validator.min.js"></script> 
 <script src="js/contact-form-script.min.js"></script>

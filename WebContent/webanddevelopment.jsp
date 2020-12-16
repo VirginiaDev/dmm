@@ -48,304 +48,203 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="site-wrapper">
   <header class="bg-pink">
-    <section class="container-fluid">
-      <section class="row">
-        <nav class="menu" role="navigation">
-          <section class="col-md-5 no_pad">
-            <section class="left-menu">
-			
-              <div class="tab-content">
-                <div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.png"/> </div>
-                <div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png"/> </div>
-                <div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-                                <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-                
-              </div>
-            </section>
-          </section>
-		   <section class="col-md-1">
-		   </section>
-          <section class="col-md-5">
-            <section class="right-menu wow fadeInRight">
-              <ul class="nav nav-tabs">
-                               <li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
-                <li> <a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a> </li>
-                <li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
- <li> <a data-target="#Contact" target="_blank" data-hover="tab" href="contactTest.jsp"><span class="dotted"></span>Contact</a> </li>
-               <!-- <li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li>  -->
-                                          </ul>
-              <section class="ad_info">
-                <div class="menu-social-icons">
-                 <ul class="social-icons">
-                    <li><a href="https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://twitter.com/VNS_Virtuoso" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/VirtuosoNetsoft.VNS" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/virtuosonetsoft/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-                  </ul>
-                </div>
-                <section class="row">
-                  <section class="col-md-6 col-xs-12">
-                    <section class="sett"> <span class="orange">ADDRESS:</span>
-                      <p>Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post Code:-160101</p>
-                    </section>
-                  </section>
-                  <section class="col-md-6 col-xs-12">
-                    <section class="sett"> <span class="orange">CALL US: </span>
-                      <p>+91-8288815694</p>
-                    </section>
-                  </section>
-                  <section class="col-md-12  col-xs-12">
-                    <section class="sett"> <span class="orange">MAIL US: </span>
-                      <p>Info@virtuosonetsoft.com</p>
-                    </section>
-                  </section>
-                </section>
-              </section>
-              <canvas id="canvas" width="1536" height="674" style="opacity:0;"></canvas>
-              <div class="bg" style="background-image: url(/static/img/texture.18018906d866.jpg);"></div>
-            </section>
-          </section>
-		   <section class="col-md-1">
-		   </section>
-        </nav>
-      </section>
-    </section>
-    <a href="#"  id="bordered" class="nav-toggle"> <span></span>
-    <section class="vertical-text">Menu</section>
-    </a>
-    <section class="container">
-      <div class="logo">
-          <h1> <a href="index"> <img src="images/logo.svg"> </a> </h1>
-      </div>
-    </section>
+	<%@include file="sidebar.jsp" %>
   </header>
    <main role="main">
-<div id="barba-wrapper" aria-live="polite">
-<div class="barba-container">
-<section class="homepage bg-pink">
-<section class="container">
-<section class="main-area">
-<section class="row">
-<section class="col-md-6">
-<section class="digital-title wow fadeInLeft">
-<h1 style="font-size: 55px;"><span>Website & <br>App Development</span></h1>
-<p>IT’S ALL ABOUT FIRST IMPRESSIONS AT YOUR FINGERTIPS!</p>
-</section>
-</section>
-<section class="col-md-6">
-<div id="animation_web" class="s-img"></div>
-</section>
-
-
-
-</section>
-</section>
-
-</section>
-</section>
-</div>
-
-<section class="description-area pd-top serv-text">
- <section class="container">
-<section class="row">
-
-<section class="col-md-12">
-<section class="desc-title wow fadeInDown">
-<h1>The epicentre of your digital presence</h1>
-<p>We understand the huge competition on the internet and run a thorough analysis of present user interests to offer you the best site and app development services. We walk the extra mile to create a unique work for our clients and this makes them stand out in the competition. We maneuver every possible technology to accomplish the best outcomes.</p>
-<p> Firms investing to transform into a pioneer has made website and application development an imperative part of their business. We carefully engineer our client’s website and apps through reliable technologies to deliver an astronomical innovation. Our experience in building enterprise apps helps organizations build websites and mobile applications that are robust, secure, and adaptable for windows, IOS and android users.</p>
-</section>
-<section class="desc-title wow fadeInDown">
-<section class="row">
-<section class="col-md-4">
-<section class="ef-number">
-<section class="col-xs-2">
-<section class="stroke-title">
-<span>01</span>
-</section>
-</section>
-<section class="col-xs-10">
-<section class="stroke-text">
-<p class="lft">Increasing traffic</p>
-</section>
-</section>
-</section>
-</section>
-<section class="col-md-4">
-<section class="ef-number">
-<section class="col-xs-2">
-<section class="stroke-title">
-<span>02</span>
-</section>
-</section>
-<section class="col-xs-10">
-<section class="stroke-text">
-<p class="lft">Building conversions</p>
-</section>
-</section>
-</section>
-</section>
-<section class="col-md-4">
-<section class="ef-number">
-<section class="col-xs-2">
-<section class="stroke-title">
-<span>03</span>
-</section>
-</section>
-<section class="col-xs-10">
-<section class="stroke-text">
-<p class="lft">Raising brand awareness</p>
-</section>
-</section>
-</section>
-</section>
-
-
-</section>
-
-<section class="row">
-<section class="col-md-4">
-<section class="ef-number">
-<section class="col-xs-2">
-<section class="stroke-title">
-<span>04</span>
-</section>
-</section>
-<section class="col-xs-10">
-<section class="stroke-text">
-<p class="lft">Positive brand association</p>
-</section>
-</section>
-</section>
-</section>
-<section class="col-md-8">
-<section class="ef-number">
-<section class="col-xs-2">
-<section class="stroke-title">
-<span>05</span>
-</section>
-</section>
-<section class="col-xs-10">
-<section class="stroke-text">
-<p class="lft">Improving communication and interaction with key audiences</p>
-</section>
-</section>
-</section>
-</section>
-
-
-
-</section>
-</section>
-
-
-</section>
-
-<section class="web-title wow fadeInDown">
-<section class="row">
-<section class="col-md-4">
-<section class="ef-web">
-<p><img src="images/w2.png"/><span class="muse-set"></span>Strategy</p>
-</section>
-</section>
-<section class="col-md-4">
-<section class="ef-web">
-<p><img src="images/w3.png"/><span class="muse"></span>Design<br>development</p>
-</section>
-</section>
-<section class="col-md-4">
-<section class="ef-web">
-<p><img src="images/w4.png"/><span class="muse"></span>Budget and<br>maintenance</p>
-</section>
-</section>
-
-
-</section>
-<section class="row cd">
-<section class="col-md-2">
-</section>
-<section class="col-md-4">
-<section class="ef-web">
-<p><img src="images/w5.png"/><span class="topmuse"></span>Planning and<br>Research</p>
-</section>
-</section>
-<section class="col-md-4">
-<section class="ef-web">
-<p><img src="images/w6.png"/><span class="topmuse"></span>Analytics and<br>Reporting</p>
-</section>
-</section>
-
-<section class="col-md-2">
-</section>
-</section>
-</section>
-
-
-</section>
-</section>
+	<div id="barba-wrapper" aria-live="polite">
+		<div class="barba-container">
+			<section class="homepage bg-pink">
+				<section class="container">
+					<section class="main-area">
+						<section class="row">
+							<section class="col-md-6">
+								<section class="digital-title wow fadeInLeft">
+									<h1 style="font-size: 55px;"><span>Website & <br>App Development</span></h1>
+									<p>IT’S ALL ABOUT FIRST IMPRESSIONS AT YOUR FINGERTIPS!</p>
+								</section>
+							</section>
+							<section class="col-md-6">
+								<div id="animation_web" class="s-img"></div>
+							</section>
+						</section>
+					</section>
+				</section>
+			</section>
+		</div>
+		<section class="description-area pd-top serv-text">
+ 			<section class="container">
+				<section class="row">
+					<section class="col-md-12">
+						<section class="desc-title wow fadeInDown">
+							<h1>The epicentre of your digital presence</h1>
+							<p>We understand the huge competition on the internet and run a thorough analysis of present user interests to offer you the best site and app development services. We walk the extra mile to create a unique work for our clients and this makes them stand out in the competition. We maneuver every possible technology to accomplish the best outcomes.</p>
+							<p> Firms investing to transform into a pioneer has made website and application development an imperative part of their business. We carefully engineer our client’s website and apps through reliable technologies to deliver an astronomical innovation. Our experience in building enterprise apps helps organizations build websites and mobile applications that are robust, secure, and adaptable for windows, IOS and android users.</p>
+						</section>
+						<section class="desc-title wow fadeInDown">
+							<section class="row">
+								<section class="col-md-4">
+									<section class="ef-number">
+										<section class="col-xs-2">
+											<section class="stroke-title">
+												<span>01</span>
+											</section>
+										</section>
+										<section class="col-xs-10">
+											<section class="stroke-text">
+												<p class="lft">Increasing traffic</p>
+											</section>
+										</section>
+									</section>
+								</section>
+								<section class="col-md-4">
+									<section class="ef-number">
+										<section class="col-xs-2">
+											<section class="stroke-title">
+												<span>02</span>
+											</section>
+										</section>
+										<section class="col-xs-10">
+											<section class="stroke-text">
+												<p class="lft">Building conversions</p>
+											</section>
+										</section>
+									</section>
+								</section>
+								<section class="col-md-4">
+									<section class="ef-number">
+										<section class="col-xs-2">
+											<section class="stroke-title">
+												<span>03</span>
+											</section>
+										</section>
+										<section class="col-xs-10">
+											<section class="stroke-text">
+												<p class="lft">Raising brand awareness</p>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+							<section class="row">
+								<section class="col-md-4">
+									<section class="ef-number">
+										<section class="col-xs-2">
+											<section class="stroke-title">
+												<span>04</span>
+											</section>
+										</section>
+										<section class="col-xs-10">
+											<section class="stroke-text">
+												<p class="lft">Positive brand association</p>
+											</section>
+										</section>
+									</section>
+								</section>
+								<section class="col-md-8">
+									<section class="ef-number">
+										<section class="col-xs-2">
+											<section class="stroke-title">
+												<span>05</span>
+											</section>
+										</section>
+										<section class="col-xs-10">
+											<section class="stroke-text">
+												<p class="lft">Improving communication and interaction with key audiences</p>
+											</section>
+										</section>
+									</section>
+								</section>
+							</section>
+						</section>
+					</section>
+					<section class="web-title wow fadeInDown">
+						<section class="row">
+							<section class="col-md-4">
+								<section class="ef-web">
+									<p><img src="images/w2.png"/><span class="muse-set"></span>Strategy</p>
+								</section>
+							</section>
+							<section class="col-md-4">
+								<section class="ef-web">
+									<p><img src="images/w3.png"/><span class="muse"></span>Design<br>development</p>
+								</section>
+							</section>
+							<section class="col-md-4">
+								<section class="ef-web">
+									<p><img src="images/w4.png"/><span class="muse"></span>Budget and<br>maintenance</p>
+								</section>
+							</section>
+						</section>
+						<section class="row cd">
+							<section class="col-md-2">
+							</section>
+							<section class="col-md-4">
+								<section class="ef-web">
+									<p><img src="images/w5.png"/><span class="topmuse"></span>Planning and<br>Research</p>
+								</section>
+							</section>
+							<section class="col-md-4">
+								<section class="ef-web">
+									<p><img src="images/w6.png"/><span class="topmuse"></span>Analytics and<br>Reporting</p>
+								</section>
+							</section>
+							<section class="col-md-2">
+							</section>
+						</section>
+					</section>
+				</section>
+		</section>
 </section>
 <section class="description-area bd-top serv-text">
- <section class="container">
-<section class="row">
-<section class="col-md-6">
-<section class="desc-img wow fadeInRight">
-<img src="images/w7.png" style="max-width: 700px;"/>
+ 	<section class="container">
+		<section class="row">
+			<section class="col-md-6">
+				<section class="desc-img wow fadeInRight">
+					<img src="images/w7.png" style="max-width: 700px;"/>
+				</section>
+			</section>
+			<section class="col-md-6">
+				<section class="desc-title wow fadeInDown" style="text-align:left;">
+					<h1>Services Offered</h1>
+						<section class="d-span">
+							<section class="d-categories">
+								<ul>
+									<li><span></span>Brand Logo</li>
+									<li><span></span>Business Cards & Letterhead</li>
+									<li><span></span>Brochures and Envelopes</li>
+									<li><span></span>Emailer designs</li>
+									<li><span></span>Presentations</li>
+									<li><span></span>Website UI/UX Design</li>
+									<li><span></span>Product packaging</li>
+								</ul>
+							</section>
+						</section>
+					</section>
+			</section>
+		</section>
+	</section>
 </section>
-
-</section>
-<section class="col-md-6">
-<section class="desc-title wow fadeInDown" style="text-align:left;">
-<h1>Services Offered</h1>
-<section class="d-span">
-<section class="d-categories">
-<ul>
-<li><span></span>Brand Logo</li>
-<li><span></span>Business Cards & Letterhead</li>
-<li><span></span>Brochures and Envelopes</li>
-<li><span></span>Emailer designs</li>
-<li><span></span>Presentations</li>
-<li><span></span>Website UI/UX Design</li>
-<li><span></span>Product packaging</li>
-</ul>
-</section>
-
-</section>
-
-
-</section>
-</section>
-
-
-</section>
-</section>
-</section>
-
-
 <section class="description-area bd-top">
- <section class="container">
-<section class="row">
-<section class="col-md-6">
-<section class="desc-img wow fadeInRight">
-<img src="images/b3.png"/>
-</section>
-
-</section>
-<section class="col-md-6">
-<section class="desc-title wow fadeInLeft">
-<h1>Frequently Asked Questions</h1>
-
-<div class="row">
-
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-    <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="headingOne">
-             <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          What is Branding & Identity ?
-        </a>
-      </h4>
-
-        </div>
+ 	<section class="container">
+		<section class="row">
+			<section class="col-md-6">
+				<section class="desc-img wow fadeInRight">
+					<img src="images/b3.png"/>
+				</section>
+			</section>
+			<section class="col-md-6">
+				<section class="desc-title wow fadeInLeft">
+					<h1>Frequently Asked Questions</h1>
+					<div class="row">
+					<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+   						<div class="panel panel-default">
+        					<div class="panel-heading" role="tab" id="headingOne">
+             					<h4 class="panel-title">
+        							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          								What is Branding & Identity ?
+        							</a>
+      							</h4>
+        					</div>
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.le VHS.</div>
         </div>
@@ -569,72 +468,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </section>
           </section>
         </section>
-        <section class="container-fluid">
-          <section class="footer-area">
-            <section class="row">
-              <section class="col-md-7 col-xs-12">
-                <section class="foot-text"> <img src="images/logo.svg" class="f-img"> <span style="margin-bottom: 2em;">We boost your business from nowhere to everywhere .</span>
-                  <p class="orange">We are the architects of influential digital media marketing strategies <br>
-                    which give us a legitimate way to connect with potential customers online.</p>
-                </section>
-              </section>
-              <section class="col-md-3 col-xs-12">
-                <section class="foot-text">
-												<p> <span>ADDRESS:</span> Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post Code:-160101 </p>
-												<p> <span> MAIL US:</span>rishabh@virtuosonetsoft.in
-												 </p>
-												<p><span>CALL US:</span> +91-8288815694</p>
-											</section>
-              </section>
-              <section class="col-md-2 col-xs-12">
-                <section class="foot-text">
-                  <ul>
-													<li class="set">QUICK LINKS:</li>
-													<li><a href="portfolio">Our Works</a></li>
-													<li><a href="services">Our Services</a></li>
-													<li><a href="#" data-toggle="modal" data-target="#myModal"> Contact Us</a></li>
-													<li><a href="aboutus">About Us</a></li>
-													<li><a href="http://blog.virtuosonetsoft.com/">Blog</a></li>
-												</ul>
-                </section>
-              </section>
-            </section>
-          </section>
-        </section>
+       <%@include file="footer.jsp" %>
       </section>
-      
-      
-      <section class="footer-links">
-     
-        <section class="row">
-          <section class="col-md-6 col-xs-12">
-            <section class="foot-info">
-              <p>Privacy Policy | Terms & Conditions</p>
-            </section>
-          </section>
-          <section class="col-md-6 col-xs-12">
-            <section class="foot-social">
-               <ul>
-                <li>FOLLOW US:</li>
-                <li><a href="https://www.facebook.com/VirtuosoNetsoft.VNS">FACEBOOK</a></li>
-                <li><a href="https://twitter.com/VNS_Virtuoso">TWITTER</a></li>
-                <li><a href="https://www.instagram.com/virtuosonetsoft/">INSTAGRAM</a></li>
-                <li><a href="https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/">LINKEDIN</a></li>
-              </ul>
-            </section>
-          </section>
-        </section>
-      </section>
-      <section class="bgcon">
-						 <div class="container">
-						    <div class="row">
-						        <div class="col-md-12 col-xs-12">
-						        <h4 class="netsoft">©2011-2020 All Rights Reserved. Virtuoso Netsoft</h4>
-						  </div>
-						    </div>
-						 </div>
-						 
-						</section>
     </div>
 	<div id="myModal" class="modal fade" role="dialog">
       <div class="modal-dialog"> 
@@ -666,7 +501,542 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </main>
 </div>
+<style>
+			.ml-0 {
+    margin-left: 33px;
+    margin-right: 0px;
+}
+.menu ul li:first-child {
+    margin-top: 0em;
+    border: 0;
+    box-shadow: none;
+}
+.nav-tabs>li {
+    float: none;
+   
+}	
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #fff0;
+    border: 1px solid #ddd0;
+    border-bottom-color: transparent;
+}
+	
+			.logo {
+            padding-top: 0px !important;
+}
+			.popup-btn {
+				position: fixed!important;
+				top: 46%;
+				left: 92%;
+				transform: translate(-50%, -50%);
+				transform: rotate(-90deg);
+				width: 230px;
+			}
+			#sendbtn {
+    width: 135px;
+}
+			
+			.main-btn-rect,
+			.main-btn-circle {
+				position: relative;
+				margin: 0;
+				font-family: 'Roboto', sans-serif;
+				color: #FFFFF0;
+				background-color: rgb(252, 79, 79);
+				text-transform: uppercase;
+				font-size: 20px;
+				letter-spacing: 1px;
+				outline: none;
+				cursor: pointer;
+				z-index: 100;
+			}
+			
+			.main-btn-rect {
+		    padding: 12px 0px;
+		    line-height: 20px;
+		    border-radius: 5px;
+		    border: 0px solid;
+		    width: 172px;
+		}
+			
+			.main-btn-rect:before,
+			.main-btn-rect:after {
+				position: absolute;
+				content: '';
+				top: 0;
+				width: 0%;
+				height: 100%;
+				background-color: rgba(255, 255, 240, 0.2);
+				-webkit-transition: width 0.3s;
+				-o-transition: width 0.3s;
+				transition: width 0.3s;
+			}
+			
+			.main-btn-rect:before {
+				left: 0;
+			}
+			
+			.main-btn-rect:after {
+				right: 0;
+			}
+			
+			.main-btn-rect:hover:before,
+			.main-btn-rect:hover:after {
+				width: 50%;
+			}
+			
+			.main-btn-circle {
+				height: 40px;
+				width: 40px;
+				-webkit-border-radius: 50%;
+				border-radius: 100%;
+				line-height: 40px;
+				-webkit-transition: box-shadow 0.3s;
+				-o-transition: box-shadow 0.3s;
+				transition: box-shadow 0.3s;
+			}
+			
+			.main-btn-circle:hover {
+				-webkit-box-shadow: inset 2px 1px 0px 20px rgba(255, 255, 240, 0.2);
+				-moz-box-shadow: inset 2px 1px 0px 20px rgba(255, 255, 240, 0.2);
+				box-shadow: inset 2px 1px 0px 20px rgba(255, 255, 240, 0.2);
+			}
+			
+			.popup {
+				position: fixed;
+				top: 103%;
+				/*width: 100%;
+				height: 100%;*/
+				z-index: 10001;
+				right:206px;
+				    bottom: -31px;
+				
+			}
+			
+			.modal-header .close {
+				color: #fff !important;
+			}
+			
+			.popup.active {
+				top: 0;
+				/*background-color: rgba(3, 3, 3, 0.98); */
+				transition: background-color .6s, opacity .6s;
+			}
+			
+			
+			.main-btn-rect,
+			.main-btn-circle {
+				font-size: 16px;
+			}
+			
+			
+			.popup .main-btn-rect {
+    padding: 10px 18px;
+    margin-left: 14px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+		.min-h #qe_message {
+		    height: 52px;
+		}
+		
+					
+			.flex-row #send {
+				background-color: #f35255;
+				width: 100%;
+				font-size: 15px;
+				margin-bottom: 50px;
+			}
+			
+			.popup .popup-content {
+				position: absolute;
+				top: 50%;
+				left: 85%;
+				max-height: 568px;
+				min-width: 320px;
+				margin-top: 150px;
+				padding: 0px;
+				background-color: #0000008c;
+				color: #070000;
+				-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+				-ms-transform: translateX(-50%) translateY(-50%);
+				transform: translateX(-50%) translateY(-50%);
+				-webkit-transform: translateX(-50%) translateY(-50%);
+				-moz-transform: translateX(-50%) translateY(-50%);
+				-o-transform: translateX(-50%) translateY(-50%);
+				transition: margin .6s;
+				-webkit-transition: margin .6s;
+				-moz-transition: margin .6s;
+				-o-transition: margin .6s;
+			}
+			
+			.popup.active .popup-content {
+				margin-top: 0px;
+				/*background-color: rgba(0, 0, 0, 0.6) !important;*/
+                border-radius: 5px !important;
+			}
+			
+			.popup-content h6 {
+				display: table;
+				font-size: 25px;
+				text-align: center;
+				/* margin: 8px auto; */
+				font-family: 'Roboto', sans-serif;
+				text-transform: uppercase;
+				font-weight: 100;
+				color: #fff;
+				margin-left: 17px;
+				margin-top: 22px;
+				
+			}
+			
+			.form-group {
+				position: relative;
+				width: 90%;
+				margin: 0px auto;
+			}
+			
+			form#send input,
+			form#send textarea {
+				position: relative;
+				margin-bottom: 11px;
+				width: 100%;
+				height: 27px;
+				font-family: 'RobotoLight', sans-serif;
+				text-indent: 5px;
+				background-color: white;
+				outline: 0;
+				border: none;
+				border-bottom: 0px solid #070000;
+				-webkit-transition: border 0.6s;
+				-o-transition: border 0.6s;
+				transition: border 0.6s;
+				border-radius: 3px;
+				font-size: 14px;
+				 color: #000;
+			}
+			.send-form {
+    margin-top: 20px;
+}
+			
+			form#send input:focus,
+			form#send textarea:focus {
+				border-bottom: 1px solid rgb(63, 173, 168);
+			}
+			
+			form#send label {
+				position: absolute;
+				top: 0;
+				line-height: 28px;
+				-webkit-transition: color .5s;
+				-o-transition: color .5s;
+				transition: color .5s;
+			}
+			
+			form#send input:focus + label,
+			form#send textarea:focus + label {
+				color: rgb(63, 173, 168);
+			}
+			
+			form#send .txt {
+				line-height: 22px;
+				left: 2px;
+			}
+			
+			#send .main-btn-rect {
+				position: relative;
+				display: block;
+				padding: 9px 17px;
+				margin-left: 17px;
+				font-size: 14px;
+				float: left;
+				margin-bottom: 16px;
+			}
+			
+			form#send .main-btn-rect i {
+				margin-right: 5px;
+			}
+			
+		
+			.popup .fade-out {
+	    position: absolute;
+	    top: 4px;
+	    right: 15px;
+	    text-align: center;
+	    font-size: 18px;
+	    border-radius: 0px;
+	    margin-top: 11px;
+	}
+				
+				.share-wrap {
+					position: absolute;
+					display: inline-table;
+					top: 67%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 15px;
+					text-align: center;
+				}
+				
+				.fade.in {
+					opacity: 1;
+					background-color: #ff000000 !important;
+					background: darkgray;
+					
+				}
+				
+				.share-btn {
+				color: #FFFFF0;
+				padding: 7px 25px;
+				text-decoration: none;
+				cursor: pointer;
+				font-weight: 100;
+				font-size: 14px;
+				font-family: 'Lobster', sans-serif;
+				background-color: rgba(63, 173, 168, .8);
+				text-transform: uppercase;
+				border-radius: 5px;
+				transition: background-color .5s;
+				-webkit-transition: background-color .5s;
+				-moz-transition: background-color .5s;
+				-o-transition: background-color .5s;
+			}
+			
+			.share-btn:hover {
+				color: #FFFFF0;
+				text-decoration: none;
+				background-color: rgba(63, 173, 168, 1.0);
+			}
+			
+			.close {
+				background: #ffffff;
+				color: #FFFFFF !important;
+				line-height: 60px;
+				position: absolute;
+				right: 2px;
+				text-align: center;
+				top: -9px;
+				width: 60px;
+				text-decoration: none;
+				font-weight: normal;
+				-webkit-border-radius: 12px;
+				-moz-border-radius: 12px;
+				border-radius: 50% !important;
+				-moz-box-shadow: 1px 1px 3px #000;
+				-webkit-box-shadow: 1px 1px 3px #000;
+				box-shadow: 0px 0px 0px #000;
+				border: 0px solid #fff !important;
+				opacity: 9;
+				font-size: 2em;
+			}
+			
+			.close:hover {
+				background: #f76c5100;
+			}
+			
+			.col-cn .form-group {
+				position: relative;
+				width: 100%;
+				margin: 0px auto;
+			}
+			
+			.chat-area {
+				flex-grow: 1;
+				overflow: auto;
+				border-radius: 8px;
+				padding: 16px;
+				display: flex;
+				flex-direction: column;
+				height: 350px;
+			}
+			
+			
+.modal-dialog {
+    position: relative;
+    left: 439px;
+    top: 72px;
+    width: 34%;
+}
+.col-cm {
+    font-size: 17px;
+    padding-left: 0px;
+}
+			
+			.title_top {
+				color: #8e8e8e;
+				font-size: 18px;
+				text-align: center;
+				font-weight: bold;
+				margin-bottom: 8px;
+				margin-top: 10px;
+			}
+			
+			@media only screen and (max-width: 768px) {
+				h1 {
+					font-size: 25px;
+				}
+				h2 {
+					font-size: 14px;
+				}
+				form#send .main-btn-rect {
+					padding: 7px 60px;
+					font-size: 14px;
+				}
+				.popup-btn {
+					padding: 7px 60px;
+					font-size: 14px;
+				}
+			}
+			/*PRELOADING------------ */
+			
+			.no_pad .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
 
+		
+
+#overlayer {
+  width:100%;
+  height:100%;  
+  position:absolute;
+  z-index:1;
+  background:#4a4a4a;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index:3;
+  border: 4px solid #Fff;
+  top: 50%;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+.py-md-4 input {
+    color: #000;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width:991px) {
+.modal-dialog {
+    position: relative;
+    left: 5px;
+    top: 5%;
+    width: 85%;
+}
+.main-card {
+    background: white;
+    color: white;
+    width: 100%;
+    height: calc(100% - 32px);
+    margin: 16px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.vns {
+    width: 37%;
+    float: left;
+    padding-right: 0px;
+}
+.hi {
+    float: left;
+    width: 38%;
+    padding-left: 7px;
+}
+.modal-header .close {
+    position: relative;
+    left: 174px;
+    bottom: 0px;
+    top: -45px;
+    color: #fff;
+}
+.col_3 {
+    clear: both;
+    height: 0px;
+}
+.wdh input {
+    width: 100%;
+}
+.flex-row #chatform_send {
+    background-color: #f35255;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.col-cn {
+    margin: 0 auto;
+     padding-right: 0px;
+    padding-left: 0px;
+}
+
+}
+
+</style>
  
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
@@ -701,76 +1071,6 @@ wow.init();
 <script src="js/bxslider.js"></script> 
 <script src="js/TweenMax.min.js"></script> 
 
-<script>
-// Vars
-
-var wrapper    = $("#site-wrapper"),
-    menu       = $(".menu"),
-    menuLinks  = $(".menu ul li a"),
-    toggle     = $(".nav-toggle"),
-    toggleIcon = $(".nav-toggle span");
-
-function toggleThatNav() {
-  if (menu.hasClass("show-nav")) {
-    if (!Modernizr.csstransforms) {
-      menu.removeClass("show-nav");
-      toggle.removeClass("show-nav");
-      menu.animate({
-        right: "-=300"
-      }, 500);
-      toggle.animate({
-        right: "-=300"
-      }, 500);
-    } else {
-      menu.removeClass("show-nav");
-      toggle.removeClass("show-nav");
-    }
-    
-  } else {
-    if (!Modernizr.csstransforms) {
-      menu.addClass("show-nav");
-      toggle.addClass("show-nav");
-      menu.css("right", "0px");
-      toggle.css("right", "330px");
-    } else {
-      menu.addClass("show-nav");
-      toggle.addClass("show-nav");
-    } 
-  }
-}
-
-function changeToggleClass() {
-  toggleIcon.toggleClass("fa-times");
-  toggleIcon.toggleClass("fa-bars");
-}
-
-$(function() {
-  toggle.on("click", function(e) {
-    e.stopPropagation();
-    e.preventDefault();
-    toggleThatNav();
-    changeToggleClass();
-  });
-    // Keyboard Esc event support
-  $(document).keyup(function(e) {
-    if (e.keyCode == 27) {
-      if (menu.hasClass("show-nav")) {
-        if (!Modernizr.csstransforms) {
-          menu.removeClass("show-nav");
-          toggle.removeClass("show-nav");
-          menu.css("right", "-300px");
-          toggle.css("right", "30px");
-          changeToggleClass();
-        } else {
-          menu.removeClass("show-nav");
-          toggle.removeClass("show-nav");
-          changeToggleClass();
-        }
-      }
-    } 
-  });
-});
-</script> 
 <script src="dist/cursor.js"></script> 
 <script>
   var cursorx = new cursor({
@@ -806,37 +1106,6 @@ $(function() {
   //   removeDefaultCursor: false,
   // })
   
-</script> 
-<script>
- $(document).scroll(function() {
-       if($(window).scrollTop() > 200){
- $("#bordered").css("border-left","transparent");
-       
-
-       }else if($(window).scrollTop() < 200){
- $("#bordered").css("border-left","1px solid #323234");
-         
-     
-
-       }
-});
-document.querySelector( "#bordered" )
-  .addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });
-
-</script> 
-<script>
-$(document).ready(function(){
-	$('.nav-tabs > li > a').hover(function() {
-  		$(this).tab('show');
-	});
-})
-$(document).ready(function(){
-	$('.capabilities__list a').hover(function() {
-  		$(this).tab('show');
-	});
-})
 </script> 
 <script src="js/form-validator.min.js"></script> 
 <script src="js/contact-form-script.min.js"></script>
