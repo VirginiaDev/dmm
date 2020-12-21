@@ -29,16 +29,18 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
    <link href="css/sweetalert.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/nav-style.css">
 </head>
 
 <body>
+
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container-fluid">
+<!--     <div class="container-fluid">
       <div class="logo float-left">
         <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        Uncomment below if you prefer to use an image logo
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
@@ -49,9 +51,10 @@
           <li><a href="#why-us">Why Us</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>.nav-menu
 
-    </div>
+    </div> -->
+    <%@include file="sidebar.jsp" %>
   </header><!-- End #header -->
 
   <!-- ======= Hero Section ======= -->

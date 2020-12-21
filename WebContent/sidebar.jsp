@@ -1,13 +1,17 @@
 
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="dist/cursor.css">
 		<link rel="stylesheet" href="css/nav-style.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		<script src="js/player/lottie.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		 	<section class="container-fluid">
 				<section class="row">
 					<nav class="menu" role="navigation">
@@ -18,14 +22,13 @@
 									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
 									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png" /> </div>
 								    <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-								
 								</div>
 							</section>
 						</section>
 						<section class="col-md-1"> </section>
 						<section class="col-md-5">
 							<section class="right-menu wow fadeInRight">
-								<ul class="nav nav-tabs">
+								<ul class="nav nav-tabs custom-list">
 									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
 									<li> <a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a> </li>
 									<li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>

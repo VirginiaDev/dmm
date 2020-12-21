@@ -58,11 +58,31 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     padding: 8px 0;
   }
 }
-
+.logo {
+    padding: 0em 2em;
+    position: absolute;
+    top: 18px;
+}
+.menu ul li:first-child {
+    margin-top: 0em;
+    border: 0;
+    box-shadow: none;
+}
+.nav-tabs>li {
+    float: none;
+   
+}	
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #fff0;
+    border: 1px solid #ddd0;
+    border-bottom-color: transparent;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-.nav-menu {
+/*.nav-menu {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -148,6 +168,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-toggle-active {
   right: 275px;
 }
+*/
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1080,15 +1101,15 @@ section {
 }
 
 
-.nav.nav-tabs li {
+/*.nav.nav-tabs li {
     text-align: center;
-    /* margin: 0 auto; */
+    /* margin: 0 auto; 
     background-color: #ffffff;
     padding: 10px 70px;
     margin: 15px auto;
     color: #fff;
 }
-
+*/
 .step-5 {
     background-color: #f5f5f5;
     padding-top: 20px;
