@@ -137,7 +137,7 @@ window.fbAsyncInit = function() {
 										</a>
 									</div>
 									<div class="col-md-3 col-xs-12 no_pad">
-										<a href="portfolio" target="_blank">
+										<a href="pactor-slider.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/pactersimage.jpg" />
 												<div class="box-content">
 													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
@@ -153,7 +153,7 @@ window.fbAsyncInit = function() {
 										</a>
 									</div>
 									<div class="col-md-3 col-xs-12 no_pad">
-										<a href="portfolio" target="_blank">
+										<a href="slider.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/parrothome.jpg" />
 												<div class="box-content">
 													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
@@ -161,7 +161,7 @@ window.fbAsyncInit = function() {
 										</a>
 									</div>
 									<div class="col-md-5 col-xs-12 no_pad">
-										<a href="portfolio" target="_blank">
+										<a href="slider.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/tng-1.jpg" />
 												<div class="box-content">
 													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>

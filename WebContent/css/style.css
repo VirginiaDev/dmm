@@ -263,7 +263,7 @@ font-weight: 800;
 padding:2em 4em;	
 }
 .bg-pink{
-    background: #FF7F66;
+    background: #000;
 }
 .logo{
 	padding: 0em 2em;
@@ -2485,7 +2485,7 @@ font-size: 20px;
 	border:1px solid #fff;
 }
 .contact a{
-	font-size:12px !important;
+	font-size:14px !important;
 }
 .realisations-details .right .projectInfo .info {
  
@@ -2919,4 +2919,94 @@ form ul li input[type=checkbox]+label {
 
 .sthree img {
     width: 70%;
+}
+/***************DROP DWON STYLE*******************/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 0px 0px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444444;
+    min-width: 280px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 4px 15px;
+    color: #000;
+    border-radius: 5px;
+    margin-left: 85%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: transparent;
+    color: #ec2028;
+    
+}
+.fa.fa-sort-desc {
+    vertical-align: text-top;
+}
+.dropdown:hover .dropdown-content a {
+    font-size: 20px;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+.pl-0{padding-left:0px;}
+.logo {
+    color: #f76c51;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 0px !important;
+    position: relative !important;
+    bottom: 11px !important;
+}
+.content-2 {
+    color: #bab9b9;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 0px;
+    line-height: 25px;
+}
+.top-tag {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-top: 78px;
+}
+.back-2 a {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 30px;
+    border-bottom: 1px solid;
+    z-index:999999;
 }
