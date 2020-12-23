@@ -36,7 +36,7 @@
         <div class="slider-photo" style="background-image:url(assets/img/pact-2.jpg)"></div>
         <div class="slider-photo" style="background-image:url(assets/img/pact-3.jpg)"></div>
         <div class="slider-photo" style="background-image:url(assets/img/pact-4.jpg)"></div>
-         <div class="slider-photo" style="background-image:url(assets/img/pact-5.jpg)"></div>
+         <div class="slider-photo" style="background-image:url(assets/img/pact5.jpg)"></div>
           <div class="slider-photo" style="background-image:url(assets/img/pact-6.jpg)"></div>
           <div class="slider-photo" style="background-image:url(assets/img/pact-7.jpg)"></div>
       </div>
@@ -459,7 +459,7 @@ for (i = 0; i < sliders.length; i++) {
 
 @media screen and (max-width: 768px){
   .container{
-    position:fixed;
+   
     width: 100%;
   }
   .container:nth-child(2){
@@ -474,6 +474,17 @@ for (i = 0; i < sliders.length; i++) {
     -ms-transform: translate(-50%,0%);
     transform: translate(-50%,0%);
   }
+  .top-tag {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.back-2 {
+    display: block;
+    margin-bottom: 40px;
+}
 }
    </style>
     

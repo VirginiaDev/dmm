@@ -2922,6 +2922,7 @@ form ul li input[type=checkbox]+label {
 }
 /***************DROP DWON STYLE*******************/
 
+
 /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
@@ -3009,4 +3010,39 @@ form ul li input[type=checkbox]+label {
     margin-left: 30px;
     border-bottom: 1px solid;
     z-index:999999;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:991px) {
+	
+	.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 0%;
+}
+.ad_info {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 15;
+    /* padding: 2em; */
+    font-size: 12px;
+    color: #fff;
+    /* right: 0; */
+    margin-top: 10em;
+}
+.sett {
+    float: left;
+    margin-top: 1em;
+    font-size: 14px;
+    padding-left: 24px;
+}
+.dropdown:hover .dropdown-content a {
+    font-size: 16px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 213px;
+   
+}	
 }

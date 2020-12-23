@@ -458,7 +458,7 @@ for (i = 0; i < sliders.length; i++) {
 
 @media screen and (max-width: 768px){
   .container{
-    position:fixed;
+
     width: 100%;
   }
   .container:nth-child(2){
@@ -473,6 +473,17 @@ for (i = 0; i < sliders.length; i++) {
     -ms-transform: translate(-50%,0%);
     transform: translate(-50%,0%);
   }
+    .top-tag {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.back-2 {
+    display: block;
+    margin-bottom: 40px;
+}
 }
    </style>
     

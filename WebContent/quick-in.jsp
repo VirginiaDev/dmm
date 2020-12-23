@@ -165,7 +165,7 @@
     margin-bottom: 10px;
 }
 @media screen and (min-width: 320px) and (max-width:991px) {
-.slide-out {
+/*.slide-out {
     position: fixed;
     right: -1200px;
     transition: .5s ease-in-out;
@@ -175,6 +175,19 @@
     margin-top: 57px;
     margin-right: 0px;
     width: 60%;
+    z-index: 9999999;
+}*/
+
+.slide-out {
+    position: fixed;
+    right: -1200px;
+    transition: .5s ease-in-out;
+    background-color: #000;
+    z-index: 999999;
+    padding: 20px 14px;
+    margin-top: 57px;
+    margin-right: 12px;
+    width: 70%;
     z-index: 9999999;
 }
 

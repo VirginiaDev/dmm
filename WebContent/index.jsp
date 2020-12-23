@@ -996,6 +996,7 @@ window.fbAsyncInit = function() {
     height: 0%;
   }
 }
+
 @media screen and (min-width: 320px) and (max-width:991px) {
 .modal-dialog {
     position: relative;
