@@ -12,6 +12,7 @@
   <meta content="" name="keywords">
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/sweetalert.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -23,36 +24,38 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
-  
 
   <!-- Template Main CSS File -->
-  <link href="css/sweetalert.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet">
+   <link href="css/sweetalert.css" rel="stylesheet" />
+  
 </head>
 
+
 <body>
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container-fluid">
+   <div class="container-fluid">
       <div class="logo float-left">
         <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#why-us">Why Us</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li class="active"><a href="index_new.jsp">Home</a></li>
+          <li><a href="Content-strategy.jsp">Content Strategy</a></li>
+          <li><a href="Google-my-business.jsp">Google My Business</a></li>
+          <li><a href="graphic-design.jsp">Graphic Design</a></li>
+          <li><a href="ppc.jsp">PPC</a></li>
+          <li><a href="website-design.jsp">Website Design</a></li>
         </ul>
-      </nav>.nav-menu 
+      </nav>
+
     </div>
+    
   </header><!-- End #header -->
 
   <!-- ======= Hero Section ======= -->
@@ -538,30 +541,7 @@
       
     </div> -->
   </footer><!-- End Footer -->
-   <style>
-  .form-button{
-  	position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #ff7e66;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 4px;
-    box-shadow: 
-  }
- .loader {
- 	border: 10px solid #f3f3f3;
-    border-top: 10px solid #3498db;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 2s linear infinite		
-}
+  
 
 @keyframes spin {
   0% { transform: rotate(0deg); }

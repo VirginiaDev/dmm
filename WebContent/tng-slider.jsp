@@ -32,13 +32,17 @@
   <div class="container">
     <div id="photo-slider" class="photo-slider">
       <div class="slider-photo-list">
-        <div class="slider-photo" style="background-image:url(assets/img/pact-1.jpg)"></div>
-        <div class="slider-photo" style="background-image:url(assets/img/pact-2.jpg)"></div>
-        <div class="slider-photo" style="background-image:url(assets/img/pact-3.jpg)"></div>
-        <div class="slider-photo" style="background-image:url(assets/img/pact-4.jpg)"></div>
-         <div class="slider-photo" style="background-image:url(assets/img/pact5.jpg)"></div>
-          <div class="slider-photo" style="background-image:url(assets/img/pact-6.jpg)"></div>
-          <div class="slider-photo" style="background-image:url(assets/img/pact-7.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/tng-1.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/tng-2.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/tng-3.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/tng-4.jpg)"></div>
+         <div class="slider-photo" style="background-image:url(assets/img/tng-5.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/tng-6.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/tng-7.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/tng-8.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/tng-9.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/tng-10.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/tng-11.jpg)"></div>
       </div>
     </div>
 
