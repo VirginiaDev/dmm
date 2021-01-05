@@ -22,67 +22,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-#header {
-  height: 80px;
-  padding: 20px 0;
-  z-index: 10;
-  position: relative;
-}
-
-#header .logo h1 {
-  font-size: 36px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 3px;
-}
-
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-#header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
-
-@media (max-width: 768px) {
-  #header .logo h1 {
-    font-size: 28px;
-    padding: 8px 0;
-  }
-}
-.logo {
-    padding: 0em 2em;
-    position: absolute;
-    top: 18px;
-}
-.menu ul li:first-child {
-    margin-top: 0em;
-    border: 0;
-    box-shadow: none;
-}
-.nav-tabs>li {
-    float: none;
-   
-}	
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #fff;
-    cursor: default;
-    background-color: #fff0;
-    border: 1px solid #ddd0;
-    border-bottom-color: transparent;
-}
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/*.nav-menu {
+.nav-menu {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -104,14 +44,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ffd2b7;
+  color: #ffffff;
   padding: 10px 20px;
   font-weight: 500;
   transition: 0.3s;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffa26a;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -168,7 +108,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-toggle-active {
   right: 275px;
 }
-*/
+
 
 /*--------------------------------------------------------------
 # Hero Section

@@ -31,11 +31,11 @@
 									<div class="dropdown">
 									  <button class="dropbtn"><a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services <i class="fa fa-sort-desc" aria-hidden="true"></i></a></button>
 									  <div class="dropdown-content">
-									    <a href="#">Content Strategy</a>
-									    <a href="#">Google My Business</a>
-									    <a href="#">Graphic Design</a>
-									    <a href="#">PPC</a>
-									    <a href="#">Website Design</a>
+									    <a href="Content-strategy.jsp">Content Strategy</a>
+									    <a href="Google-my-business.jsp">Google My Business</a>
+									    <a href="graphic-design.jsp">Graphic Design</a>
+									    <a href="ppc.jsp">PPC</a>
+									    <a href="website-design.jsp">Website Design</a>
 									  </div>
 									</div>
 									

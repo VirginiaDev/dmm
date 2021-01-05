@@ -71,7 +71,7 @@ public class C3P0DataSource {
        // Class.forName("com.mysql.jdbc.Driver");
           Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 // con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vns_dmm?autoReconnect=true", "root", "");
-con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vns_dmm", "root", "");      
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vns_dmm", "root", "root@#123");      
       } catch (Exception ex) {
           System.out.println("Exception in DBConnection java file of fun" + ex);
       }

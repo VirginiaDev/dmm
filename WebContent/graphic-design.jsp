@@ -31,26 +31,29 @@
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container-fluid">
+   <div class="container-fluid">
       <div class="logo float-left">
         <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        Uncomment below if you prefer to use an image logo
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
       <nav class="nav-menu">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#why-us">Why Us</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li class="active"><a href="index_new.jsp">Home</a></li>
+          <li><a href="Content-strategy.jsp">Content Strategy</a></li>
+          <li><a href="Google-my-business.jsp">Google My Business</a></li>
+          <li><a href="graphic-design.jsp">Graphic Design</a></li>
+          <li><a href="ppc.jsp">PPC</a></li>
+          <li><a href="website-design.jsp">Website Design</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
     </div>
+    
   </header><!-- End #header -->
 
   <!-- ======= Hero Section ======= -->

@@ -32,14 +32,14 @@
   <div class="container">
     <div id="photo-slider" class="photo-slider">
       <div class="slider-photo-list">
-        <div class="slider-photo" style="background-image:url(assets/img/pact-1.jpg)"></div>
-        <div class="slider-photo" style="background-image:url(assets/img/pact-2.jpg)"></div>
-        <div class="slider-photo" style="background-image:url(assets/img/pact-3.jpg)"></div>
-        <div class="slider-photo" style="background-image:url(assets/img/pact-4.jpg)"></div>
-         <div class="slider-photo" style="background-image:url(assets/img/pact5.jpg)"></div>
-          <div class="slider-photo" style="background-image:url(assets/img/pact-6.jpg)"></div>
-          <div class="slider-photo" style="background-image:url(assets/img/pact-7.jpg)"></div>
-      </div>
+        <div class="slider-photo" style="background-image:url(assets/img/sms-1.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/sms-2.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/sms-3.jpg)"></div>
+        <div class="slider-photo" style="background-image:url(assets/img/sms-4.jpg)"></div>
+         <div class="slider-photo" style="background-image:url(assets/img/sms-5.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/sms-6.jpg)"></div>
+          <div class="slider-photo" style="background-image:url(assets/img/sms-7.jpg)"></div>
+        </div>
     </div>
 
   </div>
