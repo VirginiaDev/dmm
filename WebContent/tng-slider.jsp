@@ -50,10 +50,9 @@
   <div class="container" style="background-color: #333333;">
      <div class="row">
        <div class="col-sm-12 col-md-12 col-xs-12">
-            <h2 class="top-tag">Lorem Ipsum</h2>
-            <p class="content-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-             galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2 class="top-tag">TNG</h2>
+            <p class="content-2">By building an outstanding digital presence with the guidance and support of VNS's experts, TNG TECH Solutions, Hamilton city, New Zealand, is a one-stop-shop of mobile repairs and services that has provided its services in electrical gadgets reparation to thousands of individuals. VNS has provided several services such as Ecommerce Website Development, Social Media Marketing, SEO- (Local SEO, Ecommerce SEO), AD Management, Branding and Identity, Brand Strategy (Logo and Identity Design), Creative and Communication, Brand Reputation Management,
+             Content Marketing, Digital Marketing, Business Generation and Growth, etc.</p>
              <span class="back-2"><a href="http://dmm.virtuosonetsoft.com/">Back</a></span>
        </div>
      </div>

@@ -34,9 +34,9 @@
   <header id="header">
    <div class="container-fluid">
       <div class="logo float-left">
-        <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
-        Uncomment below if you prefer to use an image logo
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <h1 class="text-light"><a href="index.jsp"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
+       
+        <a class="logo-dmm" href="index.html"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
@@ -259,7 +259,7 @@
     <section  class="about" id="top-pad">
       <div class="container-fluid">
 
-        <div class="row">
+        <div class="row pt-50p">
          <div class="col-lg-6 col-sm-6 col-md-6">
             <img src="assets/img/expert.jpg" class="img-fluid" alt="expert">
           </div>
@@ -448,11 +448,11 @@
 				  </div>
 				</div>
 			  </div>
-          </div>
+         
 		     <div class="col-lg-6 col-sm-6 col-md-6">
             <img src="assets/img/off-page.jpg" class="img-fluid" alt="off-page">
         </div>
-		   
+		    </div>
         </div>
 
       </div>
@@ -559,6 +559,21 @@
     border-radius: 4px;
     box-shadow: 
   }
+  .pt-0 img {
+    padding-top: 0px;
+}
+.pt-50p {
+    padding-top: 50px;
+}
+.smm-title-2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+    padding-top: 0px;
+}
+.pt-70 {
+    padding-top: 0px;
+}
   .loader {
     border: 10px solid #f3f3f3;
     border-top: 10px solid #3498db;

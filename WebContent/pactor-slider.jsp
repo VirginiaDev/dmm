@@ -46,10 +46,11 @@
   <div class="container" style="background-color: #333333;">
      <div class="row">
        <div class="col-sm-12 col-md-12 col-xs-12">
-            <h2 class="top-tag">Lorem Ipsum</h2>
-            <p class="content-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-             galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-             and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h2 class="top-tag">Pacters</h2>
+            <p class="content-2">Pacters work towards promoting a quality lifestyle for their customers
+by providing better quality accessories and gears. Virtuoso Netsoft
+has made a strong digital platform for them to get connected with
+their audience one-to-one.</p>
              <span class="back-2"><a href="http://dmm.virtuosonetsoft.com/">Back</a></span>
        </div>
      </div>

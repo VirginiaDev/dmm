@@ -38,8 +38,8 @@
   <header id="header">
    <div class="container-fluid">
       <div class="logo float-left">
-        <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
-        Uncomment below if you prefer to use an image logo
+        <h1 class="text-light"><a href="index.jsp"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
+        
         <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
 

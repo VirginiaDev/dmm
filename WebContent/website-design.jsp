@@ -27,7 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-   <link href="css/sweetalert.css" rel="stylesheet" />
+  <link href="css/sweetalert.css" rel="stylesheet" />
   
 </head>
 
@@ -37,7 +37,7 @@
   <header id="header">
    <div class="container-fluid">
       <div class="logo float-left">
-        <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
+        <h1 class="text-light"><a href="index.jsp"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
         
         <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
       </div>
@@ -445,19 +445,15 @@
 				  </div>
 				</div>
 			  </div>
-          </div>
+          
 		   <div class="col-lg-6 col-sm-6 col-md-6">
             <img src="assets/img/ux-designer.jpg" class="img-fluid" alt="ux-designer">
           </div>
-		   
+          </div>
         </div>
-
       </div>
     </section>
     <!-- ======= Sec-4 End ======= -->
-
-
-   
 
     <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -486,8 +482,11 @@
         </div>
       </div>
     </div>
-	<%@include file="footer.jsp" %>
-<!--     <div class="footer-top">
+	
+
+
+
+ <div class="footer-top">
       <div class="container">
         <div class="row">
 
@@ -532,14 +531,14 @@
 
         </div>
       </div>
-    </div> -->
+    </div> 
 
-   <!--  <div class="container py-4">
+<div class="container py-4">
       <div class="copyright">
         ©2011-2020 All Rights Reserved. Virtuoso Netsoft
       </div>
       
-    </div> -->
+    </div>
   </footer><!-- End Footer -->
   
 
