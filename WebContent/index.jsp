@@ -110,7 +110,7 @@ window.fbAsyncInit = function() {
 										        <span class="orange">Creativity</span> is a Mindset.
 										    </h1>
 											<p>With the fusion of digital tools and creativity
-												<br> we solve your problems.</p> <a href="services" target="_blank" class="carrow cta"> Know More <span></span> </a> </div>
+												<br> we solve your problems.</p> <a href="services" class="carrow cta"> Know More <span></span> </a> </div>
 									</div>
 									<div class="col-md-6">
 										<div class="component wow fadeInRight">
@@ -137,7 +137,7 @@ window.fbAsyncInit = function() {
 										</a>
 									</div>
 									<div class="col-md-3 col-xs-12 no_pad">
-										<a href="pactor-slider.jsp" target="_blank">
+										<a href="pacter-portfolio.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/pactersimage.jpg" />
 												<div class="box-content">
 													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
@@ -145,7 +145,7 @@ window.fbAsyncInit = function() {
 										</a>
 									</div>
 									<div class="col-md-4 col-xs-12 no_pad">
-										<a href="sms-slider.jsp" target="_blank">
+										<a href="sms-portfolio.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/sms-1.jpg" />
 												<div class="box-content">
 													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
@@ -161,7 +161,7 @@ window.fbAsyncInit = function() {
 										</a>
 									</div>
 									<div class="col-md-5 col-xs-12 no_pad">
-										<a href="tng-slider.jsp" target="_blank">
+										<a href="tng-portfolio.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/tng-1.jpg" />
 												<div class="box-content">
 													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
@@ -317,7 +317,12 @@ window.fbAsyncInit = function() {
 								
 									<section class="col-md-7 col-xs-12">
 										<section class="s-left wow fadeInLeft"> <span>WE SPECIALIZE IN</span>
-											<section class="capabilities__list"> <a href="brandingandidentity" target="_blank" data-target="#Branding" data-toggle="collapse" data-capability="1" data-reveal="up"> Branding and Identity <span></span></a> <a href="digitalmarketing" data-target="#Digital" data-toggle="collapse" data-capability="2" data-reveal="up"> Digital Marketing <span></span></a> <a href="webanddevelopment" data-target="#Web" data-toggle="collapse" data-capability="3" data-reveal="up"> Web and App Development <span></span></a> <a href="orm" data-target="#Online" data-toggle="collapse" data-capability="4" data-reveal="up"> Online Reputation Management <span></span></a> </section>
+											<section class="capabilities__list"> 
+											<a href="brandingandidentity" data-target="#Branding" data-toggle="collapse" data-capability="1" data-reveal="up"> Branding and Identity <span></span></a>
+											 <a href="digitalmarketing" data-target="#Digital" data-toggle="collapse" data-capability="2" data-reveal="up"> Digital Marketing <span></span></a> 
+											<a href="webanddevelopment" data-target="#Web" data-toggle="collapse" data-capability="3" data-reveal="up"> Web and App Development <span></span></a>
+											 <a href="orm" data-target="#Online" data-toggle="collapse" data-capability="4" data-reveal="up"> Online Reputation Management <span></span></a> 
+											 </section>
 										</section>
 									</section>
 									<section class="col-md-5 col-xs-12">
