@@ -71,7 +71,9 @@
           <div class="error-message"></div>
           <div class="sent-message">Your notification request was sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">GET STARTED</button></div>
+        <div class="text-center">
+       <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
+        </div>
       </form>
     </div>
   </section><!-- #hero -->

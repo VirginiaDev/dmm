@@ -149,7 +149,7 @@
     background-color: #000;
     z-index: 999999;
     padding: 20px 14px;
-    margin-top: 57px;
+    margin-top: 95px;
     margin-right: 0px;
     width: 20%;
     z-index: 9999999;

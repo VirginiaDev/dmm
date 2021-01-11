@@ -3,6 +3,7 @@
 		<link rel="stylesheet" href="dist/cursor.css">
 		<link rel="stylesheet" href="css/nav-style.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/chatbot.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		<script src="js/player/lottie.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -61,7 +62,7 @@
 				</section>
 						<section class="footer-links"  style="background-color: #222226;">
 							<div id="chat">
-								<%@include file="chatBox.jsp" %>
+								 <%@include file="chatBox.jsp" %> 
 							</div>
 							<div class="row wd">
 								<div class="col-md-6 col-xs-12">
@@ -94,3 +95,10 @@
 						 </div>
 						 
 						</section>
+<style>
+
+.main-card {
+    width: 63%;
+
+}
+</style>

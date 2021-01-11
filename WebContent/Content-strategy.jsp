@@ -31,7 +31,9 @@
    <link href="css/sweetalert.css" rel="stylesheet" />
   
 </head>
-
+<style>.about {
+    padding-top: 0px;
+}</style>
 <body>
 
   <!-- ======= Header ======= -->
@@ -65,7 +67,7 @@
       <h1 class="content-tsb"> Content Strategy & Marketing </h1>
       <p class="cnt_st">Feeling that brands share through words is CONTENT.</p></h1>
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-        <button class="get" type="submit">GET STARTED</button>
+       <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
       </form>
     </div>
   </section><!-- #hero -->
@@ -264,7 +266,7 @@
     <!-- ======= Sec-2 End ======= -->
   
     <!-- ======= Sec-3 ======= -->
-    <section id="about" class="step-2">
+    <section id="about" class="conts">
       <div class="container-fluid">
 
         <div class="row">
@@ -364,7 +366,7 @@
     <!-- ======= Sec-3 End ======= -->
 
     <!-- ======= Sec-4 ======= -->
-    <section id="about" class="step-04">
+    <section id="about" class="conts">
       <div class="container-fluid">
 
         <div class="row">
