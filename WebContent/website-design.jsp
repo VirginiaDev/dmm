@@ -64,7 +64,7 @@
       <h1 class="content-tsb2"> Website Design & Development </h1>
       <p class="cnt_st2">Let your first digital impression be unique with the best web designing and development agency.</p></h1>
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-        <button class="get2" type="submit">GET STARTED</button>
+        <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
       </form>
     </div>
   </section>

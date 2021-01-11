@@ -28,6 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="dist/cursor.css">
 <link rel="stylesheet" href="css/nav-style.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/chatbot.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="js/player/lottie.js"></script>
 <style>
@@ -37,6 +38,7 @@ p.validation_errors {
 
 </style>
 </head>
+<%@include file="quick-in.jsp" %>
 <body class="has-overflow-hidden allowHover" id="homepage" style="">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2WQNDK"

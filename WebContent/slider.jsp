@@ -46,8 +46,9 @@
      <div class="row">
        <div class="col-sm-12 col-md-12 col-xs-12">
             <h2 class="top-tag">Parrot Infosoft</h2>
-            <p class="content-2">Parrot Infosoft offers tailor made software and web application development services. 
-            A pioneer in the development and delivery of top-notch corporate solutions that contribute appreciably to our client’s accomplishment with the guidance and support of the experts of Virtuoso Netsoft.</p>
+            <p class="content-2">Parrot Infosoft offers tailor-made software and web application development services. A pioneer in the development and delivery of top-notch corporate solutions that contribute appreciably to our client’s accomplishment with the guidance and support of the experts of Virtuoso Netsoft.
+Services provided by VNS Website Development, Social Media Marketing, Content Marketing, SEO, Creative and Communication, Software Development, Digital Asset Development.
+</p>
              <span class="back-2"><a href="http://dmm.virtuosonetsoft.com/">Back</a></span>
        </div>
      </div>

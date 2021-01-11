@@ -61,10 +61,10 @@
 
  <section  class="content-bg2">
     <div class="container">
-      <h1 class="content-tsb2"> Search Engine Marketing/Pay per click </h1>
+      <h1 class="content-tsb2"> Search Engine Marketing/Pay Per Click </h1>
     
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-        <button class="get2" type="submit" id="top-padd">GET STARTED</button>
+        <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
       </form>
     </div>
   </section>
@@ -79,7 +79,7 @@
          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <img src="assets/img/search-engine.jpg" class="img-fluid" alt="search-engine">
           </div> 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pt-20">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <h3 class="smm-title-3"><b>Drive Sales With PPC Services and Boost your BUSINESS NOW with Search Engine Marketing!</b></h3>
             <p class="smm-content">
               Search Engine Marketing the name is self-explanatory. Search Engine Marketing refers to marketing using various tricks and strategies on search engines like Google, bing, yahoo, etc. Search Engine Marketing (SEM) is a vast marketing service that has several parts of it. Search Engine Marketing includes marketing in both ways, that is organic marketing and paid advertisement (Pay Per Click). Search Engine Marketing (SEM)/ Pay-per-Click (PPC) such as Google AdWords, Bing Ads, Facebook ads, re-targeted, or banner ads, helps your business to be visible to a large number of audiences to bring traffic and eventually convert into potential customers.

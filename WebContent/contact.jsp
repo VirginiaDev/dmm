@@ -8,8 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>VNS-DMM</title>
-
-
 <meta name="keywords" content="digital marketing in new zealand, web marketing agency in new zealand, web marketing agency in Australia, top digital agency in new zealand, top digital agency in Australia, online marketing consultant in new zealand, online marketing companies in Australia, marketing agency, marketing agency near me, digital marketing masters in new zealand, digital marketing agency">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,7 +41,7 @@
 
 
       
-               <!----------Banner Section Start--------------->
+<!----------Banner Section Start--------------->
   	<section class="bk-img">
   		<div class="container">
   			<div class="row">
@@ -381,7 +379,7 @@ let animation2 = bodymovin.loadAnimation({
 }
 .content-c {
     color: #fff;
-    font-size: 14px;
+    font-size: 22px;
 }
 .hp {
     color: #fff;

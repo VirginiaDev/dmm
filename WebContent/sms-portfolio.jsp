@@ -47,7 +47,13 @@
      <div class="row">
        <div class="col-sm-12 col-md-12 col-xs-12">
             <h2 class="top-tag">SMS24HOURS</h2>
-            <p class="content-2">SMS24HOURS is the number one source for all kinds of VAS Services and can reach their customer with the digital assets and support provided by Virtuoso Netsoft. SMS24HOURS is dedicated to giving you the best services, with a focus on dependability, customer service, and uniqueness that make them stand out.</p>
+            <p class="content-2">SMS24HOURS is the number one source for all kinds of VAS Services and can reach their 
+            customer with the digital assets and support provided by Virtuoso Netsoft. SMS24HOURS is dedicated to
+             giving you the best services, with a focus on dependability, customer service, and uniqueness that
+              make them stand out.  
+Services provided by VNS Website Development, Social Media Marketing, Content Marketing, SEO- Lead Generation,
+ Creative and Communication, Software Development, Digital Asset Development,  AD Management, Brand Reputation Management.
+</p>
              <span class="back-2"><a href="http://dmm.virtuosonetsoft.com/">Back</a></span>
        </div>
      </div>

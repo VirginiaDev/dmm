@@ -67,18 +67,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="bt-albums">
 			<a id="bt-btnclosealbum" class="bt-btnclosealbum" href="javascript:void(0);"><i class="fa fa-close"></i></a>
 			<div id="bt-kidsalbum" class="bt-album">
-				<a href="#"><img src="images/sms24hours.jpg" alt="Photo 1"></a>
-				<a href="slider/images/index2/large/7.jpg"><img src="slider/images/index2/large/7.jpg" alt="Photo 2"></a>
-				<a href="slider/images/index2/large/8.jpg"><img src="slider/images/index2/large/8.jpg" alt="Photo 3"></a>
-				<a href="slider/images/index2/large/9.jpg"><img src="slider/images/index2/large/9.jpg" alt="Photo 4"></a>
-				<a href="slider/images/index2/large/10.jpg"><img src="slider/images/index2/large/10.jpg" alt="Photo 5"></a>
-				<a href="slider/images/index2/large/11.jpg"><img src="slider/images/index2/large/11.jpg" alt="Photo 6"></a>
-				<a href="slider/images/index2/large/12.jpg"><img src="slider/images/index2/large/12.jpg" alt="Photo 7"></a>
+				<!-- PACTERS -->
+				<a href="slider/images/index2/large/pact-1.jpg"><img src="slider/images/index2/large/pact-1.jpg" alt="Photo 2"></a>
+				<a href="slider/images/index2/large/pact-2.jpg"><img src="slider/images/index2/large/pact-2.jpg" alt="Photo 3"></a>
+				<a href="slider/images/index2/large/pact-3.jpg"><img src="slider/images/index2/large/pact-3.jpg" alt="Photo 4"></a>
+				<a href="slider/images/index2/large/pact-4.jpg"><img src="slider/images/index2/large/pact-4.jpg" alt="Photo 5"></a>
+				<a href="slider/images/index2/large/pact5.jpg"><img src="slider/images/index2/large/pact5.jpg" alt="Photo 6"></a>
+				<a href="slider/images/index2/large/pact-6.jpg"><img src="slider/images/index2/large/pact-6.jpg" alt="Photo 7"></a>
 			</div>
-			<div id="bt-femalemodelalbum" class="bt-album">
+			
+			<div id="bt-femalemodelalbum" class="bt-album"><!-- SMS -->
 				<a href="slider/images/index7/7/img-01.jpg"><img src="slider/images/index7/7/img-01.jpg" alt="Photo 1"></a>
 				<a href="slider/images/index7/7/img-02.jpg"><img src="slider/images/index7/7/img-02.jpg" alt="Photo 2"></a>
-				<a href="slider/images/index7/7/img-03.jpg"><img src="slider/images/index7/7/img-02.jpg" alt="Photo 3"></a>
+				<a href="slider/images/index7/7/img-03.jpg"><img src="slider/images/index7/7/img-03.jpg" alt="Photo 3"></a>
 				<a href="slider/images/index7/7/img-04.jpg"><img src="slider/images/index7/7/img-04.jpg" alt="Photo 4"></a>
 				<a href="slider/images/index7/7/img-05.jpg"><img src="slider/images/index7/7/img-05.jpg" alt="Photo 5"></a>
 				<a href="slider/images/index7/7/img-06.jpg"><img src="slider/images/index7/7/img-06.jpg" alt="Photo 6"></a>
@@ -90,13 +91,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<a href="slider/images/index2/large/16.jpg"><img src="slider/images/index2/large/16.jpg" alt="Photo 4"></a>
 				<a href="slider/images/index2/large/17.jpg"><img src="slider/images/index2/large/17.jpg" alt="Photo 5"></a>
 			</div>
-			<div id="bt-randomclickalbum" class="bt-album">
-				<a href="slider/images/index7/8/img-01.jpg"><img src="slider/images/index7/8/img-02.jpg" alt="Photo 1"></a>
-				<a href="slider/images/index7/8/img-02.jpg"><img src="slider/images/index7/8/img-02.jpg" alt="Photo 2"></a>
-				<a href="slider/images/index7/8/img-03.jpg"><img src="slider/images/index7/8/img-04.jpg" alt="Photo 3"></a>
-				<a href="slider/images/index7/8/img-04.jpg"><img src="slider/images/index7/8/img-05.jpg" alt="Photo 4"></a>
-				<a href="slider/images/index7/8/img-05.jpg"><img src="slider/images/index7/8/img-06.jpg" alt="Photo 5"></a>
-				<a href="slider/images/index7/8/img-06.jpg"><img src="slider/images/index7/8/img-06.jpg" alt="Photo 6"></a>
+			<div id="bt-randomclickalbum" class="bt-album"><!-- TNG -->
+				<a href="slider/images/index7/8/t1.jpg"><img src="slider/images/index7/8/t1.jpg" alt="Photo 1"></a>
+				<a href="slider/images/index7/8/t2.jpg"><img src="slider/images/index7/8/t2.jpg" alt="Photo 2"></a>
+				<a href="slider/images/index7/8/t3.jpg"><img src="slider/images/index7/8/t3.jpg" alt="Photo 3"></a>
+				<a href="slider/images/index7/8/t4.jpg"><img src="slider/images/index7/8/t4.jpg" alt="Photo 4"></a>
+				<a href="slider/images/index7/8/t5.jpg"><img src="slider/images/index7/8/t5.jpg" alt="Photo 5"></a>
+				<a href="slider/images/index7/8/t6.jpg"><img src="slider/images/index7/8/t6.jpg" alt="Photo 6"></a>
+				<a href="slider/images/index7/8/t7.jpg"><img src="slider/images/index7/8/t7.jpg" alt="Photo 6"></a>
+				<a href="slider/images/index7/8/t8.jpg"><img src="slider/images/index7/8/t8.jpg" alt="Photo 6"></a>
+				<a href="slider/images/index7/8/t9.jpg"><img src="slider/images/index7/8/t9.jpg" alt="Photo 6"></a>
+				<a href="slider/images/index7/8/t10.jpg"><img src="slider/images/index7/8/t10.jpg" alt="Photo 6"></a>
+				
 			</div>
 		</div>
 		<!--************************************
@@ -109,14 +115,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div id="bt-homesliderveight" class="bt-homeslider bt-homesliderveight bt-haslayout">
 			<div class="tg-item">
 				<article class="bt-album">
-					<figure class="bt-fullheight" data-vide-bg="poster: images/sms24hours.jpg" data-vide-options="position: 0% 50%">
-						<figcaption><a class="bt-btnviewimg bt-callalbum" href="javascript:void();" data-number="1"></a></figcaption>
+				
+					<figure class="bt-fullheight" data-vide-bg="poster: images/sms24hours.jsp" data-vide-options="position: 0% 50%">
+						<figcaption><a class="bt-btnviewimg bt-callalbum" href="javascript:void();" data-number="2"></a></figcaption>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="javascript:void(0);">Kids Special Album</a></h3>
-							<p class="content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-							when an unknown printer took a galley.</p>
+							<h3><a href="sms-portfolio.jsp">Kids Special Album</a></h3>
+							<p class="content">SMS24HOURS is the number one source for all kinds of VAS Services and 
+							can reach their customer with the digital assets and support provided by Virtuoso Netsoft. </p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
 						</div>
 						<ul class="bt-shareandlikes">
@@ -144,13 +151,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="tg-item">
 				<article class="bt-album">
 					<figure class="bt-fullheight" data-vide-bg="poster: images/tng-bigimage.jpg" data-vide-options="position: 0% 50%">
-						<figcaption><a class="bt-btnviewimg bt-callalbum" href="javascript:void();" data-number="2"></a></figcaption>
+						<figcaption><a class="bt-btnviewimg bt-callalbum" href="javascript:void();" data-number="4"></a></figcaption>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="javascript:void(0);">Kids Special Album</a></h3>
-							<p class="content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-							when an unknown printer took a galley.</p>
+							<h3><a href="tng-portfolio.jsp">Kids Special Album</a></h3>
+							<p class="content">By building an outstanding digital presence with the guidance and 
+							support of VNS's experts, TNG TECH Solutions, Hamilton city, New Zealand, 
+							is a one-stop-shop of mobile repairs and services that has provided its services 
+							in electrical gadgets reparation to thousands of individuals.</p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
 						</div>
 						<ul class="bt-shareandlikes">
@@ -182,9 +191,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="javascript:void(0);">Kids Special Album</a></h3>
-							<p class="content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-							when an unknown printer took a galley.</p>
+							<h3><a href="slider.jsp">Kids Special Album</a></h3>
+							<p class="content">Parrot Infosoft offers tailor-made software and web application development services.
+							 A pioneer in the development and delivery of top-notch corporate solutions that contribute appreciably
+							  to our client’s accomplishment with the guidance and support of the experts of Virtuoso Netsoft.
+                             
+</p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
 						</div>
 						<ul class="bt-shareandlikes">
@@ -209,7 +221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 				</article>
 			</div>
-			<div class="tg-item">
+			<!-- <div class="tg-item">
 				<article class="bt-album">
 					<figure class="bt-fullheight" data-vide-bg="poster: images/edealbus.jpg" data-vide-options="position: 0% 50%">
 						<figcaption><a class="bt-btnviewimg bt-callalbum" href="javascript:void();" data-number="4"></a></figcaption>
@@ -242,7 +254,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</ul>
 					</div>
 				</article>
-			</div>
+			</div>-->
 					<div class="tg-item">
 				<article class="bt-album">
 					<figure class="bt-fullheight" data-vide-bg="poster: images/pacters.jpg" data-vide-options="position: 0% 50%">
@@ -250,9 +262,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="javascript:void(0);">Kids Special Album</a></h3>
-							<p class="content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-							when an unknown printer took a galley.</p>
+							<h3><a href="pacter-portfolio.jsp">Kids Special Album</a></h3>
+							<p class="content">Pacters work towards promoting a quality lifestyle for their customers 
+							by providing better quality accessories and gears.</p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
 						</div>
 						<ul class="bt-shareandlikes">
