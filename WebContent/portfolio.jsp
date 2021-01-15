@@ -121,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="sms-portfolio.jsp">Kids Special Album</a></h3>
+							<h3><a href="sms-portfolio.jsp">SMS24HOURS</a></h3>
 							<p class="content">SMS24HOURS is the number one source for all kinds of VAS Services and 
 							can reach their customer with the digital assets and support provided by Virtuoso Netsoft. </p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
@@ -155,11 +155,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="tng-portfolio.jsp">Kids Special Album</a></h3>
+							<h3><a href="tng-portfolio.jsp">TNG</a></h3>
 							<p class="content">By building an outstanding digital presence with the guidance and 
-							support of VNS's experts, TNG TECH Solutions, Hamilton city, New Zealand, 
-							is a one-stop-shop of mobile repairs and services that has provided its services 
-							in electrical gadgets reparation to thousands of individuals.</p>
+							support of VNS's experts, TNG TECH Solutions, Hamilton city.</p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
 						</div>
 						<ul class="bt-shareandlikes">
@@ -191,10 +189,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="slider.jsp">Kids Special Album</a></h3>
+							<h3><a href="slider.jsp">Parrot Infosoft</a></h3>
 							<p class="content">Parrot Infosoft offers tailor-made software and web application development services.
-							 A pioneer in the development and delivery of top-notch corporate solutions that contribute appreciably
-							  to our client’s accomplishment with the guidance and support of the experts of Virtuoso Netsoft.
+							 
                              
 </p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>
@@ -262,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</figure>
 					<div class="bt-titleandinfo">
 						<div class="bt-albumtitle">
-							<h3><a href="pacter-portfolio.jsp">Kids Special Album</a></h3>
+							<h3><a href="pacter-portfolio.jsp">Pacters</a></h3>
 							<p class="content">Pacters work towards promoting a quality lifestyle for their customers 
 							by providing better quality accessories and gears.</p>
 							<a class="back" href="https://dmm.virtuosonetsoft.com">Back</a>

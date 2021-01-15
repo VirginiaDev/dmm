@@ -73,7 +73,7 @@ craved experts.</p>
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#body" class="scrollto"><img src="img/logo.svg" alt="logo"></a></h1>
+        <h1><a href="index.jsp" class="scrollto"><img src="img/logo.svg" alt="logo"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
