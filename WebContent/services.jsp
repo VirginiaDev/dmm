@@ -418,7 +418,7 @@ Know More
 										<div class="part-right">
 											<h1 class="red">Let's get started </h1>
 											<p>Your Idea to Reality</p>
-											<div class="p-right"> <a href="#" class="carrow cta" data-toggle="modal" data-target="#myModal"> START A PARTNERSHIP <span></span> </a> 
+											<div class="p-right"> <a href="https://dmm.virtuosonetsoft.com/contact" class="carrow cta" data-toggle="modal" data-target="#myModal"> START A PARTNERSHIP <span></span> </a> 
 											</div>
 										</div>
 									</div>

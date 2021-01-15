@@ -123,26 +123,28 @@ window.fbAsyncInit = function() {
 										</div>
 									</div>
 									<div class="col-md-3 col-xs-12 no_pad">
-										<a href="portfolio" target="_blank">
-											<div class="portfolio-img port"> <img src="images/a1.png" />
+										
+									</div>
+									
+									
+									<div class="col-md-6 col-xs-12 no_pad">
+										<a href="tng-portfolio.jsp" target="_blank">
+											<div class="portfolio-img port"> <img src="images/tng-1.jpg" />
 												<div class="box-content">
-													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
+													<h3 class="title">TNG&nbsp;</h3> <span class="post">By building an outstanding digital presence with the guidance and 
+													support of VNS's experts.</span> </div>
 											</div>
 										</a>
 									</div>
-									<div class="col-md-3 col-xs-12 no_pad">
-										<a href="pacter-portfolio.jsp" target="_blank">
-											<div class="portfolio-img port"> <img src="images/pactersimage.jpg" />
-												<div class="box-content">
-													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
-											</div>
-										</a>
-									</div>
+									
+									
+									
 									<div class="col-md-4 col-xs-12 no_pad">
 										<a href="sms-portfolio.jsp" target="_blank">
-											<div class="portfolio-img port"> <img src="images/sms-1.jpg" />
+								<div class="portfolio-img port"> <img src="images/sms-1.jpg" />
 												<div class="box-content">
-													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
+													<h3 class="title">SMS24HOURS&nbsp;</h3> <span class="post">SMS24HOURS is the number one source for all kinds of VAS Services. 
+													</span> </div>
 											</div>
 										</a>
 									</div>
@@ -150,15 +152,15 @@ window.fbAsyncInit = function() {
 										<a href="slider.jsp" target="_blank">
 											<div class="portfolio-img port"> <img src="images/parrothome.jpg" />
 												<div class="box-content">
-													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
+													<h3 class="title">Parrot Infosoft&nbsp;</h3> <span class="post">Parrot Infosoft offers tailor-made software and web application development services.</span></div>
 											</div>
 										</a>
 									</div>
 									<div class="col-md-5 col-xs-12 no_pad">
-										<a href="tng-portfolio.jsp" target="_blank">
-											<div class="portfolio-img port"> <img src="images/tng-1.jpg" />
+										<a href="pacter-portfolio.jsp" target="_blank">
+											<div class="portfolio-img port"> <img src="images/pactersimage.jpg" />
 												<div class="box-content">
-													<h3 class="title">Helto&nbsp;-</h3> <span class="post">Evolving Healthcare System</span> <span class="post">Branding & Identity</span> </div>
+													<h3 class="title">Pacters&nbsp;</h3> <span class="post">Pacters work towards promoting a quality lifestyle for their customers by providing better quality accessories and gears.</span> </div>
 											</div>
 										</a>
 									</div>

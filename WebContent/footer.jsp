@@ -47,7 +47,7 @@
 										<ul>
 											<li class="set">QUICK LINKS:</li>
 											<li><a href="au-digital-services-australia">Australia</a></li>
-											<li><a href="nz-digital-services-australia">New Zealand</a></li>
+											<li><a href="nz-digital-services-newzealand.jsp">New Zealand</a></li>
 											<li><a href="portfolio">Our Works</a></li>
 											<li><a href="services">Our Services</a></li>
 											<li><a href="contact"> Contact Us</a></li>
@@ -89,16 +89,9 @@
 						 <div class="container">
 						    <div class="row">
 						        <div class="col-md-12 col-xs-12">
-						        <h4 class="netsoft">Â©2011-2020 All Rights Reserved. Virtuoso Netsoft</h4>
+						        <h4 class="netsoft">A©2011-2020 All Rights Reserved. Virtuoso Netsoft</h4>
 						  </div>
 						    </div>
 						 </div>
 						 
 						</section>
-<style>
-
-.main-card {
-    width: 63%;
-
-}
-</style>

@@ -48,16 +48,16 @@
 									<div class="menu-social-icons">
 										<ul class="social-icons">
 											<li>
-												<a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+												<a href="https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
 											</li>
 											<li>
-												<a href="" class="social-icon"> <i class="fa fa-twitter"></i></a>
+												<a href="https://twitter.com/VNS_Virtuoso" class="social-icon"> <i class="fa fa-twitter"></i></a>
 											</li>
 											<li>
-												<a href="" class="social-icon"> <i class="fa fa-facebook"></i></a>
+												<a href="https://www.facebook.com/VirtuosoNetsoft.VNS" class="social-icon"> <i class="fa fa-facebook"></i></a>
 											</li>
 											<li>
-												<a href="" class="social-icon"> <i class="fa fa-youtube"></i></a>
+												<a href="https://www.instagram.com/virtuosonetsoft" class="social-icon"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
 											</li>
 										</ul>
 									</div>
