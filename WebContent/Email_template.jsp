@@ -220,7 +220,7 @@ a.socialIcon:hover, .socialHoverClass {
 						<table class='no_float' align='left' border='0' cellspacing='0' cellpadding='0'>
 							<tr>
 								<td class='editable-img' align='center'>
-									<a href='#'>
+									<a href='https://dmm.virtuosonetsoft.com'>
 										<b style="color:#fff;font-size:20px;">VNS.DMM</b>
 									</a>
 								</td>
@@ -280,7 +280,7 @@ a.socialIcon:hover, .socialHoverClass {
 											<p>VNS helps your business explore and grow in the Digital World by providing services like SEO, SMM, SEM, ORM etc. to let you step ahead of your competitors.</p>
 											<p>Have a look on our other services that can help you conquer your filed.</p>
 											
-											<p><a href="http://dmm.virtuosonetsoft.com/dmm/services">Explore services</a></p>
+											<p><a href="https://dmm.virtuosonetsoft.com/portfolio">Explore services</a></p>
 											<p><b>Thanks,<br>
 											<p><b>Team VNS<br>
 												Virtuoso Netsoft Pvt. Ltd.</b></p>
@@ -310,12 +310,12 @@ a.socialIcon:hover, .socialHoverClass {
               <tbody><tr>
                 <td valign='top' align='center' bgcolor='#fff' style='padding: 20px'>	<div class='col-md-12'>
                     <ul class='social-network social-circle'>
-                        <li><a href='https://www.facebook.com/sms24hours.india/' class='icoFacebook' title='Fb'><i><img src='fb-icon.png'></i></a></li>
+                        <li><a href='https://www.facebook.com/VirtuosoNetsoft.VNS' class='icoFacebook' title='Fb'><i><img src='fb-icon.png'></i></a></li>
              
-                        <li><a href='https://twitter.com/24hours_sms' class='icoTwitter' title='Twitter'><i><img src='twitter-icon.png'></i></a></li>
+                        <li><a href='https://twitter.com/VNS_Virtuoso' class='icoTwitter' title='Twitter'><i><img src='twitter-icon.png'></i></a></li>
 						
-                        <li><a href='https://www.instagram.com/sms.24hours/' class='icoInstagram' title='instagram'><i><img src='insta-icon.png'></i></a></li>
-                        <li><a href='https://www.linkedin.com/company/sms24hours/' class='icoLinkedin' title='Linkedin'><i><img src='linkedin-icon.png'></i></a></li>
+                        <li><a href='https://www.instagram.com/virtuosonetsoft/' class='icoInstagram' title='instagram'><i><img src='insta-icon.png'></i></a></li>
+                        <li><a href='https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/' class='icoLinkedin' title='Linkedin'><i><img src='linkedin-icon.png'></i></a></li>
 						
                     </ul>	
 					

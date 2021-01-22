@@ -129,9 +129,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<ul class="bt-shareandlikes">
 							<li>
 								<div class="bt-shapreicons">
-									<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-pinterest-p"></i></a>
+									<a href="https://twitter.com/24hours_sms"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.facebook.com/sms24hours.india/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.linkedin.com/company/sms24hours/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/sms.24hours/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 								</div>
 								<a class="bt-btnshare" href="javascript:void(0);">
 									<span class="icon-share4"></span>
@@ -163,9 +164,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<ul class="bt-shareandlikes">
 							<li>
 								<div class="bt-shapreicons">
-									<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-pinterest-p"></i></a>
+									<a href="https://twitter.com/tng_tech"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.facebook.com/tngtechsolutions"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.linkedin.com/company/tng-tech-solutions"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/accounts/login"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 								</div>
 								<a class="bt-btnshare" href="javascript:void(0);">
 									<span class="icon-share4"></span>
@@ -199,9 +201,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<ul class="bt-shareandlikes">
 							<li>
 								<div class="bt-shapreicons">
-									<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-pinterest-p"></i></a>
+									<a href="https://twitter.com/InfosoftParrot"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.facebook.com/parrotinfosoftpvt"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.linkedin.com/company/parrot-infosoft-pvt-ltd/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/accounts/login"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 								</div>
 								<a class="bt-btnshare" href="javascript:void(0);">
 									<span class="icon-share4"></span>
@@ -267,9 +270,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<ul class="bt-shareandlikes">
 							<li>
 								<div class="bt-shapreicons">
-									<a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-									<a href="javascript:void(0);"><i class="fa fa-pinterest-p"></i></a>
+									<a href="https://twitter.com/SupportPacters"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.facebook.com/pactersbag/"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.linkedin.com/in/pacters-backpack-75b021160/"><i class="fa fa-linkedin"></i></a>
+									<a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 								</div>
 								<a class="bt-btnshare" href="javascript:void(0);">
 									<span class="icon-share4"></span>

@@ -405,7 +405,7 @@ if(admin_session.getAttribute("chatid")!=null){
     font-size: large;
     font-weight: bold;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 .main-title svg{
   height: 16px;

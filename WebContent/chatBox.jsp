@@ -200,7 +200,8 @@
     font-size: large;
     font-weight: bold;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    height:64px;
 }
 .main-title svg{
   height: 16px;

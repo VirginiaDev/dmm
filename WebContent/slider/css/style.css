@@ -229,8 +229,8 @@
 	color:#fff;
 }
 .bt-shapreicons{
-	width: 40px;
-	left: 50%;
+	width: 60px !important;
+	left: 46% !important;
 	opacity: 0;
 	z-index: 2;
 	bottom: 100%;
@@ -253,6 +253,23 @@
 	border-right: 5px solid transparent;
 	border-top: 8px solid #000;
 }
+.fa-instagram:before {
+    content: "\f16d";
+    font-family: 'FontAwesome';
+    position: relative;
+    color: #f9f9f9;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.fa-instagram:hover{
+	background-color:red;
+	color:#fff;
+}
+
 .bt-shapreicons a{
 	color: #b3b3b3;
 	display: block;
@@ -953,6 +970,13 @@ body.bt-homevtwo .bt-header{
 	padding: 70px;
 	background: #000;
 	margin: 0 0 120px;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    background-color: transparent !important;
+    padding: 0px !important;
+    position: relative !important;
+    top: 0px !important;
 }
 .bt-newsletter h3{
 	margin: 0;

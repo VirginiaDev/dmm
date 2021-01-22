@@ -15,9 +15,12 @@
 							<section class="left-menu">
 								<div class="tab-content">
 									<div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.png" /> </div>
+									
 									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
 									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png" /> </div>
 								    <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
+								     
+								    
 								
 								</div>
 							</section>
@@ -29,19 +32,21 @@
 									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
 									<li> 
 									<div class="dropdown">
-									  <button class="dropbtn"><a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services <i class="fa fa-sort-desc" aria-hidden="true"></i></a></button>
+									  <button class="dropbtn"><a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
 									  <div class="dropdown-content">
-									    <a href="Content-strategy.jsp">Content Strategy</a>
-									    <a href="Google-my-business.jsp">Google My Business</a>
-									    <a href="graphic-design.jsp">Graphic Design</a>
-									    <a href="ppc.jsp">PPC</a>
-									    <a href="website-design.jsp">Website Design</a>
+									   
+									    <a data-target="#Work" data-hover="tab" active href="content-stg.jsp">Content Strategy</a>
+									    <a href="google_my_business.jsp">Google My Business</a>
+									    <a href="graphic_design.jsp">Graphic Design</a>
+									    <a href="ppc2.jsp">PPC</a>
+									    <a href="website-design2.jsp">Website Design</a>
+									     <a href="seo2.jsp">SEO</a>
 									  </div>
 									</div>
 									
 									 </li>
 									<li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
-									<li> <a data-target="#Contact" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
+									<li> <a data-target="#Content" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
                						<li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li> 
 								<section class="ad_info">
 									<div class="menu-social-icons">

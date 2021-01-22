@@ -68,7 +68,7 @@
       </form>
     </div>
   </section>
-
+<!-- ======= Hero Section ======= -->
   <main id="main">
 
     <!-- ======= Sec-1 ======= -->
