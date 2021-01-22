@@ -46,8 +46,12 @@
 									
 									 </li>
 									<li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
+
 									<li> <a data-target="#Content" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
-               						<li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li> 
+               						<!--  <li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li>--> 
+
+									
+
 								<section class="ad_info">
 									<div class="menu-social-icons">
 										<ul class="social-icons">
