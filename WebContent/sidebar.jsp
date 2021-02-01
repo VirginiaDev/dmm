@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="dist/cursor.css">
 		<link rel="stylesheet" href="css/nav-style.css">
@@ -15,13 +15,16 @@
 							<section class="left-menu">
 								<div class="tab-content">
 									<div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.png" /> </div>
-									
 									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
 									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png" /> </div>
 								    <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
-								     
-								    
-								
+								    <div id="content-st" class="tab-pane fade"> <img src="images/content_st.jpg"/> </div>
+								    <div id="google-b" class="tab-pane fade"> <img src="images/gmb.jpg"/> </div>
+								    <div id="graphic-design" class="tab-pane fade"> <img src="images/gd.jpg"/> </div>
+								    <div id="graphic-design" class="tab-pane fade"> <img src="images/gd.jpg"/> </div>
+								    <div id="ppc1" class="tab-pane fade"> <img src="images/ppc1.jpg"/> </div>
+								    <div id="web-design" class="tab-pane fade"> <img src="images/wd.jpg"/> </div>
+								    <div id="seo2" class="tab-pane fade"> <img src="images/seo2.jpg"/> </div>
 								</div>
 							</section>
 						</section>
@@ -34,13 +37,12 @@
 									<div class="dropdown">
 									  <button class="dropbtn"><a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
 									  <div class="dropdown-content">
-									   
-									    <a data-target="#Work" data-hover="tab" active href="content-stg.jsp">Content Strategy</a>
-									    <a href="google_my_business.jsp">Google My Business</a>
-									    <a href="graphic_design.jsp">Graphic Design</a>
-									    <a href="ppc2.jsp">PPC</a>
-									    <a href="website-design2.jsp">Website Design</a>
-									     <a href="seo2.jsp">SEO</a>
+									    <a class="t1" data-target="#content-st" data-hover="tab" active href="content-stg.jsp">Content Strategy</a>
+									    <a class="t1" data-target="#google-b" data-hover="tab" href="google_my_business.jsp">Google My Business</a>
+									    <a class="t1" data-target="#graphic-design" data-hover="tab" href="graphic_design.jsp">Graphic Design</a>
+									    <a class="t1" data-target="#ppc1" data-hover="tab" href="ppc2.jsp">PPC</a>
+									    <a class="t1" data-target="#web-design" data-hover="tab" href="website-design2.jsp">Website Design</a>
+									    <a class="t1" data-target="#seo2" data-hover="tab" href="seo2.jsp">SEO</a>
 									  </div>
 									</div>
 									
@@ -186,6 +188,12 @@
 				$('.nav-tabs > li > a').hover(function() {
 					$(this).tab('show');
 				});
+			})
+			$(document).ready(function() {
+				$('.t1').hover(function() {
+					$(this).tab('show');
+				});
+				
 			})
 			$(document).ready(function() {
 				$('.capabilities__list a').hover(function() {
