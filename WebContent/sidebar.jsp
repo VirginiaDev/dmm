@@ -25,6 +25,8 @@
 								    <div id="ppc1" class="tab-pane fade"> <img src="images/ppc1.jpg"/> </div>
 								    <div id="web-design" class="tab-pane fade"> <img src="images/wd.jpg"/> </div>
 								    <div id="seo2" class="tab-pane fade"> <img src="images/seo2.jpg"/> </div>
+								    <div id="contact2" class="tab-pane fade"> <img src="images/contact2.jpg"/> </div>
+								     <div id="services" class="tab-pane fade"> <img src="images/services.jpg"/> </div>
 								</div>
 							</section>
 						</section>
@@ -35,7 +37,7 @@
 									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
 									<li> 
 									<div class="dropdown">
-									  <button class="dropbtn"><a data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
+									  <button class="dropbtn"><a class="t1" data-target="#services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
 									  <div class="dropdown-content">
 									    <a class="t1" data-target="#content-st" data-hover="tab" active href="content-stg.jsp">Content Strategy</a>
 									    <a class="t1" data-target="#google-b" data-hover="tab" href="google_my_business.jsp">Google My Business</a>
@@ -49,7 +51,7 @@
 									 </li>
 									<li> <a data-target="#About"  data-hover="tab" href="aboutus"><span class="dotted"></span>About</a> </li>
 
-									<li> <a data-target="#Content" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
+									<li> <a class="t1" data-target="#contact2" data-hover="tab" href="contact"><span class="dotted"></span>Contact</a> </li>
                						<!--  <li class="contact btn-5"> <a class="arrow view-all reveal--up revealed" href="#" data-toggle="modal" data-target="#myModal" data-reveal="up">Contact<span></span> </a> </li>--> 
 
 									
