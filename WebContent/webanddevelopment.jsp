@@ -41,7 +41,7 @@ p.validation_errors {
 </style>
 </head>
 <%@include file="quick-in.jsp" %>
-<body class="has-overflow-hidden allowHover" id="homepage" style="">
+<body class="has-overflow-hidden allowHover" id="homepage" style="" onload="loadCategoryForFreeAuditForm('webanddevelopment')">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2WQNDK"
@@ -367,46 +367,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </section>
                 <section class="col-md-6 col-xs-12">
                   <section class="get-text">
-                  <form id="free_audit_details" action="save_free_audit_details.jsp?source_page=webanddevelopment" method="post">
-                    <h1 style="color:#323234;">Get a Free Audit</h1>
-                    
-                    <div class="row">
-                      <div class="col-md-12 no_pad">
-                        <div class="form-group">
-                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="" data-error="Please enter your name">
-                        </div>
-                      </div>
-                     <div class="col-md-12 no_pad">
-                        <div class="form-group">
-                          <input type="text" placeholder="Email" id="fa_email" class="form-control" name="email" required="" data-error="Please enter your email" onkeyup="checkEmailValidity()">
-                        </div>
-                        <p id="email_error" class="validation_errors" style="display:none">Enter a valid email address</p>
-                      </div>
-                      <div class="col-md-12 no_pad">
-                        <div class="form-group">
-                          <input type="text" placeholder="Phone Number" id="fa_phn" class="form-control" name="phn" required="" data-error="Please enter your Phone Number" onkeyup="checkPhoneValidity()">
-                        </div>
-                 <p id="phn_error" class="validation_errors" style="display:none">Enter a valid Phone Number</p>
-                        
-                      </div>
-                      <div class="col-md-12 no_pad">
-                        <div class="form-group">
-                          <input type="text" placeholder="Message" id="msg" class="form-control" name="msg" required="" data-error="Please enter your message">
-                        </div>
-                      </div>
-                     
-                      <div class="col-md-12 no_pad" style="width:100%;">
-                        <div class="submit-button text-left">
-                          <div class="form-group">
-                            <button class="contact btn-5" type="submit" id="fa_submit_button" style="display:block">
-                            <a class="arrow view-all reveal--up revealed">Send Now<span></span> </a>
-                            </button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="clearfix"></div>
-                          </div>
-                        </div>
-                      </div>
-                       </form>
+                  <%@include file="free_audit_form.jsp" %>
                     </div>
                   </section>
                 </section>
@@ -525,6 +486,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script> 
 <script src="js/wow.js"></script> 
+<script src="js/FreeAuditFormCategoryLoaderFile.js"></script>
+
 <script>
 $(window).load(function(){
    setTimeout(function(){

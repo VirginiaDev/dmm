@@ -672,12 +672,13 @@ public void insertIntoContentStrategyDetails(ContentStrategy cs)
 					EmailSendThread emailSendThread=new EmailSendThread();
 					emailSendThread.SendSingleEmail(name, email, "quick_enquiry_confirm", id);
 					ArrayList<String> adminEmails=new ArrayList<>();
-					adminEmails.add("rishabh@virtuosonetsoft.in");
+				/*	adminEmails.add("rishabh@virtuosonetsoft.in");
 					adminEmails.add("saurabh@virtuosonetsoft.com");
 					adminEmails.add("asha@virtuosonetsoft.com");
 					for(int ae=0;ae<adminEmails.size();ae++) {
 						emailSendThread.SendEmail(adminEmails.get(ae), "Contact", "Hi Team! There is a new quicj enquiry from '"+name+"'.Contact Details are :- Phone ('"+phn+"') and email ('"+email+"')");
-					}
+					}*/
+					emailSendThread.SendQuickEnquiryEmailToAdmin(name, email, phn, company, message);
 
 				}
 				else {
