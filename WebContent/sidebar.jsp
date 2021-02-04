@@ -14,9 +14,9 @@
 						<section class="col-md-5 no_pad">
 							<section class="left-menu">
 								<div class="tab-content">
-									<div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.png" /> </div>
-									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.png" /> </div>
-									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.png" /> </div>
+									<div id="Work" class="tab-pane fade in active"> <img src="images/work_thumb.jpg" /> </div>
+									<div id="Services" class="tab-pane fade"> <img src="images/service_thumb.jpg" /> </div>
+									<div id="About" class="tab-pane fade"> <img src="images/aboutus_thumb.jpg" /> </div>
 								    <div id="Contact" class="tab-pane fade"> <img src="images/aboutus_thumb.png"/> </div>
 								    <div id="content-st" class="tab-pane fade"> <img src="images/content_st.jpg"/> </div>
 								    <div id="google-b" class="tab-pane fade"> <img src="images/gmb.jpg"/> </div>
@@ -26,7 +26,7 @@
 								    <div id="web-design" class="tab-pane fade"> <img src="images/wd.jpg"/> </div>
 								    <div id="seo2" class="tab-pane fade"> <img src="images/seo2.jpg"/> </div>
 								    <div id="contact2" class="tab-pane fade"> <img src="images/contact2.jpg"/> </div>
-								     <div id="services" class="tab-pane fade"> <img src="images/services.jpg"/> </div>
+								    <div id="services" class="tab-pane fade"> <img src="images/services.jpg"/> </div>
 								</div>
 							</section>
 						</section>
@@ -37,7 +37,7 @@
 									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
 									<li> 
 									<div class="dropdown">
-									  <button class="dropbtn"><a class="t1" data-target="#services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
+									  <button class="dropbtn"><a class="t1" data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
 									  <div class="dropdown-content">
 									    <a class="t1" data-target="#content-st" data-hover="tab" active href="content-stg.jsp">Content Strategy</a>
 									    <a class="t1" data-target="#google-b" data-hover="tab" href="google_my_business.jsp">Google My Business</a>

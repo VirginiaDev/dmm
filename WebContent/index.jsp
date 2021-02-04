@@ -328,7 +328,7 @@ window.fbAsyncInit = function() {
 													<p>Embellishing your brand with refreshingly creative styling is our way to visualize your professionalism</p>
 												</div>
 												<div id="Digital" class="tab-pane"> <img src="images/illust_1.svg" />
-													<p>ItÃ¯Â¿Â½s easy to setup a business but promotion of a trade is not a piece of cake, thatÃƒÂƒÃ‚Â¢ÃƒÂ‚Ã‚Â€ÃƒÂ‚Ã‚Â™s why VNSDMM is offering you complete Digital Media Marketing Services to make your brand reachable to potential clients.</p>
+													<p>It's easy to setup a business but promotion of a trade is not a piece of cake, that's why VNSDMM is offering you complete Digital Media Marketing Services to make your brand reachable to potential clients.</p>
 												</div>
 												<div id="Web" class="tab-pane"> <img src="images/illust_1.svg" />
 													<p>Embellishing your brand with refreshingly creative styling is our way to visualize your professionalism</p>
@@ -387,12 +387,12 @@ window.fbAsyncInit = function() {
 								<section class="get-call  wow fadeInDown">
 									<section class="contact-set">
 										<section class="col-md-6 col-xs-12">
-												<section class="set-img"> <img src="images/audit.png" /> </section>
+												<section class="set-img"> <img src="images/audit.jpg" /> </section>
 											</section>
 											<section class="col-md-6 col-xs-12">
 												<section class="get-text">
-												                    <%@include file="free_audit_form.jsp"%>									
-												                    </div>
+												       <%@include file="free_audit_form.jsp"%>									
+												     </div>
 														</div>
 													</div>
 												</section>
