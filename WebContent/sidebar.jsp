@@ -39,12 +39,12 @@
 									<div class="dropdown">
 									  <button class="dropbtn"><a class="t1" data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
 									  <div class="dropdown-content">
-									    <a class="t1" data-target="#content-st" data-hover="tab" active href="content-stg.jsp">Content Strategy</a>
+									    <a class="t1" data-target="#content-st" data-hover="tab" active href="content-strategy.jsp">Content Strategy</a>
 									    <a class="t1" data-target="#google-b" data-hover="tab" href="google_my_business.jsp">Google My Business</a>
 									    <a class="t1" data-target="#graphic-design" data-hover="tab" href="graphic_design.jsp">Graphic Design</a>
-									    <a class="t1" data-target="#ppc1" data-hover="tab" href="ppc2.jsp">PPC</a>
-									    <a class="t1" data-target="#web-design" data-hover="tab" href="website-design2.jsp">Website Design</a>
-									    <a class="t1" data-target="#seo2" data-hover="tab" href="seo2.jsp">SEO</a>
+									    <a class="t1" data-target="#ppc1" data-hover="tab" href="ppc.jsp">PPC</a>
+									    <a class="t1" data-target="#web-design" data-hover="tab" href="website-design.jsp">Website Design</a>
+									    <a class="t1" data-target="#seo2" data-hover="tab" href="seo.jsp">SEO</a>
 									  </div>
 									</div>
 									

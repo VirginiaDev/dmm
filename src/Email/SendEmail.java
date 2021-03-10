@@ -22,10 +22,12 @@ public class SendEmail {
 		log.info("in send email>>>>>>>>>>>>>>>>>>>>>>>>>");
 		
 		String host ="smtp.gmail.com" ; 
-		String user = "virginia@parrotinfosoft.com";
-		String pass = "Seraph@2018"; 
+		String user = "hello@virtuosonetsoft.in";
+		String pass = "vnsdmm@123"; 
 		String to = email; 
-		String from = "info@parrotinfosoft.com";
+		String from = "hello@virtuosonetsoft.in";
+	
+	
 		String subject="";
 		String txt_msg="";
 		

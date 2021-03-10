@@ -44,16 +44,23 @@ public class sendSmsApi extends HttpServlet {
 				String MobileNumbers="91"+request.getParameter("MobileNumbers");
 				String ClientId=request.getParameter("ClientId");
 				String Message_value=request.getParameter("Message");
-				String Message=Message_value.replace(" ", "%20");
+				if(Message_value.contains("%20")) {
+					Message_value.replace("%20", " ");
+				}
+			//	String Message=Message_value.replace(" ", "%20");
 				
 				String ApiKey=request.getParameter("ApiKey");
-				ApiKey=ApiKey.replace(" ", "+");	
+				
+					ApiKey=ApiKey.replace(" ", "+");	
+				
+					System.out.println("Message_value=="+Message_value);
+
 				System.out.println("apikeyyy=="+ApiKey);
 				String data="{\n" + 
 						"  \"SenderId\": '"+SenderId+"',\n" + 
 						"  \"ClientId\": '"+ClientId+"',\n" + 
 						"  \"MobileNumbers\": '"+MobileNumbers+"',\n" +
-						"  \"Message\": '"+Message+"',\n" +
+						"  \"Message\": '"+Message_value+"',\n" +
 						"  \"ApiKey\": '"+ApiKey+"',\n" +
 						"}";
 				JSONObject body=new JSONObject(data);
@@ -64,7 +71,7 @@ public class sendSmsApi extends HttpServlet {
 				System.out.println("urllllll==="+url_being_hit);
 				
 				DbSmsThread dbSmsThread=new DbSmsThread();
-				dbSmsThread.saveDataInDb(SenderId, MobileNumbers, ClientId, Message, ApiKey);
+				dbSmsThread.saveDataInDb(SenderId, MobileNumbers, ClientId, Message_value, ApiKey);
 
 				HttpResponse<JsonNode> response2 = Unirest.post(url_being_hit)
 						.header("Content-Type", "application/json")

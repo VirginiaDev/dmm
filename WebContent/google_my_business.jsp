@@ -7,8 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>VNS-DMM</title>
-
+<title>Register your agency on Google My Business in NZ | Optimize & Listed on Google Map</title>
+<meta name="description" content="Want to get more traffic and sales for your business that 
+there is no other way better than availing the benefit of VNS Google My Business (GMB) services in New Zealand.">
  <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/sweetalert.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -39,7 +40,7 @@
 
     <!-- ======= Hero Section ======= -->
 
-  <section  class="content-bg2">
+  <section  class="content-bgg">
     <div class="container">
       <h1 class="content-tsb2"> Google My Business </h1>
       <p class="cnt_st2">Get the most prominent customers of your area by listing your business on Google My Business (GMB).</p></h1>

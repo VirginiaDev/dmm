@@ -17,32 +17,19 @@ String name=request.getParameter("name");
 String email=request.getParameter("email");
 String phone=request.getParameter("phn");
 String message=request.getParameter("msg");
-String source_page=request.getParameter("source_page");
-String optionss="";
-String pageurl="";
-if(source_page.equals("other")){
-	optionss=request.getParameter("service_selected");
-	pageurl=request.getParameter("pageurl");
-}else{
-	optionss=source_page;
-	pageurl=source_page;
-}
-String by=request.getParameter("by");
+String options=request.getParameter("service_selected");
+String pageurl=request.getParameter("pageurl");
 
 
-int id=apiController.insertIntoFreeAudits(name, email, phone,message,optionss);
+int id=apiController.insertIntoFreeAudits(name, email, phone,message,options);
 if(id>0){
 	System.out.println("success");
-	base_urls base_urls=new base_urls();
-	String link=base_urls.url+"ConfirmEmail.jsp?id="+id+"&type=free_audit";
+	String link=bu.url+"ConfirmEmail.jsp?id="+id+"&type=free_audit";
 	int i=apiController.insertConfirmationUrl(id,link,"free_audit");
     if(i>0){
-    	if(by.equals("none")){
-        	response.sendRedirect(""+bu.url+"Thank_You.jsp?page_url="+pageurl);
+    	
+        	response.sendRedirect(bu.url+"Thank_You.jsp?page_url="+pageurl);
 
-    	}else{
-    		System.out.println("success");	
-    	}
     }else{
     	System.out.println("failed");
     }

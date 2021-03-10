@@ -514,10 +514,10 @@ if(admin_session.getAttribute("chatid")!=null){
       <div class="card-body py-md-4">
        <form _lpchecked="1">
        <div class="form-group wdh">
-             <input type="name" class="form-control" id="name_in_form" placeholder="enter your name">
+             <input type="name" class="form-control" id="name_in_form" placeholder="Enter Your Name">
         </div>
         <div class="form-group wdh">
-             <input type="email" class="form-control" id="email_in_form" placeholder="enter your email" onkeyup="checkChatbotEmailValidity()">
+             <input type="email" class="form-control" id="email_in_form" placeholder="Enter Your Email" onkeyup="checkChatbotEmailValidity()">
         </div>     
         <p id="chatbot_email_error" class="validation_errors" style="display:none">Enter a valid email address</p>                                            
        <div class="form-group wdh">
@@ -526,7 +526,7 @@ if(admin_session.getAttribute("chatid")!=null){
         <p id="chatbot_phn_error" class="validation_errors" style="display:none">Enter a valid Phone Number</p>
        
        <div class="form-group wdh">
-             <input type="message" class="form-control" id="message_in_form" placeholder="enter your message">
+             <input type="message" class="form-control" id="message_in_form" placeholder="Enter Your Message">
         </div>
        
       <!-- <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">&nbsp;<b style="color: #868686;

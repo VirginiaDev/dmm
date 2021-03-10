@@ -7,7 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>VNS-DMM</title>
+<title>Contact Us | Best Digital Solutions in New Zealand & Australia</title>
+<meta name="description" content="Come Let's have a one-on-one conversation. We will help you work on the ideas which you never thought of. VNS will help you bake the best cake for your business.">
+
 <meta name="keywords" content="digital marketing in new zealand, web marketing agency in new zealand, web marketing agency in Australia, top digital agency in new zealand, top digital agency in Australia, online marketing consultant in new zealand, online marketing companies in Australia, marketing agency, marketing agency near me, digital marketing masters in new zealand, digital marketing agency">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -62,10 +64,10 @@
           <div class="contacts">
             <ul class="email-list">
               <li class="no1"><a href="#">+91-8288815694</a></li>
-              <li class="no2">ADDRESS:</li>
+              <li class="no2"><b>ADDRESS:</b></li>
               <li class="no3"><b>Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post
               Code:-160101</b></li>
-              <li class="no2">MAIL US:</li>
+              <li class="no2"><b>MAIL US:</b></li>
               <li><b>rishabh@virtuosonetsoft.in</b></li>
               <!--<li class="no2">Job Openings, Career Opportunites</li>
               <li><b>Email: info@gmail.com</b></li>
@@ -141,10 +143,10 @@
                     <span style="display:none" id="file_span" class="drag">Drag & Drop to Upload
                     <input type="file" id="images" name="images" multiple></span>
 
-                    <br><br>
+                    <br>
                   
                    
-                 <input type="submit" class="submt6" id="con_submit" value="Send">
+                 <input style="color:#fff;font-size:16px;" type="submit" class="submt6" id="con_submit" value="Send">
                 </form>
      </div>
   
@@ -401,8 +403,8 @@ let animation2 = bodymovin.loadAnimation({
 }
 .fa-instagram:before {
     content: "\f16d";
-    background-color: #000;
-    padding: 5px 0px;
+    background-color: transparent;
+    padding: 0px 8px;
     position: relative;
     top: 0px;
 }
@@ -594,7 +596,42 @@ color:red;
 form#con_form input {
     color: #000;
 }
-  	</style>
+#con_form .form-group {
+    width: 100%;
+}
+.fa-facebook:hover {
+    background-color: transparent;
+}
+.fa-twitter:hover {
+    background-color: transparent;
+}
+.fa-linkedin:hover {
+    background-color: transparent;
+}
+.modal-dialog {
+    width: 455px;
+    margin: 30px auto;
+}
+
+.close {
+    opacity: inherit;
+}
+
+.modal-header .close {
+    position: relative;
+    left: 43px;
+    bottom: 0px;
+    top: -8px;
+    color: #fff !important;
+    font-weight:100;
+}
+
+.ad_info .fa.fa-instagram {
+    background-color: #fff;
+    padding:6px 0px;
+    /* color: #000 !important; */
+}
+</style>
   	<script>
   /* Float Label Pattern Plugin for Bootstrap 3.1.0 by Travis Wilson
 **************************************************/

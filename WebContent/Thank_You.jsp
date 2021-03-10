@@ -57,13 +57,18 @@
 }
 
 </style>
-
+<%
+String pageurl=request.getParameter("page_url");
+if(pageurl==null){
+	pageurl="";
+}
+%>
       <section class="top-bar">
         <div class="container">
           <div class="row">
                 <div class="class="col-sm-12 col-md-12 col-xs-12">
                     <h4 class="page404">Thank You </h4>
-                    <span class="go-home"><a href="https://dmm.virtuosonetsoft.com/">Go To Home</a></span>
+                    <span class="go-home"><a href="https://dmm.virtuosonetsoft.com/<%=pageurl%>">Go To Home</a></span>
                 </div>
           </div>
         </div>
@@ -636,7 +641,10 @@
 }
 
 }
-
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 </style>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 

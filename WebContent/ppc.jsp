@@ -1,62 +1,44 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Best PPC Service company in Australia</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
-   <script type="text/javascript" src="js/script.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Pay Per Click Advertising Services in New Zealand | Virtuoso Netsoft</title>
+<meta name="description" content="High-Performance Pay-Per-Click (PPC) Agency in NZ. VNS is focused on delivering high-performance results on paid advertising. Determined to become the best 
+Pay-Per-Click service agency in New Zealand.">
+ <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/sweetalert.js"></script>
-  
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="dist/cursor.css">
+<link rel="stylesheet" href="css/nav-style.css">
+<link rel="stylesheet" href="css/style.css">
 
-  <!-- Template Main CSS File -->
-   <link href="css/sweetalert.css" rel="stylesheet" />
-  <link href="assets/css/style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="js/player/lottie.js"></script>
 </head>
 
-<body>
-   <!-- ======= Header ======= -->
-  <header id="header">
-   <div class="container-fluid">
-      <div class="logo float-left">
-        <h1 class="text-light"><a href="index.jsp"><span><img src="./assets/img/dmm-logo.png"></span></a></h1>
-       
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      </div>
+<body class="has-overflow-hidden allowHover" id="homepage" style="">
 
-      <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index_new.jsp">Home</a></li>
-          <li><a href="Content-strategy.jsp">Content Strategy</a></li>
-          <li><a href="Google-my-business.jsp">Google My Business</a></li>
-          <li><a href="graphic-design.jsp">Graphic Design</a></li>
-          <li><a href="ppc.jsp">PPC</a></li>
-          <li><a href="website-design.jsp">Website Design</a></li>
-        </ul>
-      </nav>
+<div id="site-wrapper">
+  <header class="bg-pink">
+	<%@include file="sidebar.jsp" %>
+  </header>
+  
+<div id="barba-wrapper" aria-live="polite">
 
-    </div>
-    
-  </header><!-- End #header -->
-  <!-- ======= Hero Section ======= -->
+
+
+   <!-- ======= Hero Section ======= -->
 
 
  <section  class="content-bg2">
@@ -70,26 +52,29 @@
   </section>
 
   <!-- ======= Hero Section ======= -->
-  <main id="main">
 
+  
+  
     <!-- ======= Sec-1 ======= -->
     <section class="step-04 pt-0">
       <div class="container-fluid">
       	 <div class="row">
-         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pl-6">
             <img src="assets/img/search-engine.jpg" class="img-fluid" alt="search-engine">
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <h3 class="smm-title-3"><b>Drive Sales With PPC Services and Boost your BUSINESS NOW with Search Engine Marketing!</b></h3>
-            <p class="smm-content">
+            <h3 class="smm-title-b"><b>Drive Sales With PPC Services and Boost your BUSINESS NOW with Search Engine Marketing!</b></h3>
+            <p class="content-mark">
               Search Engine Marketing the name is self-explanatory. Search Engine Marketing refers to marketing using various tricks and strategies on search engines like Google, bing, yahoo, etc. Search Engine Marketing (SEM) is a vast marketing service that has several parts of it. Search Engine Marketing includes marketing in both ways, that is organic marketing and paid advertisement (Pay Per Click). Search Engine Marketing (SEM)/ Pay-per-Click (PPC) such as Google AdWords, Bing Ads, Facebook ads, re-targeted, or banner ads, helps your business to be visible to a large number of audiences to bring traffic and eventually convert into potential customers.
             </p>
          
-			  <button style="margin-left: 0px;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">DISCOVER MORE</button>
+			   <!-- DISCOVER MORE MODEL START M-1 -->
+            
+			  <button type="button" class="btn btn-info btn-lg1" data-toggle="modal" data-target="#myModal1">DISCOVER MORE</button>
 
 			  <!-- Modal -->
 			  <div class="modal fade" id="myModal1" role="dialog">
-				<div class="modal-dialog">
+				<div class="modal-dialog" id="model-cnt">
 				  <!-- Modal content-->
 				  <div class="modal-content">
 					<div class="modal-header">
@@ -98,44 +83,44 @@
 					</div>
 					<div class="modal-body">
 					  <div class="row">
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pl-6">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">First Name</label>
 							<input type="First Name" class="form-control" id="firstName1" aria-describedby="emailHelp" placeholder="First Name">
 							<!--<small id="emailHelp" class="form-text text-muted">We'll never share your First Name with anyone else.</small>-->
 						  </div>
 						</div>
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pr-0">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">Last Name</label>
 							<input type="Last Name" class="form-control" id="lastName1" aria-describedby="emailHelp" placeholder="Last Name">
 						  </div>
 						</div>  
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pl-6">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">Email address</label>
 							<input type="email" class="form-control" id="emailAddress1" aria-describedby="emailHelp" placeholder="Enter email">
 						  </div>
 						  </div>
-						  <div class="col-sm-6 col-md-6 col-xs-12">
-						   <div class="form-group">
+						  <div class="col-sm-6 col-md-6 col-xs-12 pr-0">
+						   <div class="form-group fn">
 							<label for="exampleInputEmail1">Enter you Phone No</label>
 							<input type="text" maxLength=10 class="form-control" id="phoneNo1" aria-describedby="emailHelp" placeholder="Enter your phone">
 						  </div>
 						  </div>
-						  <div class="col-sm-6 col-md-6 col-xs-12">
+						  <div class="col-sm-6 col-md-6 col-xs-12 pl-6">
 						   <div class="form-group htb">
 							<label for="exampleInputEmail1">Message</label>
-							<textarea id="message1" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
-							<input type="hidden" id="pageName1" value="Pay_per_click">
-							<input type="hidden" id="title1" value="Drive_Sales_With_PPC_Services_and_Boost_your_BUSINESS_NOW_with_Search_Engine_Marketing">
+							<textarea id="message1" rows="4" cols="55" name="comment" form="usrform">Enter text here...</textarea>
+							<input type="hidden" id="pageName1" value="content_strategy">
+							<input type="hidden" id="title1" value="What_is_Content_Marketing_in_Digital_Marketing">
 						  </div>
 						  </div>
 						 
-						   <div class="col-sm-12 col-md-12 col-xs-12">
-						  <button id="sendbtn1" onclick="discoverMoreSubmission(1)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
+						   <div class="col-sm-12 col-md-12 col-xs-12 pl-2">
+						  <button id="send-btn-01" onclick="discoverMoreSubmission(1)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
 						  </div>
-						   <div id="thankyoudiv1" style="display:none">
+						    <div id="thankyoudiv1" style="display:none">
  							 <label style="color:red">Thank you please check your email..we have sent a confirmation email</label>
 						 </div>
 						 <div class="popup-content" id="loaderDisplay" style="display:none">
@@ -152,6 +137,8 @@
 				  </div>
 				</div>
 			  </div>
+			  <!-- DISCOVER MORE MODEL END M-1 -->
+			  
 			</div>
 			 
           </div>
@@ -166,7 +153,7 @@
         <div class="row">
          
           <div class="col-lg-6 pt-4 pt-lg-0 bg-right pt-20">
-            <h3 class="smm-title-5"><b>Different types of Pay-per-click (PPC) Advertising VNS is an expert in:</b></h3>
+            <h3 class="smm-title-b"><b>Different types of Pay-per-click (PPC) Advertising VNS is an expert in:</b></h3>
             <ul class="keyword-list">
               <li> <b class="s1m">Search advertising</b>Search Advertising (a kind of PPC ads) is the way of placing ads on the web pages to show the results from search engine queries.
               Display advertising
@@ -178,12 +165,13 @@
 			  
             </ul>
      
-			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">DISCOVER MORE</button>
+			  <!-- DISCOVER MORE MODEL START M-2 -->
+            
+			  <button type="button" class="btn btn-info btn-lg1" data-toggle="modal" data-target="#myModal1">DISCOVER MORE</button>
 
 			  <!-- Modal -->
-			  <div class="modal fade" id="myModal2" role="dialog">
-				<div class="modal-dialog">
-				
+			  <div class="modal fade" id="myModal1" role="dialog">
+				<div class="modal-dialog" id="model-cnt">
 				  <!-- Modal content-->
 				  <div class="modal-content">
 					<div class="modal-header">
@@ -191,46 +179,45 @@
 					  <button type="button" class="close" data-dismiss="modal">&times;</button>  
 					</div>
 					<div class="modal-body">
-					
-						<div class="row">
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+					  <div class="row">
+						<div class="col-sm-6 col-md-6 col-xs-12 pl-6">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">First Name</label>
-							<input type="First Name" class="form-control" id="firstName2" aria-describedby="emailHelp" placeholder="First Name">
+							<input type="First Name" class="form-control" id="firstName1" aria-describedby="emailHelp" placeholder="First Name">
 							<!--<small id="emailHelp" class="form-text text-muted">We'll never share your First Name with anyone else.</small>-->
 						  </div>
 						</div>
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pr-0">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">Last Name</label>
-							<input type="Last Name" class="form-control" id="lastName2" aria-describedby="emailHelp" placeholder="Last Name">
+							<input type="Last Name" class="form-control" id="lastName1" aria-describedby="emailHelp" placeholder="Last Name">
 						  </div>
 						</div>  
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pl-6">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="emailAddress2" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="email" class="form-control" id="emailAddress1" aria-describedby="emailHelp" placeholder="Enter email">
 						  </div>
 						  </div>
-						  <div class="col-sm-6 col-md-6 col-xs-12">
-						   <div class="form-group">
+						  <div class="col-sm-6 col-md-6 col-xs-12 pr-0">
+						   <div class="form-group fn">
 							<label for="exampleInputEmail1">Enter you Phone No</label>
-							<input type="text" maxLength=10 class="form-control" id="phoneNo2" aria-describedby="emailHelp" placeholder="Enter your phone">
+							<input type="text" maxLength=10 class="form-control" id="phoneNo1" aria-describedby="emailHelp" placeholder="Enter your phone">
 						  </div>
 						  </div>
-						  <div class="col-sm-6 col-md-6 col-xs-12">
+						  <div class="col-sm-6 col-md-6 col-xs-12 pl-6">
 						   <div class="form-group htb">
 							<label for="exampleInputEmail1">Message</label>
-							<textarea id="message2" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
-							<input type="hidden" id="pageName2" value="Pay_per_click">
-							<input type="hidden" id="title2" value="Different_types_of_Pay-per-click_(PPC)_Advertising_VNS_is_an_expert_in">
+							<textarea id="message1" rows="4" cols="55" name="comment" form="usrform">Enter text here...</textarea>
+							<input type="hidden" id="pageName1" value="content_strategy">
+							<input type="hidden" id="title1" value="What_is_Content_Marketing_in_Digital_Marketing">
 						  </div>
 						  </div>
 						 
-						   <div class="col-sm-12 col-md-12 col-xs-12">
-						  <button id="sendbtn2" onclick="discoverMoreSubmission(2)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
+						   <div class="col-sm-12 col-md-12 col-xs-12 pl-2">
+						  <button id="send-btn-01" onclick="discoverMoreSubmission(1)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
 						  </div>
-						   <div id="thankyoudiv2" style="display:none">
+						    <div id="thankyoudiv1" style="display:none">
  							 <label style="color:red">Thank you please check your email..we have sent a confirmation email</label>
 						 </div>
 						 <div class="popup-content" id="loaderDisplay" style="display:none">
@@ -247,9 +234,12 @@
 				  </div>
 				</div>
 			  </div>
+			  <!-- DISCOVER MORE MODEL END M-2 -->
+			  
+			  
           </div>
 		  
-		   <div class="col-lg-6">
+		   <div class="col-lg-6 pr-0">
             <img src="assets/img/expert.jpg" class="img-fluid" alt="expert">
           </div>
         </div>
@@ -263,28 +253,29 @@
       <div class="container-fluid">
 
         <div class="row">
-         <div class="col-lg-6">
+         <div class="col-lg-6 pl-6">
             <img src="assets/img/ppc.jpg" class="img-fluid" alt="ppc">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 ">
-            <h3 class="smm-title-5"><b>Step by step process for Pay-per-click (PPC Management Services) VNS follows</b></h3>
+            <h3 class="smm-title-b"><b>Step by step process for Pay-per-click (PPC Management Services) VNS follows</b></h3>
             <ul class="keyword-list">
-              <li><i class="bx bx-check-double"></i> <b>Defining Goals</b></li>
-              <li><i class="bx bx-check-double"></i> <b>Strategic Planning</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Targeting Audience</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Optimizing your website/page</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Designing ADs</b> </li>
-			   <li><i class="bx bx-check-double"></i> <b>Analyzing the results</b> </li>
-			   <li><i class="bx bx-check-double"></i> <b>Optimization</b> </li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> <b>Defining Goals</b></li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> <b>Strategic Planning</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Targeting Audience</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Optimizing your website/page</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Designing ADs</b> </li>
+			   <li><i class="fa fa-check" aria-hidden="true"></i> <b>Analyzing the results</b> </li>
+			   <li><i class="fa fa-check" aria-hidden="true"></i> <b>Optimization</b> </li>
 			  
             </ul>
      
-			  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">DISCOVER MORE</button>
+			  <!-- DISCOVER MORE MODEL START M-3 -->
+            
+			  <button type="button" class="btn btn-info btn-lg1" data-toggle="modal" data-target="#myModal1">DISCOVER MORE</button>
 
 			  <!-- Modal -->
-			  <div class="modal fade" id="myModal3" role="dialog">
-				<div class="modal-dialog">
-				
+			  <div class="modal fade" id="myModal1" role="dialog">
+				<div class="modal-dialog" id="model-cnt">
 				  <!-- Modal content-->
 				  <div class="modal-content">
 					<div class="modal-header">
@@ -292,46 +283,45 @@
 					  <button type="button" class="close" data-dismiss="modal">&times;</button>  
 					</div>
 					<div class="modal-body">
-					
-						<div class="row">
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+					  <div class="row">
+						<div class="col-sm-6 col-md-6 col-xs-12 pl-6">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">First Name</label>
-							<input type="First Name" class="form-control" id="firstName3" aria-describedby="emailHelp" placeholder="First Name">
+							<input type="First Name" class="form-control" id="firstName1" aria-describedby="emailHelp" placeholder="First Name">
 							<!--<small id="emailHelp" class="form-text text-muted">We'll never share your First Name with anyone else.</small>-->
 						  </div>
 						</div>
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pr-0">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">Last Name</label>
-							<input type="Last Name" class="form-control" id="lastName3" aria-describedby="emailHelp" placeholder="Last Name">
+							<input type="Last Name" class="form-control" id="lastName1" aria-describedby="emailHelp" placeholder="Last Name">
 						  </div>
 						</div>  
-						<div class="col-sm-6 col-md-6 col-xs-12">
-						  <div class="form-group">
+						<div class="col-sm-6 col-md-6 col-xs-12 pl-6">
+						  <div class="form-group fn">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="emailAddress3" aria-describedby="emailHelp" placeholder="Enter email">
+							<input type="email" class="form-control" id="emailAddress1" aria-describedby="emailHelp" placeholder="Enter email">
 						  </div>
 						  </div>
-						  <div class="col-sm-6 col-md-6 col-xs-12">
-						   <div class="form-group">
+						  <div class="col-sm-6 col-md-6 col-xs-12 pr-0">
+						   <div class="form-group fn">
 							<label for="exampleInputEmail1">Enter you Phone No</label>
-							<input type="text" maxLength=10 class="form-control" id="phoneNo3" aria-describedby="emailHelp" placeholder="Enter your phone">
+							<input type="text" maxLength=10 class="form-control" id="phoneNo1" aria-describedby="emailHelp" placeholder="Enter your phone">
 						  </div>
 						  </div>
-						  <div class="col-sm-6 col-md-6 col-xs-12">
+						  <div class="col-sm-6 col-md-6 col-xs-12 pl-6">
 						   <div class="form-group htb">
 							<label for="exampleInputEmail1">Message</label>
-							<textarea id="message3" rows="4" cols="53" name="comment" form="usrform">Enter text here...</textarea>
-							<input type="hidden" id="pageName3" value="Pay_per_click">
-							<input type="hidden" id="title3" value="Step_by_step_process_for_Pay-per-click_(PPC_Management_Services)_VNS_follows">
+							<textarea id="message1" rows="4" cols="55" name="comment" form="usrform">Enter text here...</textarea>
+							<input type="hidden" id="pageName1" value="content_strategy">
+							<input type="hidden" id="title1" value="What_is_Content_Marketing_in_Digital_Marketing">
 						  </div>
 						  </div>
 						 
-						   <div class="col-sm-12 col-md-12 col-xs-12">
-						  <button id="sendbtn3" onclick="discoverMoreSubmission(3)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
+						   <div class="col-sm-12 col-md-12 col-xs-12 pl-2">
+						  <button id="send-btn-01" onclick="discoverMoreSubmission(1)" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Processing" type="button" class="btn btn-primary">Submit</button>
 						  </div>
-						   <div id="thankyoudiv3" style="display:none">
+						    <div id="thankyoudiv1" style="display:none">
  							 <label style="color:red">Thank you please check your email..we have sent a confirmation email</label>
 						 </div>
 						 <div class="popup-content" id="loaderDisplay" style="display:none">
@@ -348,6 +338,7 @@
 				  </div>
 				</div>
 			  </div>
+			  <!-- DISCOVER MORE MODEL END M-3 -->
           </div>
 		  
 		   
@@ -368,18 +359,18 @@
             <h3><b class="content-seo">Why VNS become the first choice of business for Search Engine Marketing (SEM)/ Pay-per-click (PPC)</b></h3>
          
             <ul class="budget-list">
-              <li><i class="bx bx-check-double"></i> <b>Transparency in our work</b></li>
-              <li><i class="bx bx-check-double"></i> <b>Team approach</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Goal-oriented strategies</b> </li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> <b>Transparency in our work</b></li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> <b>Team approach</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Goal-oriented strategies</b> </li>
 			 
-			  <li><i class="bx bx-check-double"></i> <b>Dedicated plan of action</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Worked for over 100+ clients globally (majorly in Australia, New Zealand, India)</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Dedicated plan of action</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Worked for over 100+ clients globally (majorly in Australia, New Zealand, India)</b> </li>
 			
             </ul>
      
 			<button type="button" class="btn btn-primary">Get your Website SEO Hurry now!</button>
       </div>
-       <div class="col-lg-6">
+       <div class="col-lg-6 pr-0">
             <img src="assets/img/business.jpg" class="img-fluid" alt="business">
           </div>
   </div>
@@ -392,7 +383,7 @@
       <div class="container-fluid">
 
         <div class="row">
-           <div class="col-lg-6">
+           <div class="col-lg-6 pl-6">
             <img src="assets/img/ppc-2.jpg" class="img-fluid" alt="ppc-2">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -400,12 +391,12 @@
          
             <ul class="budget-list">
             
-			  <li><i class="bx bx-check-double"></i> <b>Our SEM/ PPC strategy is suitable for all types of businesses.</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Quick Results</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Qualified Experts</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Full-proof and Best SEO strategy</b> </li>
-			  <li><i class="bx bx-check-double"></i> <b>Higher Ranking</b> </li>
-			    <li><i class="bx bx-check-double"></i> <b>Higher Traffic</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Our SEM/ PPC strategy is suitable for all types of businesses.</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Quick Results</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Qualified Experts</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Full-proof and Best SEO strategy</b> </li>
+			  <li><i class="fa fa-check" aria-hidden="true"></i> <b>Higher Ranking</b> </li>
+			    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Higher Traffic</b> </li>
             </ul>
      
 			<button type="button" class="btn btn-primary">Get your Website SEO Hurry now!</button>
@@ -413,262 +404,802 @@
      
   </div>
     </section><!-- End Top Seo Section -->
-
-   
-
-    <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-newsletter" data-aos="fade-up">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Get in touch with our experts and know our result-driven strategies to reach rank #1.</p>
-              <form action="" method="post" id = "userForm">
-              <input type="hidden" name = "userAction">
-              <input type="email" id="userEmail">
-              <input type="hidden" id = "activated" value = "1">
-              <input type="hidden" id = "confirmation_url" value = "empty">
-              <input type="hidden" id = "confirmation_sent" value = "false">
-              <input type="hidden" id = "confirmed_by_user" value = "false">
-       
-              <input type="button" onclick="subscribeUs()" class="form-button" value="Subscribe">
-            </form>
-            <div id="loader" class="loader"  style="display: none;margin-left: 45%;margin-top: 4%"></div>
-            <div id="thankyou" style="display:none">
- 			  		<label style="color:#1000ff">Thank you please check your email..we have sent a confirmation email</label>
-			 </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 footer-contact" data-aos="fade-up" data-aos-delay="100">
-            <span class="footer-logo"><img src="./assets/img/dmm-logo.png"></span>
-            <p>
-             We boost your business from nowhere to everywhere.We are the architects of influential 
-             digital media marketing strategies which give us a legitimate way to connect with potential customers online.
-              
-            </p>
-          </div>
-
          
-
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="400">
-            <h4>Addres</h4>
-            <p style="color:#fff">Plot No-10, Netsmartz House, IT-Park, Chandigarh, Post Code:-160101</p>
-             <ul>
-              <li><a href="#"><b style="    font-size: 15px;padding-bottom: 0px;display: block;">MAIL US:</b><br>rishabh@virtuosonetsoft.in</a></li>
-               <li><a href="#"><b style="    font-size: 15px;padding-bottom: 0px;display: block;">CALL US:</b><br>+91-8288815694</a></li>
-            
-            </ul>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
+         <%@include file="footer.jsp" %>
+		
     </div>
+    	
 
-    <div class="container py-4">
-      <div class="copyright">
-        ©2011-2020 All Rights Reserved. Virtuoso Netsoft
-      </div>
-      
-    </div>
-  </footer><!-- End Footer -->
-  
-   <style>
-  .form-button{
-  	position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #ff7e66;
+</div>
+<style>
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #f76c51;
+    cursor: default;
+    background-color: #fff0;
+    border: 1px solid #ddd0;
+    border-bottom-color: transparent;
+}
+
+.budget-list li {
+    line-height: 30px;
+    padding-left: 6px;
+}
+.fa-check:before {
+    content: "\f00c";
+    color: #f76c51;
+    position: relative;
+    right: 8px;
+}
+.btn.btn-info.btn-lg1 {
+    margin-bottom: 40px;
+}
+#send-btn-01 {
+    background-color: #000;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.btn-info {
     color: #fff;
-    transition: 0.3s;
-    border-radius: 4px;
-    box-shadow: 
-  }
- .loader {
-  	border: 10px solid #f3f3f3;
-    border-top: 10px solid #3498db;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 2s linear infinite
+    background-color: #f76c51;
+    border-color: #f76c51;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #f76c51;
+    border-color: #f76c51;
+}
+.bx-check-double:before {
+    content: "\ea14";
+    color: #ff7e66;
+}
+.keyword-list li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.pl-6 {
+    padding-left: 0px;
+}
+.pr-0 {
+    padding-right: 0px;
+}
+.fn {
+    width: 100%;
 }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+.modal-content .modal-header .close {
+    position: relative;
+    left: 18px;
+    bottom: 0px;
+    top: -70px;
+    bottom: 0px;
 }
-  </style>
-  
-  <script>
-$('.click').click(function(){
-	  $('.slide-out').css('right', '0');
-	});
+.modal-content .modal-header .close {
+    color: #0d0c0c !important;
+}
 
-	$('.close').click(function(){
-	  $('.slide-out').css('right', '-1200px');
-	});
-</script>	
- <script type="text/javascript">
-  function discoverMoreSubmission(i) {
-	  //get the user data here
-	  var $this = $(this);
-      $this.button('loading');
-      
-      var firstName=document.getElementById('firstName'+i).value;
-      var lastName=document.getElementById('lastName'+i).value;
-      var email=document.getElementById('emailAddress'+i).value;
-      var phone=document.getElementById('phoneNo'+i).value;
-      var message=document.getElementById('message'+i).value;
-      var pageName=document.getElementById('pageName'+i).value;
-      var title=document.getElementById('title'+i).value;
-      var email_filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-      var phoneno = /^\d{10}$/;
-      
-      if(firstName.length==0 || lastName.length==0 || email.length==0 || phone.length==0 || message.length==0){
-        	showBasicMessage("please fill all the feilds");
-        	return;
-    		$this.button('reset');
-      }
-      if(phone.length!=10){
-    	  showBasicMessage("please Enter a valid Phone");
-    	  return;
-      } else{
-    	  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) && phone.match(phoneno))
-  		  {
-    		  $(document).ready(function() {
-    			  $.ajax({
-    				  url: "save_discover_more_details.jsp",
-                      type: "post",
-                      data: {
-                      name:firstName+" "+lastName,
-                      email:email,
-                      phone:phone,
-                      message:message,
-                      pageName:pageName,
-                      title:title},
-                      success : function(data){
-                    	  document.getElementById('firstName'+i).value="";
-                          document.getElementById('lastName'+i).value="";
-                          document.getElementById('emailAddress'+i).value="";
-                          document.getElementById('phoneNo'+i).value="";
-                          document.getElementById('message'+i).value="";
-                          //document.getElementById("send").style.display='block';
-                          document.getElementById("sendbtn"+i).style.display='block';	
-                          document.getElementById("thankyoudiv"+i).style.display='block';
-                          setTimeout(thankyou(i), 3000);
-                          $this.button('reset');  
-                      }
-    			  });
-    		  });
-  		  } else{
-  			 $this.button('reset');
- 			 alert("please enter a valid email or phone number");
-  		  }
-      }
 
-  }
-  
-  function subscribeUs(){
-	  //get user email here and let the user subscribe
-	  var email = document.getElementById("userEmail").value;
-	  if(email==""){
-		  //check email here
-		  showBasicMessage("Please Enter Email");
-		  return;
-	  }
-	  document.getElementById("userForm").style.display='none';
-	  //get Loader here
-	  document.getElementById("loader").style.display='block';
-	  //get Values
-	  var activated = document.getElementById("activated").value;
-	  var confirmation_url = document.getElementById("confirmation_url").value;
-	  var confirmation_sent = document.getElementById("confirmation_sent").value;
-	  var confirmed_by_user = document.getElementById("confirmed_by_user").value;
-	  
-	  $(document).ready(function() {
-		  //send values to db
-		  $.ajax({
-			  url: "user-subscribe-details.jsp",
-              type: "post",
-              data: {
-              email:email,
-              activated:activated,
-              confirmation_url:confirmation_url,
-              confirmation_sent:confirmation_sent,
-              confirmed_by_user:confirmed_by_user},
-              success : function(data){
-            	  document.getElementById('userEmail').value="";
-            	  setTimeout(getLoader, 3000);
-            	  setTimeout(userThankYou, 6000);
-              }
-		  });
-	  });
+.get-digital {
+    font-size: 30px;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    font-weight: 700;
+    text-transform: capitalize;
+    height: 0px;
+    margin-bottom: 35px;
+}
+
+
+.modal-content {
+    background-color: #fff !important;
+    /* margin-left: -1px !important; */
+}
+#model-cnt {
+    position: relative;
+    margin: 0px;
+}
+.modal-content {
+    position: relative;
+    background-color: transparent;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    color: #080808;
+    padding: 2em 1em;
+}
+.ml-0 {
+    margin-left: 33px;
+    margin-right: 0px;
+}
+.menu ul li:first-child {
+    margin-top: 0em;
+    border: 0;
+    box-shadow: none;
+}
+.nav-tabs>li {
+    float: none;
+   
+}	
+
 	
-  }
-  function getLoader(){
-	  document.getElementById("loader").style.display='none';
-      document.getElementById("userForm").style.display='block';
-      document.getElementById("thankyou").style.display='block';
-  }
-  function userThankYou(){
-	  //show ThankYou Msg here
-	  $("#thankyou").fadeOut();
-  }
-  </script>
-   <script>
-    function thankyou(i){
-    	$("#thankyoudiv"+i).fadeOut();
-  //  	$("#send").reset();
-    	//$("#send").fadeIn();
-    	//$("#send")[0].reset();
-    	$("#sendbtn"+i).fadeIn();
-    //    document.getElementById("send").style.display='none'; 	
+			.logo {
+            padding-top: 0px !important;
+}
+			.popup-btn {
+				position: fixed!important;
+				top: 46%;
+				left: 92%;
+				transform: translate(-50%, -50%);
+				transform: rotate(-90deg);
+				width: 230px;
+			}
+			#sendbtn {
+    width: 135px;
+}
+			
+			.main-btn-rect,
+			.main-btn-circle {
+				position: relative;
+				margin: 0;
+				font-family: 'Roboto', sans-serif;
+				color: #FFFFF0;
+				background-color: rgb(252, 79, 79);
+				text-transform: uppercase;
+				font-size: 20px;
+				letter-spacing: 1px;
+				outline: none;
+				cursor: pointer;
+				z-index: 100;
+			}
+			
+			.main-btn-rect {
+		    padding: 12px 0px;
+		    line-height: 20px;
+		    border-radius: 5px;
+		    border: 0px solid;
+		    width: 172px;
+		}
+			
+			.main-btn-rect:before,
+			.main-btn-rect:after {
+				position: absolute;
+				content: '';
+				top: 0;
+				width: 0%;
+				height: 100%;
+				background-color: rgba(255, 255, 240, 0.2);
+				-webkit-transition: width 0.3s;
+				-o-transition: width 0.3s;
+				transition: width 0.3s;
+			}
+			
+			.main-btn-rect:before {
+				left: 0;
+			}
+			
+			.main-btn-rect:after {
+				right: 0;
+			}
+			
+			.main-btn-rect:hover:before,
+			.main-btn-rect:hover:after {
+				width: 50%;
+			}
+			
+			.main-btn-circle {
+				height: 40px;
+				width: 40px;
+				-webkit-border-radius: 50%;
+				border-radius: 100%;
+				line-height: 40px;
+				-webkit-transition: box-shadow 0.3s;
+				-o-transition: box-shadow 0.3s;
+				transition: box-shadow 0.3s;
+			}
+			
+			.main-btn-circle:hover {
+				-webkit-box-shadow: inset 2px 1px 0px 20px rgba(255, 255, 240, 0.2);
+				-moz-box-shadow: inset 2px 1px 0px 20px rgba(255, 255, 240, 0.2);
+				box-shadow: inset 2px 1px 0px 20px rgba(255, 255, 240, 0.2);
+			}
+			
+			.popup {
+				position: fixed;
+				top: 103%;
+				/*width: 100%;
+				height: 100%;*/
+				z-index: 10001;
+				right:206px;
+				    bottom: -31px;
+				
+			}
+			
+			.modal-header .close {
+				color: #fff !important;
+			}
+			
+			.popup.active {
+				top: 0;
+				/*background-color: rgba(3, 3, 3, 0.98); */
+				transition: background-color .6s, opacity .6s;
+			}
+			
+			
+			.main-btn-rect,
+			.main-btn-circle {
+				font-size: 16px;
+			}
+			
+			
+			.popup .main-btn-rect {
+    padding: 10px 18px;
+    margin-left: 14px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+		.min-h #qe_message {
+		    height: 52px;
+		}
+		
+					
+			.flex-row #send {
+				background-color: #f35255;
+				width: 100%;
+				font-size: 15px;
+				margin-bottom: 50px;
+			}
+			
+			.popup .popup-content {
+				position: absolute;
+				top: 50%;
+				left: 85%;
+				max-height: 568px;
+				min-width: 320px;
+				margin-top: 150px;
+				padding: 0px;
+				background-color: #0000008c;
+				color: #070000;
+				-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+				-ms-transform: translateX(-50%) translateY(-50%);
+				transform: translateX(-50%) translateY(-50%);
+				-webkit-transform: translateX(-50%) translateY(-50%);
+				-moz-transform: translateX(-50%) translateY(-50%);
+				-o-transform: translateX(-50%) translateY(-50%);
+				transition: margin .6s;
+				-webkit-transition: margin .6s;
+				-moz-transition: margin .6s;
+				-o-transition: margin .6s;
+			}
+			
+			.popup.active .popup-content {
+				margin-top: 0px;
+				/*background-color: rgba(0, 0, 0, 0.6) !important;*/
+                border-radius: 5px !important;
+			}
+			
+			.popup-content h6 {
+				display: table;
+				font-size: 25px;
+				text-align: center;
+				/* margin: 8px auto; */
+				font-family: 'Roboto', sans-serif;
+				text-transform: uppercase;
+				font-weight: 100;
+				color: #fff;
+				margin-left: 17px;
+				margin-top: 22px;
+				
+			}
+			
+			.form-group {
+				position: relative;
+				width: 90%;
+				margin: 0px auto;
+			}
+			
+			form#send input,
+			form#send textarea {
+				position: relative;
+				margin-bottom: 11px;
+				width: 100%;
+				height: 27px;
+				font-family: 'RobotoLight', sans-serif;
+				text-indent: 5px;
+				background-color: white;
+				outline: 0;
+				border: none;
+				border-bottom: 0px solid #070000;
+				-webkit-transition: border 0.6s;
+				-o-transition: border 0.6s;
+				transition: border 0.6s;
+				border-radius: 3px;
+				font-size: 14px;
+				 color: #000;
+			}
+			.send-form {
+    margin-top: 20px;
+}
+			
+			form#send input:focus,
+			form#send textarea:focus {
+				border-bottom: 1px solid rgb(63, 173, 168);
+			}
+			
+			form#send label {
+				position: absolute;
+				top: 0;
+				line-height: 28px;
+				-webkit-transition: color .5s;
+				-o-transition: color .5s;
+				transition: color .5s;
+			}
+			
+			form#send input:focus + label,
+			form#send textarea:focus + label {
+				color: rgb(63, 173, 168);
+			}
+			
+			form#send .txt {
+				line-height: 22px;
+				left: 2px;
+			}
+			
+			#send .main-btn-rect {
+				position: relative;
+				display: block;
+				padding: 9px 17px;
+				margin-left: 17px;
+				font-size: 14px;
+				float: left;
+				margin-bottom: 16px;
+			}
+			
+			form#send .main-btn-rect i {
+				margin-right: 5px;
+			}
+			
+		
+			.popup .fade-out {
+	    position: absolute;
+	    top: 4px;
+	    right: 15px;
+	    text-align: center;
+	    font-size: 18px;
+	    border-radius: 0px;
+	    margin-top: 11px;
+	}
+				
+				.share-wrap {
+					position: absolute;
+					display: inline-table;
+					top: 67%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					padding: 15px;
+					text-align: center;
+				}
+				
+				.fade.in {
+					opacity: 1;
+					background-color: #ff000000 !important;
+					background: darkgray;
+					
+				}
+				
+				.share-btn {
+				color: #FFFFF0;
+				padding: 7px 25px;
+				text-decoration: none;
+				cursor: pointer;
+				font-weight: 100;
+				font-size: 14px;
+				font-family: 'Lobster', sans-serif;
+				background-color: rgba(63, 173, 168, .8);
+				text-transform: uppercase;
+				border-radius: 5px;
+				transition: background-color .5s;
+				-webkit-transition: background-color .5s;
+				-moz-transition: background-color .5s;
+				-o-transition: background-color .5s;
+			}
+			
+			.share-btn:hover {
+				color: #FFFFF0;
+				text-decoration: none;
+				background-color: rgba(63, 173, 168, 1.0);
+			}
+			
+			.close {
+				background: #ffffff;
+				color: #FFFFFF !important;
+				line-height: 60px;
+				position: absolute;
+				right: 2px;
+				text-align: center;
+				top: -9px;
+				width: 60px;
+				text-decoration: none;
+				font-weight: normal;
+				-webkit-border-radius: 12px;
+				-moz-border-radius: 12px;
+				border-radius: 50% !important;
+				-moz-box-shadow: 1px 1px 3px #000;
+				-webkit-box-shadow: 1px 1px 3px #000;
+				box-shadow: 0px 0px 0px #000;
+				border: 0px solid #fff !important;
+				opacity: 9;
+				font-size: 2em;
+			}
+			
+			.close:hover {
+				background: #f76c5100;
+			}
+			
+			.col-cn .form-group {
+				position: relative;
+				width: 100%;
+				margin: 0px auto;
+			}
+			
+			.chat-area {
+				flex-grow: 1;
+				overflow: auto;
+				border-radius: 8px;
+				padding: 16px;
+				display: flex;
+				flex-direction: column;
+				height: 350px;
+			}
+			
+			
+.modal-dialog {
+    position: relative;
+    left: 439px;
+    top: 72px;
+    width: 34%;
+}
+.col-cm {
+    font-size: 17px;
+    padding-left: 0px;
+}
+			
+			.title_top {
+				color: #8e8e8e;
+				font-size: 18px;
+				text-align: center;
+				font-weight: bold;
+				margin-bottom: 8px;
+				margin-top: 10px;
+			}
+			
+			@media only screen and (max-width: 768px) {
+				h1 {
+					font-size: 25px;
+				}
+				h2 {
+					font-size: 14px;
+				}
+				form#send .main-btn-rect {
+					padding: 7px 60px;
+					font-size: 14px;
+				}
+				.popup-btn {
+					padding: 7px 60px;
+					font-size: 14px;
+				}
+			}
+			/*PRELOADING------------ */
+			
+			.no_pad .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
 
+		
+
+#overlayer {
+  width:100%;
+  height:100%;  
+  position:absolute;
+  z-index:1;
+  background:#4a4a4a;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index:3;
+  border: 4px solid #Fff;
+  top: 50%;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+.py-md-4 input {
+    color: #000;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width:991px) {
+.modal-dialog {
+    position: relative;
+    left: 5px;
+    top: 5%;
+    width: 85%;
+}
+.main-card {
+    background: white;
+    color: white;
+    width: 100%;
+    height: calc(100% - 32px);
+    margin: 16px auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.vns {
+    width: 37%;
+    float: left;
+    padding-right: 0px;
+}
+.hi {
+    float: left;
+    width: 38%;
+    padding-left: 7px;
+}
+.modal-header .close {
+    position: relative;
+    left: 174px;
+    bottom: 0px;
+    top: -45px;
+    color: #fff;
+}
+.col_3 {
+    clear: both;
+    height: 0px;
+}
+.wdh input {
+    width: 100%;
+}
+.flex-row #chatform_send {
+    background-color: #f35255;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.col-cn {
+    margin: 0 auto;
+     padding-right: 0px;
+    padding-left: 0px;
+}
+
+}
+
+</style>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script> 
+<script src="js/wow.js"></script> 
+<script>
+$(window).load(function(){
+   setTimeout(function(){
+       $('#myNews').modal('show');
+   }, 4000);
+});
+</script> 
+<script>
+var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();
+  </script> 
+<script src="js/bxslider.js"></script> 
+<script src="js/TweenMax.min.js"></script> 
+
+<script src="dist/cursor.js"></script> 
+<script>
+  var cursorx = new cursor({
+    type: 1,
+    color: '#FF7F66',
+	
+  })
+
+
+  function mouseenter () {
+    cursorx.hidden()
+  }
+  function mouseleave () {
+    cursorx.hidden(false)
+  }
+  // function clickx() {
+  //   // cursorx.color('rgba(100,0,100)')
+  //   cursorx.hidden()
+  // }
+  // function clickx2() {
+  //   // cursorx.color('rgba(100,0,100)')
+  //   cursorx.hidden(false)
+  // }
+
+  var cursor2 = new cursor({
+    el: '.caja',
+    color: 'rgba(0,0,255)',
+    type: 4,
+  })
+
+  // var cursor2 = new cursor({
+  //   type: 2,
+  //   removeDefaultCursor: false,
+  // })
+  
+</script> 
+<script src="js/form-validator.min.js"></script> 
+<script src="js/contact-form-script.min.js"></script>
+
+<script>
+
+let animation7 = bodymovin.loadAnimation({
+        container: document.getElementById('animation_orm'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'js/animated/animate_orm.json'
+    });
+
+    
+let animation2 = bodymovin.loadAnimation({
+        container: document.getElementById('animate2'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: false,
+        path: 'js/animated/animated2.json'
+    });
+
+    let btn = document.getElementById('btn');
+
+    btn.addEventListener('mouseenter', ()=>{
+        animation2.play();
+    });
+    btn.addEventListener('mouseleave', ()=>{
+        animation2.stop();
+    });
+
+
+
+    </script>
+    <script>
+    function freeAudit(){
+    	
+    	var email=document.getElementById('email').value;
+    	var email_filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    	
+    	var name=document.getElementById('name').value;
+    	var phn=document.getElementById('phn').value;
+    	var msg=document.getElementById('msg').value;
+    	var source_page='orm';
+    	 var phoneno = /^\d{10}$/;
+    	
+    	
+    	if(email.length==0 || name.length==0 || phn.length==0 || msg.length==0){
+        	alert("please fill all the feilds");
+	    	
+    	}
+    	
+    	else{
+    		if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) && phn.match(phoneno))
+    		  {
+    		   
+    			$(document).ready(function() {
+                    
+                    
+                    $.ajax({
+                    url: "save_free_audit_details.jsp",
+                    type: "post",
+                    data: {
+                    name:name,
+                    email:email,
+                    phn:phn,
+                    msg:msg,
+                    source_page:source_page,
+                   
+                  
+                    success : function(data){
+                   // alert(data);
+                    	
+                    	document.getElementById("free_audit_details").reset();
+
+                    }
+                    }
+                    });
+                    
+                    });
+    		  }else{
+    			  alert("please enter a valid email or phone number");
+    		  }
+    	
+    	}
+    	
+    	
     }
     </script>
-  
-
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    
 </body>
-
 </html>

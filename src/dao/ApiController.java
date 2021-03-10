@@ -40,6 +40,72 @@ import connection.DbConnection;
 public class ApiController {
 	
 	public static Logger log = Logger.getLogger(ApiController.class);
+	public int insertIntoLandingpage(String name,String email,String options,String message)
+	{
+	int i=0;
+			Connection conn=null;
+			PreparedStatement pst=null;
+		//	Statement st=null;
+			ResultSet rs=null;
+			
+
+			Calendar cal = Calendar.getInstance();
+	        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss");
+	        String submission_time = String.valueOf(sdf.format(cal.getTime()));
+	        System.out.println("submission_time=>>"+submission_time);
+			
+			try {
+				conn=DbConnection.getInstance().getConnection();
+		//		st=conn.createStatement();
+				pst=conn.prepareStatement("insert into landingpage_form(name,email,options,message) values ('"+name+"','"+email+"','"+options+"','"+message+"')");
+				System.out.println(pst.toString());
+				i=pst.executeUpdate();
+				
+				if(i>0) {
+					//ResultSet gen=pst.getGeneratedKeys();
+					System.out.println(pst.toString());
+					/*if(gen.next()) {
+						id=gen.getInt(1);
+					}*/
+					/*EmailSendThread emailSendThread=new EmailSendThread();
+					emailSendThread.SendSingleEmail(name, email, "quick_enquiry_confirm", id);
+					ArrayList<String> adminEmails=new ArrayList<>();
+					adminEmails.add("rishabh@virtuosonetsoft.in");
+					adminEmails.add("saurabh@virtuosonetsoft.com");
+					adminEmails.add("asha@virtuosonetsoft.com");
+					for(int ae=0;ae<adminEmails.size();ae++) {
+						emailSendThread.SendEmail(adminEmails.get(ae), "Contact", "Hi Team! There is a new callback request from '"+name+"'.Contact Details are :- Phone ('"+phn+"') and email ('"+email+"')");
+					}*/
+					EmailSendThread emailSendThread=new EmailSendThread();
+					emailSendThread.SendLandingPageEmailToAdmin(name, email, options, message);
+					
+
+				}
+				else {
+					System.out.println("Some rror occured");
+				}
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+			e.printStackTrace();
+			}
+			finally {
+				try {
+					if(conn!=null) {
+						conn.close();
+					}if(pst!=null) {
+						pst.close();
+					}if(rs!=null) {
+						rs.close();
+					}
+				} catch (Exception e2) {
+					// TODO: handle exception
+				e2.printStackTrace();
+				}
+			}
+			return i;
+	}
+
 	
 	public ArrayList<free_audit> getFreeAuditConfirmationPendingMailIds(){
 

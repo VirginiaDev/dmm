@@ -466,18 +466,18 @@ for (i = 0; i < sliders.length; i++) {
   }
   .container h2{
     color: white;
-    font-size: 14px;
+    font-size: 24px;
     top: inherit;
     bottom: 30px;
     -webkit-transform: translate(-50%,0%);
     -ms-transform: translate(-50%,0%);
-    transform: translate(-50%,0%);
+    transform: translate(-5%,0%);
   }
     .top-tag {
     color: #fff;
     font-size: 30px;
     font-weight: 800;
-    padding-left: 10px;
+    padding-left: 44px;
     padding-top: 0px;
 }
 .back-2 {

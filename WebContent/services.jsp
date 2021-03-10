@@ -293,58 +293,13 @@ Know More
 									<section class="row">
 										<section class="col-md-6 col-xs-12">
 											<section class="set-img">
-												<img src="images/audit.png" />
+												<img src="images/audit.jpg" />
 											</section>
 										</section>
 										<section class="col-md-5 col-xs-12 wd-2">
 											<section class="get-text">
-												<form id="free_audit_details" action="save_free_audit_details.jsp?source_page=other&pageurl=services" method="post">
-													<h1 style="color:#323234;">Get a Free Audit</h1>
-													<div class="row">
-														<div class="col-md-12 no_pad">
-															<div class="form-group">
-																<input type="text" class="form-control" id="name" name="name" placeholder="Name" required="" data-error="Please enter your name">
-															</div>
-														</div>
-														<div class="col-md-12 no_pad">
-															<div class="form-group">
-																<input type="text" placeholder="Email" id="fa_email" class="form-control" name="email" required="" data-error="Please enter your email" onkeyup="checkEmailValidity()">
-															</div>
-															<p id="email_error" class="validation_errors" style="display:none">Enter a valid email address</p>
-														</div>
-														<div class="col-md-12 no_pad">
-															<div class="form-group">
-																<input type="text" placeholder="Phone Number" id="fa_phn" class="form-control" name="phn" required="" data-error="Please enter your Phone Number" onkeyup="checkPhoneValidity()">
-															</div>
-															<p id="phn_error" class="validation_errors" style="display:none">Enter a valid Phone Number</p>
-														</div>
-														<div class="col-md-12 no_pad">
-															<div class="form-group">
-																<select style="color: #a5a5a5;border-left: 0px;border-bottom: 0px;border-right: 0px;border-top: 0px;
-                         width: 100%;" class="form-control" name="service_selected" id="services_option" required="" data-error="Please select an option">uyuyvuy
-                                                                    <option class="form-control" value="" selected>Select an option</option>
-																	<option class="form-control" value="digitalmarketing">Digital Marketing</option>
-																	<option class="form-control" value="brandingandidentity">Branding and identity</option>
-																	<option class="form-control" value="orm">ORM</option>
-																	<option class="form-control" value="orm">OTHER</option>
-																	<option class="form-control" value="webanddevelopment">Web and Development</option>
-																</select>
-															</div>
-														</div>
-														<div class="col-md-12 no_pad">
-															<div class="form-group">
-																<input type="text" placeholder="Message" id="msg" class="form-control" name="msg" required="" data-error="Please enter your message">
-															</div>
-														</div>
-														<div class="col-md-12 no_pad" style="width:100%;">
-															<div class="submit-button text-left">
-																<div class="form-group">
-																	<button class="contact btn-5" type="submit" id="fa_submit_button" style="display:block"> <a class="arrow view-all reveal--up revealed">Send Now<span></span> </a>
-																	</button>
-																	<div id="msgSubmit" class="h3 text-center hidden"></div>
-																	<div class="clearfix"></div>
-																</div>
-												          </form>
+												<input type="hidden" id="option" value="services">
+												<%@include file="free_audit_form.jsp"%>
 												</div>
 												</div>
 												</div>
@@ -643,7 +598,7 @@ Know More
 			      	  document.getElementById('email_error').style.display='none';
 					  document.getElementById('fa_submit_button').style.display='block';
 					  }else{
-						  alert("xhjsxvhx222222222222");
+						//  alert("xhjsxvhx222222222222");
 						  document.getElementById('fa_submit_button').style.display='none';
 						  document.getElementById('email_error').style.display='block';
 					  }

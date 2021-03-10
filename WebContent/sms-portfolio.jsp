@@ -414,10 +414,10 @@ for (i = 0; i < sliders.length; i++) {
 
    <style>
    .big-container{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;flex-wrap: wrap;}
-.slider-arrow-left {position: absolute;left: 10%;height: 48px;width: 80px;top: 50%;-webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);transform: translateY(-50%);cursor: pointer;background-color: #00000063;padding: 10px;
- border-radius: 4px;}
+   -ms-flex-wrap: wrap;flex-wrap: wrap;}
+   .slider-arrow-left {position: absolute;left: 10%;height: 48px;width: 80px;top: 50%;-webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);transform: translateY(-50%);cursor: pointer;background-color: #00000063;padding: 10px;
+    border-radius: 4px;}
 .slider-arrow-right {position: absolute;right: 10%;height: 48px;width: 80px;top: 50%;
  -webkit-transform: translateY(-50%);-ms-transform: translateY(-50%);transform: translateY(-50%);cursor: pointer;
 background-color: #00000063;padding: 10px;border-radius: 4px;}

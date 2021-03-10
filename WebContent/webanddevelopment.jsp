@@ -23,7 +23,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!--  <title>VNS-DMM</title>-->
 		<title>Web and App Development- Website Development services </title>
 		
-		<meta name="description" content="Get the best website for your business with the help of our website development expert and turn your vision into the professionally designed website. Expert at VNS provides you the best advice for your problems.">
+		<meta name="description" content="Get the best website for your business with the help of our website development expert 
+		and turn your vision into the professionally designed website. Expert at VNS provides you the best advice for your problems.">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/animate.css">
@@ -41,7 +42,7 @@ p.validation_errors {
 </style>
 </head>
 <%@include file="quick-in.jsp" %>
-<body class="has-overflow-hidden allowHover" id="homepage" style="" onload="loadCategoryForFreeAuditForm('webanddevelopment')">
+<body class="has-overflow-hidden allowHover" id="homepage" style="" >
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2WQNDK"
@@ -363,10 +364,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <section class="contact-set">
               <section class="row">
                 <section class="col-md-6 col-xs-12">
-                  <section class="set-img"> <img src="images/audit.png"/> </section>
+                  <section class="set-img"> <img src="images/audit.jpg"/> </section>
                 </section>
                 <section class="col-md-6 col-xs-12">
                   <section class="get-text">
+                  <input type="hidden" id="option" value="webanddevelopment">
                   <%@include file="free_audit_form.jsp" %>
                     </div>
                   </section>

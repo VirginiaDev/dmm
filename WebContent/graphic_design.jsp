@@ -7,7 +7,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>VNS-DMM</title>
+<title>Graphic Design Companies NZ | Logo Design company in Auckland</title>
+<meta name="description" content="Branding and graphic design agency 
+in New Zealand. Virtuoso Netsoft services include Logo Design, Strategy, Brand Design, and company graphics design solutions.">
 
  <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/sweetalert.js"></script>

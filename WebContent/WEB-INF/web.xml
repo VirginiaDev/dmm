@@ -107,6 +107,14 @@
     <servlet-name>404</servlet-name>
     <url-pattern>/404</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>index-landing</servlet-name>
+    <jsp-file>/landingpage/index-landing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index-landing</servlet-name>
+    <url-pattern>/index-landing</url-pattern>
+  </servlet-mapping>
   <error-page>
     <error-code>404</error-code>
     <location>/404.jsp</location>
