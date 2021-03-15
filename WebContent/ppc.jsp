@@ -46,7 +46,9 @@ Pay-Per-Click service agency in New Zealand.">
       <h1 class="content-tsb2"> Search Engine Marketing/Pay Per Click </h1>
     
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-        <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
+        <button  class="get2" type="submit" id="top-padd" data-toggle="modal" data-target="#getstarted" ><a href="#" >GET STARTED</a>
+        </button>
+           <%@include file="getstarted.jsp" %>
       </form>
     </div>
   </section>

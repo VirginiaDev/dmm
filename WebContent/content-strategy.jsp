@@ -13,6 +13,10 @@
  <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/sweetalert.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -37,16 +41,17 @@
 <div id="barba-wrapper" aria-live="polite">
 
 
-
-      <section  class="content-bg">
+    <section  class="content-bg">
     <div class="container">
       <h1 class="content-tsb"> Content Strategy & Marketing </h1>
       <p class="cnt_st">Feeling that brands share through words is CONTENT.</p></h1>
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-        <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
+        <button  class="get2" type="submit" id="top-padd" data-toggle="modal" data-target="#getstarted" ><a href="#" >GET STARTED</a>
+        </button>
+           <%@include file="getstarted.jsp" %>
       </form>
     </div>
-  </section><!-- #hero -->
+  </section>
   
   
   <!-- ======= Sec-1 ======= -->

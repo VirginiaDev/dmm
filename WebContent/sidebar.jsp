@@ -37,7 +37,8 @@
 									<li class="active"> <a data-target="#Work"  data-hover="tab" href="portfolio"><span class="dotted animated"></span>Work</a> </li>
 									<li> 
 									<div class="dropdown">
-									  <button class="dropbtn"><a class="t1" data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services</a></button>
+									  <button class="d1" class="dropbtn"><a class="t1" data-target="#Services"  data-hover="tab" href="services"><span class="dotted"></span>Services&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a></button>
+									  <button class="d2" class="dropbtn"><a class="t1" data-target="#Services"  data-hover="tab" href="#"><span class="dotted"></span>Services&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a></button>
 									  <div class="dropdown-content">
 									    <a class="t1" data-target="#content-st" data-hover="tab" active href="content-strategy.jsp">Content Strategy</a>
 									    <a class="t1" data-target="#google-b" data-hover="tab" href="google_my_business.jsp">Google My Business</a>

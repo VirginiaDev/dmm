@@ -68,11 +68,18 @@ body{
     padding:0px 0px;
     /* color: #000 !important; */
 }
+
+
 .ad_info .fa-instagram:before {
     content: "\f16d";
     color: #000;
     font-weight: bold;
+    background-color: #fff;
+    position: relative;
+    top: 6px;
 }
+
+
 .part-right{
 		float:left;
 	width:100%;
@@ -1297,7 +1304,7 @@ display:none;
     display: none;
 }
 .menu ul li {
-padding: 5px 10px;
+padding: 0px 0px;
     text-align: center;
 }
 .menu ul li.contact {
@@ -3025,10 +3032,60 @@ form ul li input[type=checkbox]+label {
     border-bottom: 1px solid;
     z-index:999999;
 }
-
-
+.d1 {
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+	.d2 {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
 @media screen and (min-width: 320px) and (max-width:991px) {
-	
+	.d1 {
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+.hp {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 2em;
+}
+.ad_info .fa-instagram:before {
+    position: relative;
+    top: 6px;
+}
+.foot-info p {
+    padding-left: 10px;
+}
+.email-list {
+    background-color: #f1eded;
+    padding-top: 36px;
+    padding-bottom: 56px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+.content-c {
+    color: #fff;
+    font-size: 14px;
+}
+.social-media-list {
+    background-color: #f1eded;
+    padding-left: 15px;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.submt6 {
+    margin-bottom: 30px;
+}
+.d2 {
+    display: block;
+    background-color: transparent;
+    border: none;
+}
 	.dropdown-content {
     display: none;
     position: absolute;
@@ -3056,7 +3113,8 @@ form ul li input[type=checkbox]+label {
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 213px;
+    min-width: 234px;
+    margin-top: 30px;
    
 }	
 }
@@ -3653,3 +3711,8 @@ form ul li input[type=checkbox]+label {
     font-size: 16px;
     font-weight: 600;
 }
+
+
+/**************CONTACT US*****************/
+
+/**************CONTACT US*****************/

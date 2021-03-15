@@ -48,7 +48,9 @@ brand and walk with you to see a bright future together with robust commitments.
 
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
         <div class="text-center">
-       <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
+         <button  class="get2" type="submit" id="top-padd" data-toggle="modal" data-target="#getstarted" ><a href="#" >GET STARTED</a>
+        </button>
+           <%@include file="getstarted.jsp" %>
         </div>
       </form>
     </div>

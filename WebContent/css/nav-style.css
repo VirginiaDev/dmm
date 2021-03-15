@@ -856,7 +856,8 @@ ul.social-icons {
     background-color: #fff;
 }
 .fa-facebook:hover {
-    background-color: #3d5b99;
+    background-color: transparent;
+    color: #3d5b99;
 }
 .fa-twitter {
        padding: 6px 6px;
@@ -868,7 +869,8 @@ ul.social-icons {
     background-color: #fff;
 }
 .fa-twitter:hover {
-    background-color: #00aced;
+    background-color: transparent;
+    color: #00aced;
 }
 .fa-rss {
        padding: 6px 6px;
@@ -904,7 +906,11 @@ ul.social-icons {
     background-color: #fff;
 }
 .fa-linkedin:hover {
-    background-color: #0073a4;
+    background-color: transparent;
+    color: #0073a4;
+}
+.fa.fa-instagram:hover {
+    color: #ef4507;
 }
 .fa-github {
       padding: 6px 6px;
@@ -976,7 +982,7 @@ ul.social-icons {
 .fa-instagram:before {
     content: "\f16d";
     background-color: #fff;
-    padding: 6px 7px;
+    padding: 6px 7px !important;
     position: relative;
     top: 6px;
 }

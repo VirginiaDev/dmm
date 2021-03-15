@@ -45,7 +45,9 @@ in New Zealand. Virtuoso Netsoft services include Logo Design, Strategy, Brand D
       <h1 class="content-tsb2"> Graphic Designing Services </h1>
       <p class="cnt_st2">We crave to make innovative ideas a paragon with our creativity.</p></h1>
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-       <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
+       <button  class="get2" type="submit" id="top-padd" data-toggle="modal" data-target="#getstarted" ><a href="#" >GET STARTED</a>
+        </button>
+           <%@include file="getstarted.jsp" %>
       </form>
     </div>
    </section>

@@ -45,7 +45,9 @@ there is no other way better than availing the benefit of VNS Google My Business
       <h1 class="content-tsb2"> Google My Business </h1>
       <p class="cnt_st2">Get the most prominent customers of your area by listing your business on Google My Business (GMB).</p></h1>
       <form action="forms/notify.php" method="post" role="form" class="php-email-form">
-       <button  class="get2" type="submit" id="top-padd" ><a href="https://dmm.virtuosonetsoft.com/contact">GET STARTED</a></button>
+       <button  class="get2" type="submit" id="top-padd" data-toggle="modal" data-target="#getstarted" ><a href="#" >GET STARTED</a>
+        </button>
+           <%@include file="getstarted.jsp" %>
       </form>
     </div>
   </section><!-- #hero -->

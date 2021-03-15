@@ -921,9 +921,9 @@ public void insertIntoContentStrategyDetails(ContentStrategy cs)
 					if(gen.next()) {
 						id=gen.getInt(1);
 					}
-					/*EmailSendThread emailSendThread=new EmailSendThread();
-					emailSendThread.SendSingleEmail(name, email, "quick_enquiry_confirm", id);
-					ArrayList<String> adminEmails=new ArrayList<>();
+					EmailSendThread emailSendThread=new EmailSendThread();
+					emailSendThread.SendCallbackEmailToAdmin(name, email, phn, timeslot_one, timeslot_two, timeslot_three);
+					/*ArrayList<String> adminEmails=new ArrayList<>();
 					adminEmails.add("rishabh@virtuosonetsoft.in");
 					adminEmails.add("saurabh@virtuosonetsoft.com");
 					adminEmails.add("asha@virtuosonetsoft.com");
@@ -975,8 +975,11 @@ public void insertIntoContentStrategyDetails(ContentStrategy cs)
 				if(id>0) {
 				
 					System.out.println("successfull==="+pst.toString());
-					/*EmailSendThread emailSendThread=new EmailSendThread();
-					ArrayList<String> adminEmails=new ArrayList<>();
+					EmailSendThread emailSendThread=new EmailSendThread();
+					emailSendThread.SendGeneralEnquiryEmailToAdmin(name, email, phn, company_website, drop_a_line);
+					
+					
+					/*ArrayList<String> adminEmails=new ArrayList<>();
 					adminEmails.add("rishabh@virtuosonetsoft.in");
 					adminEmails.add("saurabh@virtuosonetsoft.com");
 					adminEmails.add("asha@virtuosonetsoft.com");
@@ -1027,14 +1030,16 @@ public void insertIntoContentStrategyDetails(ContentStrategy cs)
 				
 					System.out.println("successfull==="+pst.toString());
 					EmailSendThread emailSendThread=new EmailSendThread();
-					ArrayList<String> adminEmails=new ArrayList<>();
+					emailSendThread.SendQouteRequestEmailToAdmin(name, email, phn, services, requirement);
+					
+				/*	ArrayList<String> adminEmails=new ArrayList<>();
 					adminEmails.add("rishabh@virtuosonetsoft.in");
 					adminEmails.add("saurabh@virtuosonetsoft.com");
 					adminEmails.add("asha@virtuosonetsoft.com");
 					for(int ae=0;ae<adminEmails.size();ae++) {
 						emailSendThread.SendEmail(adminEmails.get(ae), "Quote Request", "Hi Team! There is a new quote request from '"+name+"'.Contact Details are :- Phone ('"+phn+"') and email ('"+email+"')");
 					}
-
+					*/
 				}
 				else {
 					System.out.println("Some rror occured=="+pst.toString());
@@ -1077,8 +1082,9 @@ public void insertIntoContentStrategyDetails(ContentStrategy cs)
 				if(id>0) {
 				
 					System.out.println("successfull==="+pst.toString());
-					/*EmailSendThread emailSendThread=new EmailSendThread();
-					ArrayList<String> adminEmails=new ArrayList<>();
+					EmailSendThread emailSendThread=new EmailSendThread();
+					emailSendThread.SendCareerEmailToAdmin(name, email, phn, position);
+					/*ArrayList<String> adminEmails=new ArrayList<>();
 					adminEmails.add("rishabh@virtuosonetsoft.in");
 					adminEmails.add("saurabh@virtuosonetsoft.com");
 					adminEmails.add("asha@virtuosonetsoft.com");
@@ -1420,11 +1426,7 @@ public void insertIntoContentStrategyDetails(ContentStrategy cs)
 				/*adminEmails.add("rishabh@virtuosonetsoft.in");
 				adminEmails.add("saurabh@virtuosonetsoft.com");
 				adminEmails.add("asha@virtuosonetsoft.com");*/
-				adminEmails.add("virginia@parrotinfosoft.com");
-				for(int ae=0;ae<adminEmails.size();ae++) {
-					emailSendThread.SendEmail(adminEmails.get(ae), "Contact", "Hi Team! There is a new free audit request from '"+name+"'.Contact Details are :- Phone ('"+phone+"') and email ('"+email+"')");
-				//send a notification email to the admins
-				}
+				emailSendThread.SendFreeAuditEmailToAdmin(name, email, phone, source_page, message);
 
 			/*	String confirmation_status=apiController.updateMailConfirmationStatus(id,"quick_enquiry");
 				if(confirmation_status.equals("true")){

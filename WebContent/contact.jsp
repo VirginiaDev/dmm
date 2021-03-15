@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="dist/cursor.css">
 <link rel="stylesheet" href="css/nav-style.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/contact.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="js/player/lottie.js"></script>
    <!-- Latest compiled and minified CSS -->
@@ -80,7 +81,7 @@
             <li><a href="https://www.facebook.com/VirtuosoNetsoft.VNS"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="https://twitter.com/VNS_Virtuoso"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="https://www.linkedin.com/company/virtuoso-netsoft-pvt-ltd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/virtuosonetsoft/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="insta"><a href="https://www.instagram.com/virtuosonetsoft/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             <!-- <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>-->
           </ul>
         </div>
@@ -101,23 +102,23 @@
                 <form id="con_form" role="form" method="post" action="contact_normal_submission.jsp">
                 <input type="hidden" class="form-control" name="type" id="type" value="general_inquiries">
                     <div class="form-group float-label-control">
-                        <input type="text" class="form-control" name="con_name" id="con_name" placeholder="Name">
+                        <input type="text" class="form-control" name="con_name" id="con_name" placeholder="Name" required="">
                     </div>
                     <div class="form-group float-label-control">
-                        <input type="email" class="form-control" name="con_email" id="con_email" onkeyup="checkEmailValidity()" placeholder="Email">
+                        <input type="email" class="form-control" name="con_email" id="con_email" onkeyup="checkEmailValidity()" placeholder="Email" required="">
                     </div>
                                             <p id="email_error" class="validation_errors" style="display:none">Enter a valid email address</p>
                     
                     <div class="form-group float-label-control">
-                        <input type="text" class="form-control" name="con_phone" id="con_phone" onkeyup="checkPhoneValidity()" placeholder="Phone">
+                        <input type="text" class="form-control" name="con_phone" id="con_phone" onkeyup="checkPhoneValidity()" placeholder="Phone" required="">
                     </div>
                                      <p id="phn_error" class="validation_errors" style="display:none">Enter a valid Phone Number</p>
                     
                      <div class="form-group float-label-control" id="company_website_div" style="display:block">
-                        <input type="text" class="form-control" name="company_website" id="company_website" placeholder="Company Website">
+                        <input type="text" class="form-control" name="company_website" id="company_website" placeholder="Company Website" required="">
                     </div>
                     <div class="form-group float-label-control" id="drop_a_line_div" style="display:block">
-                     <input type="text" class="form-control" name="drop_a_line" id="drop_a_line" placeholder="Drop Line">
+                     <input type="text" class="form-control" name="drop_a_line" id="drop_a_line" placeholder="Drop Line" required="">
                     </div>
                     <div class="form-group" id="time_slot_label_div" style="display:none">
                         <label>Share 3 Time-Slots, we will email you for confirmation</label>
@@ -146,7 +147,7 @@
                     <br>
                   
                    
-                 <input style="color:#fff;font-size:16px;" type="submit" class="submt6" id="con_submit" value="Send">
+                 <input style="color:#fff;font-size:20px;" type="submit" class="submt6" id="con_submit" value="Send">
                 </form>
      </div>
   
@@ -293,174 +294,7 @@ let animation2 = bodymovin.loadAnimation({
    
 </body>
   	<style>
-      .submt6 {
-    background-color: #ff7f66;
-    padding: 20px;
-    color: #fff;
-    border-radius: 50px;
-    padding: 15px 27px;
-}
-.no3 {
-    padding-bottom: 10px;
-}
-.bgc5 {
-    background-color: #000;
-    margin-top: 60px;
-}
-.bgcol {
-    background-color: #ececec;
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-  	.bk-img {
-    background-color: #000;
-    background-image: url("./img/cnt12.jpg");
-    background-size: cover;
-    height: 335px;
-    background-attachment: fixed;
-}
-.bTBD {
-    background-color: black;
-    border: 1px solid;
-    border-radius: 50px;
-    padding: 16px 34px;
-    font-size: 20px;
-    color: #fff;
-}
-.mt-27 {
-    margin-top: 14px;
-}
-.offset-2 {
-    margin-left: 225px;
-}
-.mt-20 {
-    margin-bottom: 40px;
-}
-.cont-nav {
-    margin: 0px;
-    padding: 0px;
-}
-.cont-nav a {
-    font-size: 20px;
-    color: #000;
-}
-.our-rate1 {
-    width: 20%;
-}
-.cont-nav li {
-    list-style: none;
-    display: inline-block;
-    padding: 25px 40px 0px 0px;
-    margin-bottom: 30px;
-}
-
-.email-list {
-    background-color: #f1eded;
-    padding-top: 95px;
-    padding-bottom: 56px;
-    margin-bottom: 0px;
-    padding-left: 30px;
-}
-.bgc5 {
-    background-color: #000;
-    margin-top: 0px;
-}
-.social-media-list {
-    background-color: #f1eded;
-    padding-left: 26px;
-    height: 200px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-.email-list li {
-    list-style: none;
-   font-size: 16px;
-    line-height: 26px;
-}
-.content-c {
-    color: #fff;
-    font-size: 22px;
-}
-.hp {
-    color: #fff;
-    text-transform: uppercase;
-    padding-top: 4em;
-}
-.social-media-list li {
-    display: inline-block;
-    padding: 10px 11px;
-    background-color: #000;
-    border-radius: 50px;
-    margin-bottom: 24px;
-}
-.social-media-list i {
-    color: #fff;
-    font-size: 20px;
-    padding: 7px;
-    background-color: #000;
-}
-.fa-instagram:before {
-    content: "\f16d";
-    background-color: transparent;
-    padding: 0px 8px;
-    position: relative;
-    top: 0px;
-}
-.page-header {
-    padding-bottom: 9px;
-    margin: 32px 0px 0px;
-    border-bottom: 0px solid #eee;
-    font-size: 30px;
-    font-weight: bold;
-}
-.color-1 {
-    background-color: #d2d2d2;
-}
-.no1{
-padding-bottom:10px;
-}
-
-#myfile {
-    width: 56%;
-    float: right;
-}
-.submt6:hover {
-    color: #fff;
-    text-decoration: none;
-}
-.footer1 {
-    background-color: #0e0d0d;
-    text-align: center;
-    color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.mt-20 {
-    margin-top: 60px;
-}
-.card-r {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-.drag {
-    display: block;
-    width: 50%;
-    border: 1px solid;
-    border-style: dashed;
-    padding: 20px;
-    margin-bottom: 0px;
-}
-.fa.fa-long-arrow-right {
-    font-size: 35px;
-}
-.fa.fa-facebook {
-    width: 33px;
-    text-align: center;
-}
-.nav-tabs>li {
+  	.nav-tabs>li {
     float: none;
     margin-bottom: -1px;
 }
@@ -470,6 +304,14 @@ padding-bottom:10px;
     background-color: #333;
     border: 1px solid #333;
     border-bottom-color: transparent;
+}
+.form-control:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #ccc !important;
+    outline: 0;
+    box-shadow: none;
+    padding: 4px !important;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
@@ -530,106 +372,6 @@ padding-bottom:10px;
     30% { top: 0.1em; }
     50% { opacity: 0; font-size: 0.85em; }
     100% { top: 3em; opacity: 1; }
-}
-.mt-20 {
-    margin-bottom: 40px;
-}
-
-
-
-.top-bar {
-    background-color: #f1f1f1;
-}
-.page404 {
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    background-color: #fff;
-    width: 68%;
-    margin: 110px auto;
-    padding: 54px;
-    border-radius: 10px;
-    box-shadow: 0px 3px 3px 0px #e8e6e6;
-}
-.go-home {
-    display: block;
-    text-align: center;
-}
-.go-home a {
-    background-color: #ff7f66;
-    padding: 15px;
-    font-size: 22px;
-    color: #fff;
-    position: relative;
-    bottom: 62px;
-    border-radius: 7px;
-}
-.foot-social ul li a {
-    color: #c8c7c7;
-}
-.footer-links {
-    float: left;
-    width: 100%;
-    padding-top: 20px;
-    border-top: 0px solid #3a3a3a;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    /* clear: both; */
-    background-color: #242323;
-}
-.no1 a {
-    font-size: 23px;
-    font-weight: bold;
-    color: #000;
-}
-.no2 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #888888;
-    padding-bottom: 5px;
-}
-.validation_errors{
-color:red;
-}
-form#con_form input {
-    color: #000;
-}
-#con_form .form-group {
-    width: 100%;
-}
-.fa-facebook:hover {
-    background-color: transparent;
-}
-.fa-twitter:hover {
-    background-color: transparent;
-}
-.fa-linkedin:hover {
-    background-color: transparent;
-}
-.modal-dialog {
-    width: 455px;
-    margin: 30px auto;
-}
-
-.close {
-    opacity: inherit;
-}
-
-.modal-header .close {
-    position: relative;
-    left: 43px;
-    bottom: 0px;
-    top: -8px;
-    color: #fff !important;
-    font-weight:100;
-}
-
-.ad_info .fa.fa-instagram {
-    background-color: #fff;
-    padding:6px 0px;
-    /* color: #000 !important; */
 }
 </style>
   	<script>
